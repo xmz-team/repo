@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: all
 Maintainer: iOS-AD
 Depends: firmware (>= 99.0)
-Filename: /tmp/tmp.hjoFYqonGa/c/official.ad.add.apt.repo_1.0_all.deb
+Filename: /tmp/tmp.yaS6TK3lBu/c/official.ad.add.apt.repo_1.0_all.deb
 Size: 1236
 MD5sum: 8bf4eafc5c2884a1a2b5c68f4252976e
 SHA1: 7ec6e788396fa5f9f3b62cf45e861b3bd75626d8
@@ -25,7 +25,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: /tmp/tmp.hjoFYqonGa/c/official.ad.adsu_1.6-1_all.deb
+Filename: /tmp/tmp.yaS6TK3lBu/c/official.ad.adsu_1.6-1_all.deb
 Size: 58596
 MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
 SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
@@ -41,7 +41,7 @@ Version: 0.0.5+debug3-3
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>, LF
 Pre-Depends: firmware (>=14.0)
-Filename: /tmp/tmp.hjoFYqonGa/o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
+Filename: /tmp/tmp.yaS6TK3lBu/o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
 Size: 93416
 MD5sum: fa98742b3a7ce5d99120286f45d3d5c4
 SHA1: ea44ae8692675972d73d68731391b68cb733323a
