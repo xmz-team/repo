@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: all
 Maintainer: iOS-AD
 Depends: firmware (>= 99.0)
-Filename: ./pool/main/all/c/official.ad.add.apt.repo_1.0_all.deb
+Filename: /tmp/tmp.hjoFYqonGa/c/official.ad.add.apt.repo_1.0_all.deb
 Size: 1236
 MD5sum: 8bf4eafc5c2884a1a2b5c68f4252976e
 SHA1: 7ec6e788396fa5f9f3b62cf45e861b3bd75626d8
@@ -25,7 +25,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: ./pool/main/all/c/official.ad.adsu_1.6-1_all.deb
+Filename: /tmp/tmp.hjoFYqonGa/c/official.ad.adsu_1.6-1_all.deb
 Size: 58596
 MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
 SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
@@ -41,7 +41,7 @@ Version: 0.0.5+debug3-3
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>, LF
 Pre-Depends: firmware (>=14.0)
-Filename: ./pool/main/all/o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
+Filename: /tmp/tmp.hjoFYqonGa/o/official.ad.and.lf.app.a1_0.0.5+debug3-3_all.deb
 Size: 93416
 MD5sum: fa98742b3a7ce5d99120286f45d3d5c4
 SHA1: ea44ae8692675972d73d68731391b68cb733323a
@@ -51,50 +51,4 @@ Description: this is the app version of a1ctl, support roothide
 Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: A1 App
-
-Package: official.ad.repo.10086
-Name: iOS-AD源公告
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Author: iOS-AD
-Section: 源公告
-Priority: required
-Filename: ./pool/main/all/official_ad_all_10086.deb
-Depends: 
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
-Description: iOS-AD源官方公告.
-  - 聲明一下: 本源只是將網上作者分享的插件, 交流群群友做的插件, 以及源主做的插件上傳到本源
-  - 其中網上作者發現的插件和群友做的插件未做任何修改
-  - 部分插件標識符和作者插件一致導致顯示問題, 這是 Cydia/Sileo 的默認規則導致(先添加誰的源就會顯示誰的), 並非我們劫持插件
-  - 若本源的部分插件或者軟件安裝後無法使用, 並且搬運工源也有的話可以去添加搬運工源(byg.iosios.net)後, 下載對應的版本或者去其他源下載對應的版本
-  - 因為源是託管在 GitHub 的所以遇到下載問題請嘗試使用 VPN, 切換 VPN, 更換網絡環境等方式
-  - 交流群:
-   - QQ1群：1030152896
-   - QQ2群：837894083
-   - QQ文件群: 1027358518
-
-Package: official.ad.repo.10086
-Name: iOS-AD源公告
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Author: iOS-AD
-Section: 源公告
-Priority: required
-Filename: ./pool/main/all/official_ad_all_10086.deb
-Depends: 
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-SileoDepiction: https://ad-ios.github.io/ad/sileodepiction/com.AD.10086/js.json
-Description: iOS-AD源官方公告.
-  - 聲明一下: 本源只是將網上作者分享的插件, 交流群群友做的插件, 以及源主做的插件上傳到本源
-  - 其中網上作者發現的插件和群友做的插件未做任何修改
-  - 部分插件標識符和作者插件一致導致顯示問題, 這是 Cydia/Sileo 的默認規則導致(先添加誰的源就會顯示誰的), 並非我們劫持插件
-  - 若本源的部分插件或者軟件安裝後無法使用, 並且搬運工源也有的話可以去添加搬運工源(byg.iosios.net)後, 下載對應的版本或者去其他源下載對應的版本
-  - 因為源是託管在 GitHub 的所以遇到下載問題請嘗試使用 VPN, 切換 VPN, 更換網絡環境等方式
-  - 交流群:
-   - QQ1群：1030152896
-   - QQ2群：837894083
-   - QQ文件群: 1027358518
 
