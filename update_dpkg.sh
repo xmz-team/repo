@@ -8,7 +8,7 @@ dpkg-scanpackages -m . /dev/null > Packages
 # {
 # 添加虚假 deb 包
 orig_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-echo "$(cat "$orig_dir"/template/10086.template)" >> "$output_file"
+echo "$(cat "$orig_dir"/template/10086.template)" >> Packages
 # }
 xz -c Packages > Packages.xz
 bzip2 -c Packages > Packages.bz2
