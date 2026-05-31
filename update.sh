@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# cd /var/mobile/ad
-
+# 已废弃，请不要使用此脚本而是使用 new.update.sh 脚本
+# {
+: '
 # 生成索引文件
 dpkg-scanpackages -m . /dev/null > Packages
 xz -c Packages > Packages.xz
@@ -30,3 +31,7 @@ git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
 git pull --rebase
 git push origin main
+'
+# }
+echo "[Warn]: You are using a maintenance script that has been deprecated! For security reasons, we have automatically switched to the new maintenance script"
+exec ./new.update.sh

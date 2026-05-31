@@ -1,0 +1,13 @@
+Package: official.xmz-team.10086
+Name: Announcement（公告）
+Version: 1.0
+Architecture: all
+Maintainer: XMZ-Team
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Depends: firmware (>= -1.0)
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/com.AD.10086/js.json
+Description: 10086
+

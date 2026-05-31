@@ -1,0 +1,17 @@
+Package: official.ad.add.apt.repo
+Name: add apt repository(distribution version)
+Version: 1.0
+Architecture: all
+Maintainer: iOS-AD
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Depends: firmware (>= 99.0)
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Description: 本源已正式升級成發行版軟件源倉庫
+ - 如果您有需要可以直接安裝本插件, 來直接添加發行版
+ - 當然你依舊可以通過: https://ad-ios.github.io/ad/ 來添加我的軟件源倉庫, 因為我有做扁平化的兼容
+   - 交流群: 
+   - QQ1群: 1030152896
+   - QQ2群: 837894083
+   - QQ文件群: 1027358518

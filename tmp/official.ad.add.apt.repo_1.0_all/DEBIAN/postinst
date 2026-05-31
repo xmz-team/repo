@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ -f '/etc/profile' ]; then
+    source /etc/profile
+elif [ -f '/var/jb/etc/profile' ]; then
+    source /var/jb/etc/profile
+    jb='/var/jb'
+else
+    echo 'Where the fuck "profile"?' 1>&2
+fi
+
+TARGET_FILE="$jb/etc/apt/sources.list.d/sileo.sources"
+
+mkdir -p "$jb/etc/apt/sources.list.d/"
+
+cat <<EOF >> "$TARGET_FILE"
+Types: deb
+URIs: https://ad-ios.github.io/ad/
+Suites: AD
+Components: main
+
+EOF
