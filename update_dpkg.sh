@@ -5,6 +5,10 @@
 
 # 生成索引文件
 dpkg-scanpackages -m . /dev/null > Packages
+# {
+# 添加虚假 deb 包
+echo "$(cat template/10086.template)" >> "$output_file"
+# }
 xz -c Packages > Packages.xz
 bzip2 -c Packages > Packages.bz2
 gzip -c Packages > Packages.gz
