@@ -3,16 +3,6 @@ Terminal
 Thumbs.db
 desktop.ini
 *.tmp
-update.sh
-update_git.sh
-update_dpkg.sh
-sileodepiction-update.sh
-pool/main/Terminal
-dists/AD/main/Terminal
-repo/Terminal
-update_repo.sh
-md5_repo.sh
-*.sh
 Old/*
 *.log
 *.old
