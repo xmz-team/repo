@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.9.8-beta1+debug2-1",
+                    "text": "1.9.8-beta4+debug3-4",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 04 月 19 日",
+                    "text": "2026 年 06 月 06 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,16 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+		{
+		    "clss": "DepictionSubheaderView",
+		    "title": "1.9.8-beta4+debung3-4",
+		    "useBoldText": "true",
+		    "useBottomMargin": "false"
+		},
+		{
+		    "class": "DepictionMarkdownView",
+		    "markdown": "本次更新修复了一些已知的问题<br>  修复了 flock 调用错误的问题，完善了 lock 机制<br>  可能还有其他更新没有提及到，这里不赘述过多"
+		},
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.9.8-beta1+debug2-1",
