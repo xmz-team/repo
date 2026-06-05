@@ -2938,6 +2938,214 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
+Package: a1
+Version: 1.9.8-beta4+debug3-4
+Architecture: iphoneos-arm64e
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Filename: ./debs/arm64e/a/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
+Size: 58796
+MD5sum: 1325a830b95793eb4fad1031383c706f
+SHA1: 0eb5e04fd46df2427a87f2acb6ef32131582130b
+SHA256: 5c99a90f1c261c024a10b8738e9a3272f89063e2cc7bb8b3524beb27da475705
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+1.9.8-Beta1+debug2-1:
+  -修復了一次重大的錯誤
+  -允許修改 flock 機制
+  -修復其他已知的問題
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.8-beta4+debug3-4
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Filename: ./debs/iphone-arm64/a/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
+Size: 59052
+MD5sum: 5cae6f9f675882fcef6da152e51a49f2
+SHA1: caec5cafe71b9a803946e96ff34145e2fe043240
+SHA256: ba302cb66a55c7f1a505cd765f5063fce8fe7f0808ad462d5b502a321936e24e
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+1.9.8-Beta1+debug2-1:
+  -修復了一次重大的錯誤
+  -允許修改 flock 機制
+  -修復其他已知的問題
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
 Package: bc
 Version: 1.08.2
 Architecture: iphoneos-arm64e
@@ -4037,29 +4245,6 @@ Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费�
 Author: tomt000
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: DynamicStage-灵动分屏
-
-Package: official.ad.add.apt.repo
-Version: 1.0
-Architecture: all
-Maintainer: iOS-AD
-Depends: firmware (>= 99.0)
-Filename: ./tmp/official.ad.add.apt.repo_1.0_all.deb
-Size: 1236
-MD5sum: 8bf4eafc5c2884a1a2b5c68f4252976e
-SHA1: 7ec6e788396fa5f9f3b62cf45e861b3bd75626d8
-SHA256: 78ce1970236723931d8006e8c95e44bbb4ac5ee3c9622672383b66b0aad27293
-Section: 源公告
-Priority: required
-Description: 本源已正式升級成發行版軟件源倉庫
- - 如果您有需要可以直接安裝本插件, 來直接添加發行版
- - 當然你依舊可以通過: https://ad-ios.github.io/ad/ 來添加我的軟件源倉庫, 因為我有做扁平化的兼容
-   - 交流群:
-   - QQ1群: 1030152896
-   - QQ2群: 837894083
-   - QQ文件群: 1027358518
-Author: iOS-AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: add apt repository(distribution version)
 
 Package: official.ad.adsu
 Version: 1.0.2-3
