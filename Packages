@@ -2944,10 +2944,10 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/arm64e/a/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
-Size: 58796
-MD5sum: 1325a830b95793eb4fad1031383c706f
-SHA1: 0eb5e04fd46df2427a87f2acb6ef32131582130b
-SHA256: 5c99a90f1c261c024a10b8738e9a3272f89063e2cc7bb8b3524beb27da475705
+Size: 58768
+MD5sum: ccb6d7773b45fb0a27fd3154801a2b79
+SHA1: 9506e19960fd1f0ee52bb5cf7de25d2de578b5bf
+SHA256: 81a0ad69fe93f5167692bc144f10197e3d1e53d728bde4e3277901bbf3321119
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -3040,7 +3040,7 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.8-beta4+debug3-4
@@ -3048,10 +3048,10 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/iphone-arm64/a/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
-Size: 59052
-MD5sum: 5cae6f9f675882fcef6da152e51a49f2
-SHA1: caec5cafe71b9a803946e96ff34145e2fe043240
-SHA256: ba302cb66a55c7f1a505cd765f5063fce8fe7f0808ad462d5b502a321936e24e
+Size: 59012
+MD5sum: 132b5c50ce49fd1c8045687ed72ed546
+SHA1: bcc10300ac43e682fe82307664dff699df75cb06
+SHA256: ac25189addeae460ff3a93f367aa0b35204e386f4cc4f7a1536a148b35e07fce
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -3144,7 +3144,7 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
 
 Package: bc
 Version: 1.08.2
