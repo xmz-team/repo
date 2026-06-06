@@ -81,10 +81,10 @@
             "tabname": "更新日志",
             "views": [
 		{
-		    "clss": "DepictionSubheaderView",
-		    "title": "1.9.8-beta4+debung3-4",
-		    "useBoldText": "true",
-		    "useBottomMargin": "false"
+    		    "class": "DepictionSubheaderView",
+    		    "title": "1.9.8-beta4+debug3-4",
+    		    "useBoldText": true,
+    		    "useBottomMargin": false
 		},
 		{
 		    "class": "DepictionMarkdownView",
