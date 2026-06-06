@@ -52,7 +52,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "LF, AD",
+                    "text": "LF, AD, XMZ",
                     "title": "维护者"
                 },
                 {
@@ -88,7 +88,8 @@
 		},
 		{
 		    "class": "DepictionMarkdownView",
-		    "markdown": "本次更新修复了一些已知的问题<br>修复了 flock 调用错误的问题，完善了 lock 机制<br>可能还有其他更新没有提及到，这里不赘述过多"
+		    "markdown": "本次更新修复了一些已知的问题<br>修复了 flock 调用错误的问题，完善了 lock 机制<br>可能还有其他更新没有提及到，这里不赘述过多",
+		    "useRawFormat": true
 		},
                 {
                     "class": "DepictionSubheaderView",
