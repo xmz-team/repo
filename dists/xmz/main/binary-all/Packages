@@ -1,0 +1,27 @@
+Package: official.ad.adsu
+Version: 1.6-1
+Architecture: all
+Maintainer: AD <ad-ios334@outlook.com>
+Filename: /tmp/tmp.LqdPokx4x7/c/official.ad.adsu_1.6-1_all.deb
+Size: 58596
+MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
+SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
+SHA256: 95af08e24037ac1780a364f235d12e42f47b0ba911fc1a64a360183953ae88d7
+Section: adopt
+Description: adsu a simple substitute for su, pam is not required, but a password is required? (if the account has a password), possibly no need passwd
+Author: AD <ad-ios334@outlook.com>
+Name: adsu
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/official.ad.adsu/js.json
+
+Package: official.xmz-team.10086
+Name: Announcement（公告）
+Version: 1.0
+Architecture: all
+Maintainer: XMZ-Team
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Depends: firmware (>= -1.0)
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/com.AD.10086/js.json
+Description: 10086

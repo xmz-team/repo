@@ -1,0 +1,715 @@
+Package: 1688SHFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: bash
+Filename: /tmp/tmp.7Kf9UBHo6i/1/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
+Size: 5805712
+MD5sum: 08066dfb319eea6967cfc3b431422f60
+SHA1: 8f6e18d3a49ade7f60184f7ecf0577480873ae02
+SHA256: a9376abb8067b8aea20f08c968e445dede7635d8438130d3cdc9bb4a53e7696f
+Section: Themes主题
+Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 1688
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: 阿里巴巴数黑体85 (挂载版)
+Original-Maintainer: LF
+
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: /tmp/tmp.7Kf9UBHo6i/c/fonts/DYFonts_1.0_iphoneos-arm64.deb
+Size: 8768764
+MD5sum: a1dfd124de965841db168aeb84345cc3
+SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
+SHA256: 23f12acd2f2048b84d80d63c871ce984856e370111c37b152f63659834624b5e
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: /tmp/tmp.7Kf9UBHo6i/D/DYFonts_1.0_iphoneos-arm64.deb
+Size: 8772708
+MD5sum: a4b065243e1cfc438c8c19e0324ce95d
+SHA1: 97d4c50972768984f3cf365bf87701a8ec1dcc4c
+SHA256: 0a5750be13b3dc1bdf7e8fc82fa28757b43499b74e3c122f9ba2631b1ebe6492
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
+Package: LegacyPatcher
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/L/LegacyPatcher_1.0_iphoneos-arm64.deb
+Size: 95856
+MD5sum: 67f11c40300c1508e6bd533d93a0a9e4
+SHA1: 619cb6188ad1a1b210fbde306f3c23b19853afa0
+SHA256: 8af0a71c717c1d6fa5ef1a9f4c90a9c3f3b162f82f40d2b5fa743b8cd7094710
+Section: Systems系统
+Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
+Author: LF
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
+Name: LegacyPatcher
+
+Package: LinearBarSwitch
+Version: 1.4.2-1S
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/L/LinearBar_1.4.2-1S-iphoneos-arm64.deb
+Size: 201812
+MD5sum: 74ab572bb92adb7ccb225325714854e4
+SHA1: 436c58bd848d1db274d2f70ab450be38827401fc
+SHA256: 7c3b3cccb7970a06ac7e1f8603fae2a65a81e4d6339f55fe305dc4c20fde469e
+Section: Themes主题
+Description: Linear bar theme for CallAssist.原版的电池使用配置方式加载，但电话助手并不支持，所以使用风格类似的电池图标
+Author: alphastream and UAE_AD1001
+Name: LinearBar-Switch
+
+Package: PlumpyBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/P/PlumpyBar_1.2_iphoneos-arm64.deb
+Size: 70340
+MD5sum: b40aabb6829df8886da96f1856a6fcb2
+SHA1: 2e9bff2273515d8dc8fb1010f0e207f59c30fe4a
+SHA256: 35dfcbaccfab76458c190e94b02f299684f92d0c03d8c095511decec425f119e
+Section: Themes主题
+Description: Plumpy styles bar theme for callassist.由LF支持电话助手，修复了系统开关与电池的问题，请在电话助手内选择普通图标模式，此为无根越狱版本，RootHide用户请转插.Enjoy!
+Author: LF
+Name: PlumpyBar
+
+Package: WatermelonBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/W/WatermelonBar_1.2_iphoneos-arm64.deb
+Size: 286884
+MD5sum: 7084ef77a0470882dfd9a094c819a540
+SHA1: c9a618cc682f2f2b467cc945554bb1da3b196fd0
+SHA256: c1448a4ec15df90589b1e95fe9c2877ebf7cb70c7e50ebf48127517aed28dc53
+Section: Themes主题
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: WatermelonBar
+
+Package: a1
+Version: 1.9.7+debug7
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: /tmp/tmp.7Kf9UBHo6i/a/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
+Size: 51944
+MD5sum: 5e3d98ea792b2907a20a4778841e0418
+SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
+SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.8-beta4+debug3-4
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Filename: /tmp/tmp.7Kf9UBHo6i/a/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
+Size: 59012
+MD5sum: 132b5c50ce49fd1c8045687ed72ed546
+SHA1: bcc10300ac43e682fe82307664dff699df75cb06
+SHA256: ac25189addeae460ff3a93f367aa0b35204e386f4cc4f7a1536a148b35e07fce
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+1.9.8-Beta1+debug2-1:
+  -修復了一次重大的錯誤
+  -允許修改 flock 機制
+  -修復其他已知的問題
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: bc
+Version: 1.08.2
+Architecture: iphoneos-arm64
+Maintainer: AD-dev <1107154510@qq.com>
+Installed-Size: 413
+Depends: libiosexec1 (>= 1.3.1), texinfo, bison, flex
+Filename: /tmp/tmp.7Kf9UBHo6i/b/bc/bc_1.08.2_iphoneos-arm64.deb
+Size: 150956
+MD5sum: 36c74bd5f6d59b47e05a80c1f4ca65c7
+SHA1: 895b5c993511ec4a6229dfb0b8feccc221c22808
+SHA256: a03d17394492dba69816959276c0847c12c6efcd3d2405ee6ca904a237aecbf5
+Section: Math
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/bc
+Description: GNU bc arbitrary precision calculator language
+ GNU bc is a language that supports arbitrary precision numbers
+ with interactive execution of statements.
+ .
+ This package contains the bc and dc utilities:
+  * bc is an arbitrary precision numeric processing language
+  * dc is an interactive arbitrary precision stack based calculator
+ .
+ Both utilities are implemented with the same code base.
+
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: /tmp/tmp.7Kf9UBHo6i/c/themes/dopamine/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Size: 2136
+MD5sum: be59fb460c126c52b342ed2a0dcedb87
+SHA1: 3290f005f928f205e972c7e59f00565976956bb5
+SHA256: 672103d50613f49bb70dd76f2587ab47d76b85ef2bda813b46e5e864aa4315f5
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
+Package: com.build.ipa.filza.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Depends: firmware (>= 15.0)
+Filename: /tmp/tmp.7Kf9UBHo6i/c/filza-script/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Size: 1416
+MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
+SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
+SHA256: 4ad35818d06a34e8ad61f56e32fc80ca2ff04b419d7225701eb2fc23a0003e7f
+Section: Filza-Expand
+Priority: required
+Description: 给 Filza 添加打包 IPA 的快捷方法
+  - 长按 Payload 文件夹找到 scripts 选项点击 Build IPA 即可打包成 IPA
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: FilzaScripts Build IPA
+
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/c/tweak/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Size: 39492
+MD5sum: 17de146d3818370716efb37b9daf62f2
+SHA1: 0e2b99aeaa458ac5efa8519649505d767da202c6
+SHA256: fcf24976c218bf4108e32d7ef15eacd7c1bdb5c3c0e349187fa72b094b777011
+Section: System系统
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: BatteryMaster1380 省电大师
+
+Package: com.discpulimited.ad
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /tmp/tmp.7Kf9UBHo6i/c/tweak/com.discpulimited.ad_1.0.0_iphoneos-arm64.deb
+Size: 43580
+MD5sum: 8ac195f042567f5922512f45c12ef773
+SHA1: 54d9db6e2ba73755b8da4b5b77789f91f7a5133e
+SHA256: 7664a7adfa19f9fc186aa2c840ea9c0a11ab9faa7635244b9cb3a245ab1ce36a
+Section: System系统
+Description: Dis temperature is limited to the CPU frequency.防止温度限制CPU频率
+ - 當前維護者是 AD 創作者目前不知道是誰
+Author: null
+Name: DisCPU Limited
+
+Package: com.netskao.BiliPurify
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /tmp/tmp.7Kf9UBHo6i/c/tweak/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Size: 6708128
+MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
+SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
+SHA256: e233d68807281fbd131fbb1e534775172eeff4c0ee59104cddc78a745a9c2469
+Section: Other
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
+Author: Netskao
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: BiliPurify 哔哩哔哩净化
+
+Package: com.ntonia.themes.Black
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Ntonia
+Depends: com.spark.snowboard
+Filename: /tmp/tmp.7Kf9UBHo6i/c/themes/ntonia/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Size: 1805744
+MD5sum: 919ef445e9d121970ba4dbbf556a48c6
+SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
+SHA256: 8966370be97227bfdf72dc5ca878512d8b486aac0e2c00ac064ffb1490791273
+Section: Themes主题
+Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
+Author: Ntonia
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Ntonia—黑季伯主题
+
+Package: com.ntonia.themes.Black
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ntonia
+Depends: com.spark.snowboard
+Filename: /tmp/tmp.7Kf9UBHo6i/c/themes/ntonia/com.ntonia.themes.Black_1.0.1_iphoneos-arm64.deb
+Size: 1805888
+MD5sum: bac298363062ca2fb7917a8992b2961f
+SHA1: 98f54bc05644406df3e2eae800dc6d4a56db0e96
+SHA256: 95910a874b8c04264acb2a11c8f8590dc20f9a3bbd6454cb844c5b6798092099
+Section: Themes主题
+Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
+ - 修復一個小問題, 將滑雪板中顯示的 'iOS26' 修改為 'Ntonia—黑季伯主题' 這是原作者疏忽導致的目前修復了
+Author: Ntonia
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Ntonia—黑季伯主题
+
+Package: com.plicationsnext
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/c/tweak/com.plicationsnext_4.0_iphoneos-arm64.deb
+Size: 656836
+MD5sum: 91d07fb847525854bd98352f8204abf4
+SHA1: d04087d1840d4fea3e3b18c600a0a5d1b94338b2
+SHA256: 67c1962a90cdc8a2a874db26c8e4ed0346d1b0411bf82f28dbabd9eacb750cb9
+Section: Themes主题
+Description: 在iOS锁屏上的watchOS小组件
+  - 更新日志：
+  - 修复支持iOS15～16 Rootless
+  - 补充说明：
+  - 无需补依赖，已汉化！
+  - Chinese by LF！Enjoy！
+Author: Ben Giannis
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Complications WatchLS
+Sponsor: LF
+
+Package: com.ryannair05.little12
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: /tmp/tmp.7Kf9UBHo6i/c/tweak/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Size: 372942
+MD5sum: 25a41017bc1490029d054f83b5a55cae
+SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
+SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 15 or 16
+Author: Ryan Nair
+Name: Little12
+
+Package: cydia
+Version: 1.1.37-3
+Architecture: iphoneos-arm64
+Maintainer: Genesis <genesis@modiverse.co.uk>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: /tmp/tmp.7Kf9UBHo6i/c/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
+Size: 1234204
+MD5sum: 207f742fc389b70dd64ab62a909695c9
+SHA1: f947a737522a4430df061794d43c2ea176afcf44
+SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
+Section: Apply
+Priority: important
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer arm64
+
+Package: fakecpuzero
+Version: 1.0.0-R
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 136
+Depends: firmware (>= 15.0)
+Filename: /tmp/tmp.7Kf9UBHo6i/f/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
+Size: 4536
+MD5sum: c4d05144795fb97aa543f2b2b277234a
+SHA1: 3ba8be80bb79ad7aff7947a1e1c8c8be45608d1d
+SHA256: 607092c03564362cf0f8d8c6f1897f4502796211f30bf755489c9d85e3baf8ad
+Section: Tweaks
+Description: The occupancy of camouflage CPU is 0%.Can it solve the frequency reduction of some devices under high CPU occupation?
+Author: LF
+Name: FakeCPUZero
+
+Package: iOS26LockDesignerTheme
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: /tmp/tmp.7Kf9UBHo6i/i/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
+Size: 36040
+MD5sum: 5eb3638c96e8817a314f05324a890e51
+SHA1: 51d8d2d33d1bb0311f39c78888e48bca4c55c235
+SHA256: 42fb566bc82440a21586e79b1225564432d05ce7658fab4a49f3f58b5f81ed3a
+Section: Themes主题
+Description: iOS26风格锁屏主题，字体来自威锋大佬，Powered by Designer
+Author: LF
+Icon: https://pic3.zhimg.com/v2-f5381ebfd5266d9cfd4e83017e24fb5c_r.jpg
+Name: iOS26-Lock-Designer-Theme（26锁屏主题）
+
+Package: iOS26e
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard
+Filename: /tmp/tmp.7Kf9UBHo6i/i/iOS26e_1.1_iphoneos-arm64.deb
+Size: 4003632
+MD5sum: 2263a640c0a6cf4fe1d437a1ff9edbd4
+SHA1: 99fd51adeb7f69cc6a9b7ee6ba0aea456de3d04d
+SHA256: a32baf7232c1912111a3ecf1e98f2e0ba50f33f87ef939c5669c2c65f1778682
+Section: Themes主题
+Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS26e
+
+Package: iperformancetweak
+Version: 1.0.0Beta
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: /tmp/tmp.7Kf9UBHo6i/i/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Size: 9064
+MD5sum: 5f1d78cc2b85034a8828015f9c52f4e9
+SHA1: 0504bd9942d0158cb1c5ac2774073e433640b8c8
+SHA256: 5c315096787bec855751274a786caa1ac1d0f74033d5e6b9d6287e986392e421
+Section: System系统
+Description: boost game performance.提高游戏性能
+Author: Moose
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iPerformanceTweak
+
+Package: lottiestatusbar
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
+Filename: /tmp/tmp.7Kf9UBHo6i/l/lottiestatusbar_1.0.8_iphoneos-arm64.deb
+Size: 1013688
+MD5sum: 3a73c1f2907f60d4a51ab3e60b534f48
+SHA1: 7a77ad224ea5f1deac0a6714a5aee190cebd4a39
+SHA256: ed9640371ffc70508482ddede7bc5f0dadce9fb7f73906ece8ff309c439de85c
+Section: Themes主题
+Description: The best free status bar tweak of the year.年度最佳免费状态栏插件！需要转插！LF汉化！已经尽力汉化了！如果显示找不到依赖，请添加国外依赖源repo.cypwn.xyz！
+Author: MiRO
+Name: LottieBar
+
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: /tmp/tmp.7Kf9UBHo6i/m/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Size: 3073104
+MD5sum: af82d929d039e5bc1342c948ce994cb5
+SHA1: 5d4a70dde2caf3e82d632d2fb3c97d38d4ac6702
+SHA256: 60840e46b13a04393bb5387513577fa2f2cea6fc59a2909d600dbb980d064099
+Section: Themes主题
+Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
+Author: tomt000
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: DynamicStage-灵动分屏
+
+Package: pv
+Version: 1.10.3-1
+Architecture: iphoneos-arm64
+Maintainer: AD <1107154510@qq.com>
+Installed-Size: 289
+Filename: /tmp/tmp.7Kf9UBHo6i/p/pv_1.10.3-1_iphoneos-arm64.deb
+Size: 134636
+MD5sum: ec742475d3191c3973d5c8e1e275bceb
+SHA1: 26aa0cfcfde237bcd1502656d15b51f19030bfb4
+SHA256: 8fc227190ca7a66e8f12201fb25b28e6272196ff8512d7bd72708d70be97f0c4
+Section: Utilities
+Priority: optional
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Provide pv for jailbreak iOS
+ .
+ Monitor and manage the progress of data through a pipe.
+ Show the progress of data through a pipeline by giving information such as
+ time elapsed, percentage completed (with progress bar), current throughput
+ rate, total data transferred, and ETA. The data flow rate, error handling
+ strategy, buffer size, and cache interaction can all be adjusted.
+Author: Andrew Wood <andrew@ivarch.com>
+
+Package: repo.lfjb.baiduciku
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /tmp/tmp.7Kf9UBHo6i/r/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
+Size: 10231780
+MD5sum: 4bd9743fa0694e4eacc24e411c3c1a55
+SHA1: af15a769957bb11c2f2639535cd71ef7f60e8357
+SHA256: 03bcb826e677013f3ac8653d5358d6adff29f25a137e2753d90a3f75ef6c9ba6
+Section: Systems系统
+Description: 将系统默认词库替换为某人制作的百度词库，显著提升系统自带输入法的智能度！让系统键盘再次伟大！
+Author: 百度
+Icon: https://raw.githubusercontent.com/ichitaso/HideKBSettings/master/Preferences/Resources/icon%403x.png
+Name: 百度词库
+
+Package: vnodebypassnext
+Version: 0.4.5.2-Next
+Architecture: iphoneos-arm64
+Maintainer: alias20, LF, AD
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: /tmp/tmp.7Kf9UBHo6i/v/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Size: 65084
+MD5sum: fddb975dd901e698299f79c81a79064d
+SHA1: e3b8f122f4ef40a5762072e988963e23bea1a0de
+SHA256: 897bf32b23c3d403c299a2706e243d4ee5def86bb7af3a497d861debf1e86c97
+Section: System系统
+Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ
+  - 添加安装完成后重启SpringBoard弹窗的支持
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Icon: https://axs66.github.io/repo/icon/vnodebypass.png
+Name: vnodebypass-next
+Sileodepiction: https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/vnodebypassnext/js.json
+
+Package: xyz.cypwn.rescale2
+Version: 4.0b1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: /tmp/tmp.7Kf9UBHo6i/x/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
+Size: 25528
+MD5sum: d10a8327f9d5701d41a8a18a1dfbb82d
+SHA1: 9d22a3e611d4398d7802d00aaa0666bed86959ed
+SHA256: ee395b025602cd703ae2bade695b209a1e6e57aeb02ea586ecda98b3e803bd29
+Section: Tweaks调整
+Description: 最完整的iPhoneX手势在iOS16（包括状态栏、键盘、相机、控制中心..）
+Author: Sniper_GER & Nezuko & Ethan Whited
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
+Name: GestureX16
+
+Package: official.xmz-team.10086
+Name: Announcement（公告）
+Version: 1.0
+Architecture: all
+Maintainer: XMZ-Team
+Author: iOS-AD
+Section: 源公告
+Priority: required
+Depends: firmware (>= -1.0)
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/com.AD.10086/js.json
+Description: 10086
