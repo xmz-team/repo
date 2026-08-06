@@ -1,6 +1,29 @@
 Package: 1688SHFonts
 Version: 1.0
 Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: ./pool/lfjb/binary-iphoneos-arm64/1/1688SHFonts_1.0_iphoneos-arm64.deb
+Size: 5805248
+MD5sum: ec5457e59f7f2bd30938f222ad0a0474
+SHA1: bbbad486a56804195a0d50b9cd84222e744d550b
+SHA256: 9c291c41a3b990bbaea3c15a468675a0bb95b92b91c6d5afd646294f25cb9f6d
+Section: Themes (主题)
+Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 1688
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: 阿里巴巴数黑体85 (挂载版)
+
+Package: 1688SHFonts
+Version: 1.0
+Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
 Filename: ./debs/iphoneos-arm64/1/1688SHFonts_1.0_iphoneos-arm64.deb
@@ -22,28 +45,20 @@ Icon: https://chinesebuilding.club/pic/zt.png
 Name: 阿里巴巴数黑体85 (挂载版)
 Original-Maintainer: LF
 
-Package: 1688SHFonts
-Version: 1.0
+Package: Camera.PRO
+Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: bash
-Filename: ./pool/lfjb/binary-iphoneos-arm64/1/1688SHFonts_1.0_iphoneos-arm64.deb
-Size: 5805248
-MD5sum: ec5457e59f7f2bd30938f222ad0a0474
-SHA1: bbbad486a56804195a0d50b9cd84222e744d550b
-SHA256: 9c291c41a3b990bbaea3c15a468675a0bb95b92b91c6d5afd646294f25cb9f6d
-Section: Themes (主题)
-Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
-  - 使用说明：
-    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
-    2. 安装本插件
-    3. 重启设备即可生效
-  - 注意事项：
-    - 仅支持 iOS 15.0 及以上系统
-    - 需要完整的越狱环境
-Author: 1688
-Icon: https://chinesebuilding.club/pic/zt.png
-Name: 阿里巴巴数黑体85 (挂载版)
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./pool/lfjb/binary-iphoneos-arm64/C/CameraPro.deb
+Size: 17644
+MD5sum: 80cea057e95800462cdd755230de2465
+SHA1: 40ea446ce51078cbfb2bd20f1bbb0c406a568834
+SHA256: 33043936d28323d5cdc5b1f1c2f4fccf8a2b05f6d9af25285f25b2a48bab4d6d
+Description: Enable advanced camera functions.启用高级相机功能！
+Author: LF
+Dev: LF
+Name: CameraPRO
+ Section: Tweaks调整
 
 Package: Camera.PRO
 Version: 1.0.0
@@ -60,20 +75,21 @@ Dev: LF
 Name: CameraPRO
  Section: Tweaks调整
 
-Package: Camera.PRO
-Version: 1.0.0
+Package: DYFonts
+Version: 1.0
 Architecture: iphoneos-arm64
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./pool/lfjb/binary-iphoneos-arm64/C/CameraPro.deb
-Size: 17644
-MD5sum: 80cea057e95800462cdd755230de2465
-SHA1: 40ea446ce51078cbfb2bd20f1bbb0c406a568834
-SHA256: 33043936d28323d5cdc5b1f1c2f4fccf8a2b05f6d9af25285f25b2a48bab4d6d
-Description: Enable advanced camera functions.启用高级相机功能！
-Author: LF
-Dev: LF
-Name: CameraPRO
- Section: Tweaks调整
+Maintainer: LF
+Depends: bash
+Filename: ./pool/lfjb/binary-iphoneos-arm64/D/DYFont.deb
+Size: 8768764
+MD5sum: a1dfd124de965841db168aeb84345cc3
+SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
+SHA256: 23f12acd2f2048b84d80d63c871ce984856e370111c37b152f63659834624b5e
+Section: Themes主题
+Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
 
 Package: DYFonts
 Version: 1.0
@@ -114,36 +130,19 @@ Author: 百度主题源
 Icon: https://chinesebuilding.club/pic/zt.png
 Name: DYFonts(挂载版)
 
-Package: DYFonts
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: bash
-Filename: ./pool/lfjb/binary-iphoneos-arm64/D/DYFont.deb
-Size: 8768764
-MD5sum: a1dfd124de965841db168aeb84345cc3
-SHA1: 0696b65e9f7dcb374df7de2f944d03deba9cb56b
-SHA256: 23f12acd2f2048b84d80d63c871ce984856e370111c37b152f63659834624b5e
-Section: Themes主题
-Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
-Author: 百度主题源
-Icon: https://chinesebuilding.club/pic/zt.png
-Name: DYFonts(挂载版)
-
 Package: LegacyPatcher
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/L/LP-iphoneos-arm64.deb
-Size: 95856
-MD5sum: 67f11c40300c1508e6bd533d93a0a9e4
-SHA1: 619cb6188ad1a1b210fbde306f3c23b19853afa0
-SHA256: 8af0a71c717c1d6fa5ef1a9f4c90a9c3f3b162f82f40d2b5fa743b8cd7094710
+Filename: ./pool/lfjb/binary-iphoneos-arm64/L/LegacyPatcher.deb
+Size: 95788
+MD5sum: f08d43313461743e5d7f860b48655a4d
+SHA1: 3d3a652f027538f45a7f296b85feed0c8d1997d2
+SHA256: f789ba8de187df23f133d2b27fb29a4c731d8aa4a9632bd977b33958f6b05227
 Section: Systems系统
 Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
 Author: LF
-Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
 Name: LegacyPatcher
 
 Package: LegacyPatcher
@@ -166,14 +165,15 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/lfjb/binary-iphoneos-arm64/L/LegacyPatcher.deb
-Size: 95788
-MD5sum: f08d43313461743e5d7f860b48655a4d
-SHA1: 3d3a652f027538f45a7f296b85feed0c8d1997d2
-SHA256: f789ba8de187df23f133d2b27fb29a4c731d8aa4a9632bd977b33958f6b05227
+Filename: ./debs/iphoneos-arm64/L/LP-iphoneos-arm64.deb
+Size: 95856
+MD5sum: 67f11c40300c1508e6bd533d93a0a9e4
+SHA1: 619cb6188ad1a1b210fbde306f3c23b19853afa0
+SHA256: 8af0a71c717c1d6fa5ef1a9f4c90a9c3f3b162f82f40d2b5fa743b8cd7094710
 Section: Systems系统
 Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
 Author: LF
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
 Name: LegacyPatcher
 
 Package: LinearBarSwitch
@@ -196,7 +196,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/lfjb/History/binary-iphoneos-arm64/P/PlumpyBar.deb
+Filename: ./pool/lfjb/binary-iphoneos-arm64/P/PlumpyBar.deb
 Size: 70340
 MD5sum: b40aabb6829df8886da96f1856a6fcb2
 SHA1: 2e9bff2273515d8dc8fb1010f0e207f59c30fe4a
@@ -211,7 +211,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/lfjb/binary-iphoneos-arm64/P/PlumpyBar.deb
+Filename: ./pool/lfjb/History/binary-iphoneos-arm64/P/PlumpyBar.deb
 Size: 70340
 MD5sum: b40aabb6829df8886da96f1856a6fcb2
 SHA1: 2e9bff2273515d8dc8fb1010f0e207f59c30fe4a
@@ -220,6 +220,21 @@ Section: Themes主题
 Description: Plumpy styles bar theme for callassist.由LF支持电话助手，修复了系统开关与电池的问题，请在电话助手内选择普通图标模式，此为无根越狱版本，RootHide用户请转插.Enjoy!
 Author: LF
 Name: PlumpyBar
+
+Package: WatermelonBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./pool/lfjb/binary-iphoneos-arm64/W/WatermelonBar.deb
+Size: 286804
+MD5sum: d228b30a80314b19ccc4ef47a28df5a3
+SHA1: 78488308791bfa7a6c3b781019b8471afe328b64
+SHA256: 9fb951f37892e501b0c6704e789d1e9c56f42ecc23bdbe519fb9f61a7a0ab9c7
+Section: Themes主题
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
+Author: LF
+Name: WatermelonBar
 
 Package: WatermelonBar
 Version: 1.2
@@ -237,37 +252,6 @@ Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: WatermelonBar
 
-Package: WatermelonBar
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./pool/lfjb/binary-iphoneos-arm64/W/WatermelonBar.deb
-Size: 286804
-MD5sum: d228b30a80314b19ccc4ef47a28df5a3
-SHA1: 78488308791bfa7a6c3b781019b8471afe328b64
-SHA256: 9fb951f37892e501b0c6704e789d1e9c56f42ecc23bdbe519fb9f61a7a0ab9c7
-Section: Themes主题
-Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
-Author: LF
-Name: WatermelonBar
-
-Package: a
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: null
-Installed-Size: 236
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./pool/lfjb/History/binary-iphoneos-arm64/D/DisCPULimited.deb
-Size: 43476
-MD5sum: 34ec2d78b8544ae5346f03f76e8459fb
-SHA1: 8031cfade7409a3b4eac36cc8cd766d1a84c45e5
-SHA256: 5870011beb31d341e1d301876cd400661511eb226f3c7542e2a842575f59a994
-Section: Systems系统
-Description: Dis temperature is limited to the CPU frequency.防止温度限制CPU频率。
-Author: null
-Name: DisCPU Limited
-
 Package: a
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -284,37 +268,21 @@ Description: Dis temperature is limited to the CPU frequency.防止温度限制C
 Author: null
 Name: DisCPU Limited
 
-Package: a1
-Version: 1.3
+Package: a
+Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.3_iphoneos-arm64.deb
-Size: 10260
-MD5sum: d69b68c2be980cbda8d923fc86e7ed47
-SHA1: 94b144c1d94ae44528778639c0001e5cbd310c4e
-SHA256: 63e8c9c19416b7707f312920c004ae2d6980b155647778e335769dad3b214620
-Section: System系统
-Description: Adjust Jetsam and kernel parameters to optimize background task performance.
-  优化 Jetsam 和内核参数以提升后台任务性能。
-  - Lowers priority of useless processes to improve system fluidity.
-    降低无用进程优先级，提高系统流畅性。
-  - Extends compatibility with more apps in this verison.
-    此版本扩展了更多应用的兼容性。
-  - Fixes path errors (grep/awk/sysctl issues).
-    修复路径错误（grep/awk/sysctl 问题）。
-  - Adds postrm script for cleanup.
-    新增卸载清理脚本（postrm）。
-  - Prevents log accumulation.
-    防止日志堆积。
-1.3:
-  - Added postrm script | 新增卸载清理脚本
-  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
-  - Extended app compatibility list | 扩展应用兼容列表
-  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
+Maintainer: null
+Installed-Size: 236
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./pool/lfjb/History/binary-iphoneos-arm64/D/DisCPULimited.deb
+Size: 43476
+MD5sum: 34ec2d78b8544ae5346f03f76e8459fb
+SHA1: 8031cfade7409a3b4eac36cc8cd766d1a84c45e5
+SHA256: 5870011beb31d341e1d301876cd400661511eb226f3c7542e2a842575f59a994
+Section: Systems系统
+Description: Dis temperature is limited to the CPU frequency.防止温度限制CPU频率。
+Author: null
+Name: DisCPU Limited
 
 Package: a1
 Version: 1.3
@@ -349,11 +317,43 @@ Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 
 Package: a1
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.3_iphoneos-arm64.deb
+Size: 10260
+MD5sum: d69b68c2be980cbda8d923fc86e7ed47
+SHA1: 94b144c1d94ae44528778639c0001e5cbd310c4e
+SHA256: 63e8c9c19416b7707f312920c004ae2d6980b155647778e335769dad3b214620
+Section: System系统
+Description: Adjust Jetsam and kernel parameters to optimize background task performance.
+  优化 Jetsam 和内核参数以提升后台任务性能。
+  - Lowers priority of useless processes to improve system fluidity.
+    降低无用进程优先级，提高系统流畅性。
+  - Extends compatibility with more apps in this verison.
+    此版本扩展了更多应用的兼容性。
+  - Fixes path errors (grep/awk/sysctl issues).
+    修复路径错误（grep/awk/sysctl 问题）。
+  - Adds postrm script for cleanup.
+    新增卸载清理脚本（postrm）。
+  - Prevents log accumulation.
+    防止日志堆积。
+1.3:
+  - Added postrm script | 新增卸载清理脚本
+  - Fixed path errors (grep/awk/sysctl) | 修复路径错误（grep/awk/sysctl）
+  - Extended app compatibility list | 扩展应用兼容列表
+  - Added log rotation to prevent accumulation | 新增日志轮转防止堆积
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+
+Package: a1
 Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1-v1.5(15001)-Release.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1-v1.5(15001)-Release.deb
 Size: 16984
 MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
 SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
@@ -395,7 +395,7 @@ Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.6_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.6_iphoneos-arm64.deb
 Size: 18516
 MD5sum: 3bb1573d619395d468ef8406b83c895c
 SHA1: 794e7892667238054dd41e63b36211b9c7746a30
@@ -439,7 +439,7 @@ Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/A1-v1.6(16001)-Release(swap).deb
+Filename: ./debs/History/iphoneos-arm64/A/A1-v1.6(16001)-Release(swap).deb
 Size: 18448
 MD5sum: 682bda59ef078b59f7fce8bd95cb8ffe
 SHA1: 154057f63e7ff74aabec07df332f2e163b32e599
@@ -483,7 +483,7 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.7_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.7_iphoneos-arm64.deb
 Size: 18128
 MD5sum: 06174147cd394f45536e41ed5a9cbe67
 SHA1: 8cebc7d9b39c06d8aa2f038aacdf4ea32c88fb2a
@@ -531,7 +531,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9_iphoneos-arm64e (7).deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9_iphoneos-arm64e (7).deb
 Size: 47544
 MD5sum: 33f3c35d0016e6fd3749f4a50ad0ad84
 SHA1: d3173f32e894ef02cc04150ad20103dc8673d790
@@ -600,7 +600,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
 Size: 24204
 MD5sum: ce5c87835792c8c07b07477a4a3821e9
 SHA1: 250816f2ddf2ec91f1555e3236020bd98ba760f6
@@ -669,7 +669,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9_iphoneos-arm64e.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9_iphoneos-arm64e.deb
 Size: 22876
 MD5sum: bf39b2ab0fa9d83c092b8419605b7f93
 SHA1: 0ef9953df647278f1a0ffd8736da22676dfece58
@@ -733,11 +733,11 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (18).deb
-Size: 24892
-MD5sum: a7efaba966d0b446548b61e06ab0bb92
-SHA1: ee18a95d9ddf516ebc094d90504fd930bfa595c8
-SHA256: a1bbe55f97b7deac82e3bef4425829a58dfa286196373bf4a09f1c48406bf6bc
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64.deb
+Size: 22180
+MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
+SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
+SHA256: 141ac16bc5365151aef3ec4cd6df0c42f83e8f8c5153e6babd9c7ce97bbf8bfd
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -778,22 +778,14 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   -完善、修复a1ctl
   -注释掉3个提升系统压力的内核参数
 1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
+  -彻底修复优先级调整（非HelloMS逻辑）
   -加入自动优化功能
   -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
   -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
+  -完善配置系统
+  -美化a1ctl（A1控制面板）（A1Hub）
   -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
+  -增加超多低优先级进程，原28现126！流畅度提升！
   -Happy New Year！
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
@@ -805,7 +797,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (27).deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (27).deb
 Size: 36440
 MD5sum: b366315f735c033c9d0430c61db97cc8
 SHA1: 6500c6a061d1ec647459b90fd8821476bb24278b
@@ -877,7 +869,148 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (25).deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9_fix1_rootless-iphoneos-arm64.deb
+Size: 24160
+MD5sum: 72dd3c681336012b40fadad5cb438793
+SHA1: ee62fa713611da0d45eeb3b904c02d6be5457832
+SHA256: 91beec6ab1276f19e9c7bbed005fdf08760ed9f76925436f5b6760678d03d231
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -优先级级别调整
+  -完善配置系统
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入loop-sleep来调节循环模式间隔
+  -加入扩展系统
+  -...
+  -等你来探索！
+  -Happy New Year！
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (18).deb
+Size: 24892
+MD5sum: a7efaba966d0b446548b61e06ab0bb92
+SHA1: ee18a95d9ddf516ebc094d90504fd930bfa595c8
+SHA256: a1bbe55f97b7deac82e3bef4425829a58dfa286196373bf4a09f1c48406bf6bc
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64 (25).deb
 Size: 35216
 MD5sum: 100cbe7977b0767c6dee1a34eb2b29f1
 SHA1: 0ff44109f139fcc9a5efe1083a46b96244976cac
@@ -945,231 +1078,11 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9_iphoneos-arm64.deb
-Size: 22180
-MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
-SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
-SHA256: 141ac16bc5365151aef3ec4cd6df0c42f83e8f8c5153e6babd9c7ce97bbf8bfd
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -优先级级别调整
-  -完善配置系统
-  -美化a1ctl（A1控制面板）（A1Hub）
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现126！流畅度提升！
-  -Happy New Year！
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9_fix1_rootless-iphoneos-arm64.deb
-Size: 24160
-MD5sum: 72dd3c681336012b40fadad5cb438793
-SHA1: ee62fa713611da0d45eeb3b904c02d6be5457832
-SHA256: 91beec6ab1276f19e9c7bbed005fdf08760ed9f76925436f5b6760678d03d231
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -优先级级别调整
-  -完善配置系统
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入loop-sleep来调节循环模式间隔
-  -加入扩展系统
-  -...
-  -等你来探索！
-  -Happy New Year！
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.5+debug1
-Architecture: iphoneos-arm
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm/a/a1_1.9.5+debug1(rootful).deb
-Size: 48600
-MD5sum: 3a535d5e99cf916060772441037bf825
-SHA1: d06a333422705d0ec9e48312911b2a7145b19afd
-SHA256: dfab9249383cb7e6078eb00696798a17ca81c0ee2fdae0540885c02ac81bfee9
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了誇環境腳本的一些問題
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
 Version: 1.9.5+debug1
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.5+debug1(roothide).deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.5+debug1(roothide).deb
 Size: 48652
 MD5sum: bfb2ed4cdb62828db793975b5e39866f
 SHA1: 2c2b583b4238c05e83b0408ba24ff1c1d1b9f2b6
@@ -1256,7 +1169,7 @@ Version: 1.9.5+debug1
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.5+debug2(rootless).deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.5+debug2(rootless).deb
 Size: 48828
 MD5sum: 1f55a324939dfe21f8b624def74e272c
 SHA1: 5d4a78608a5637fca5b7afa40f9a68c73fda4890
@@ -1339,15 +1252,15 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9.7+debug1
+Version: 1.9.5+debug1
 Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm/a/a1_1.9.7+debug1(rootful).deb
-Size: 50832
-MD5sum: 4c6ed71191bc7fa89fe51672d8696358
-SHA1: 46afaa12ca5a986231d1e1bf7d700736297f8ff2
-SHA256: 3c70fbf412c2a6fa0446740aa58b465d027c36b2662b311b3fcea1a4569e216a
+Filename: ./debs/History/iphoneos-arm/a/a1_1.9.5+debug1(rootful).deb
+Size: 48600
+MD5sum: 3a535d5e99cf916060772441037bf825
+SHA1: d06a333422705d0ec9e48312911b2a7145b19afd
+SHA256: dfab9249383cb7e6078eb00696798a17ca81c0ee2fdae0540885c02ac81bfee9
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -1419,20 +1332,7 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   -修復了配置問題
 1.9.5+debug1: (from AD update)
   -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
-1.9.6+debug1+1: (from AD update)
-  -本次更新修復了一些已知的問題
-  -修復了模組系統解析ini元數據文件失敗的問題
-  -添加了兼容模式,沒有問題的不要開啟
-  -完善了跨環境腳本
-  -修復了跨環境沒有獲取到 rootfs 變量的問題
-  -添加了 al , a1 的別名
-1.9.7+debug1: (from AD,LF update)
-  -本次更新修復了一些已知的問題
-  -合併了部分a1ctl的命令
-  -完善了a1,使其占用更低
-  -修復配置文件中缺失的變量
-  -添加alctl, almod, almodule別名
+  -修復了誇環境腳本的一些問題
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
@@ -1443,7 +1343,7 @@ Version: 1.9.7+debug1
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug1(roothide).deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug1(roothide).deb
 Size: 50900
 MD5sum: 38325a6c8a12a3e7f21823ae377bfa7b
 SHA1: 9d48911b894a54f5147e4a4609da30c4d0c87c9f
@@ -1543,7 +1443,7 @@ Version: 1.9.7+debug1
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.7+debug1(rootless).deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.7+debug1(rootless).deb
 Size: 51100
 MD5sum: 4b79f39422f056d04b94d119c88d80d5
 SHA1: fa47b2bfca0fa5fd0aa1575c6f8aec2446790c6b
@@ -1639,11 +1539,111 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
+Version: 1.9.7+debug1
+Architecture: iphoneos-arm
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: ./debs/History/iphoneos-arm/a/a1_1.9.7+debug1(rootful).deb
+Size: 50832
+MD5sum: 4c6ed71191bc7fa89fe51672d8696358
+SHA1: 46afaa12ca5a986231d1e1bf7d700736297f8ff2
+SHA256: 3c70fbf412c2a6fa0446740aa58b465d027c36b2662b311b3fcea1a4569e216a
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
 Version: 1.9.7+debug2
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug2(roothide).deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug2(roothide).deb
 Size: 50940
 MD5sum: 693abdde31bae4ae57a901790daf03e5
 SHA1: aa67e30dc1250cb3f1b04e8cbc535de8665f3521
@@ -1743,7 +1743,7 @@ Version: 1.9.7+debug2
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.7+debug2(rootless).deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.7+debug2(rootless).deb
 Size: 51092
 MD5sum: 4fc1757750f818708fbeca70696debad
 SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
@@ -1843,7 +1843,7 @@ Version: 1.9.7+debug3
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug3_arm64e_RootHide.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug3_arm64e_RootHide.deb
 Size: 50904
 MD5sum: ab6e150712f5cf0b56faa78e767720bf
 SHA1: 0f3d59f66ca09164aab152bf02fa554dbbd58270
@@ -1943,7 +1943,7 @@ Version: 1.9.7+debug3
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.7+debug3_arm64_Rootless.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.7+debug3_arm64_Rootless.deb
 Size: 51136
 MD5sum: 84a1fd8189562337a29a0443af6e864b
 SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
@@ -2043,7 +2043,7 @@ Version: 1.9.7+debug4
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug4_iphoneos-arm64e.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug4_iphoneos-arm64e.deb
 Size: 51536
 MD5sum: b1de06f6532f24bdf9fbf01716894d91
 SHA1: e9dcfa78d6fbbcee91d6107c4b314b2f59733992
@@ -2143,7 +2143,7 @@ Version: 1.9.7+debug5
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug5_arm64e_RootHide.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug5_arm64e_RootHide.deb
 Size: 51432
 MD5sum: c657f96f45bb986663aa662844861f03
 SHA1: 60707f7f1bbf110b775a3217f1d70a3a8d80b409
@@ -2243,7 +2243,7 @@ Version: 1.9.7+debug5
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.7+debug5_arm64_Rootless.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.7+debug5_arm64_Rootless.deb
 Size: 51656
 MD5sum: 444887fae96033caa3dadd4488845dd7
 SHA1: 893a19ae672b1cceb16af06502c5682dd5c02294
@@ -2340,110 +2340,10 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug6
-Architecture: iphoneos-arm6
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm/a/a1_1.9.7+debug6_iphoneos-arm.deb
-Size: 51808
-MD5sum: a64e07f871b1c59029e91a4fe7736712
-SHA1: 37c175484cd1786a5dd516921180e377b32da932
-SHA256: 5ddda335b7d0a4572b855db032cf07da2cd899dd54168ad80a90a8eaab892933
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
-1.9.6+debug1+1: (from AD update)
-  -本次更新修復了一些已知的問題
-  -修復了模組系統解析ini元數據文件失敗的問題
-  -添加了兼容模式,沒有問題的不要開啟
-  -完善了跨環境腳本
-  -修復了跨環境沒有獲取到 rootfs 變量的問題
-  -添加了 al , a1 的別名
-1.9.7+debug1: (from AD,LF update)
-  -本次更新修復了一些已知的問題
-  -合併了部分a1ctl的命令
-  -完善了a1,使其占用更低
-  -修復配置文件中缺失的變量
-  -添加alctl, almod, almodule別名
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.7+debug6
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/a/a1_1.9.7+debug6_iphoneos-arm64e.deb
+Filename: ./debs/History/iphoneos-arm64e/a/a1_1.9.7+debug6_iphoneos-arm64e.deb
 Size: 51708
 MD5sum: 92d6751a2429def677dafb6d1d572519
 SHA1: 10450a131a22149fce5f9b76367e3ca9354b9a4c
@@ -2543,11 +2443,111 @@ Version: 1.9.7+debug6
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-History/iphoneos-arm64/A/a1_1.9.7+debug6_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/A/a1_1.9.7+debug6_iphoneos-arm64.deb
 Size: 51900
 MD5sum: 5557c627d7442629093cc5f5cacc26ab
 SHA1: 6fa8c1f7c61e2646cbaa2ef8b5302bdc9346028b
 SHA256: 46ceba9e44bcc8a9b35e0f3f5baa49605570a5d034851819f57c7d86a245368a
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.7+debug6
+Architecture: iphoneos-arm6
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: ./debs/History/iphoneos-arm/a/a1_1.9.7+debug6_iphoneos-arm.deb
+Size: 51808
+MD5sum: a64e07f871b1c59029e91a4fe7736712
+SHA1: 37c175484cd1786a5dd516921180e377b32da932
+SHA256: 5ddda335b7d0a4572b855db032cf07da2cd899dd54168ad80a90a8eaab892933
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2740,14 +2740,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug7
-Architecture: iphoneos-arm6
+Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/arm/a/a1_1.9.7+debug7_iphoneos-arm.deb
-Size: 51832
-MD5sum: d251d6423256ef44bde17517873ef4d8
-SHA1: b3d667b82a2eccf3195ce8d196140cf01474a98e
-SHA256: dfaa3b53e404893f1e813f37ba1f275a457beaaf611697e44939a305d642bbb9
+Filename: ./debs/iphoneos-arm64/a/a1_1.9.7+debug7_iphoneos-arm64.deb
+Size: 51944
+MD5sum: 5e3d98ea792b2907a20a4778841e0418
+SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
+SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2840,14 +2840,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug7
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-arm64/a/a1_1.9.7+debug7_iphoneos-arm64.deb
-Size: 51944
-MD5sum: 5e3d98ea792b2907a20a4778841e0418
-SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
-SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
+Filename: ./debs/arm/a/a1_1.9.7+debug7_iphoneos-arm.deb
+Size: 51832
+MD5sum: d251d6423256ef44bde17517873ef4d8
+SHA1: b3d667b82a2eccf3195ce8d196140cf01474a98e
+SHA256: dfaa3b53e404893f1e813f37ba1f275a457beaaf611697e44939a305d642bbb9
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -3172,15 +3172,15 @@ Description: GNU bc arbitrary precision calculator language
 
 Package: bc
 Version: 1.08.2
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: AD-dev <1107154510@qq.com>
 Installed-Size: 413
 Depends: libiosexec1 (>= 1.3.1), texinfo, bison, flex
-Filename: ./debs/arm/b/bc_1.08.2_iphoneos-arm.deb
-Size: 150898
-MD5sum: bcc647a4d81c1ea29c50e92389b31715
-SHA1: a65194d78913b3b3c4ed710ec5e773786eb0bbad
-SHA256: ab91c36597596058ac5a47ec46c24778f9ca6b96bcfc62a92685339e36c7b438
+Filename: ./debs/iphoneos-arm64/b/bc_1.08.2_iphoneos-arm64.deb
+Size: 150956
+MD5sum: 36c74bd5f6d59b47e05a80c1f4ca65c7
+SHA1: 895b5c993511ec4a6229dfb0b8feccc221c22808
+SHA256: a03d17394492dba69816959276c0847c12c6efcd3d2405ee6ca904a237aecbf5
 Section: Math
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/bc
@@ -3196,15 +3196,15 @@ Description: GNU bc arbitrary precision calculator language
 
 Package: bc
 Version: 1.08.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: AD-dev <1107154510@qq.com>
 Installed-Size: 413
 Depends: libiosexec1 (>= 1.3.1), texinfo, bison, flex
-Filename: ./debs/iphoneos-arm64/b/bc_1.08.2_iphoneos-arm64.deb
-Size: 150956
-MD5sum: 36c74bd5f6d59b47e05a80c1f4ca65c7
-SHA1: 895b5c993511ec4a6229dfb0b8feccc221c22808
-SHA256: a03d17394492dba69816959276c0847c12c6efcd3d2405ee6ca904a237aecbf5
+Filename: ./debs/arm/b/bc_1.08.2_iphoneos-arm.deb
+Size: 150898
+MD5sum: bcc647a4d81c1ea29c50e92389b31715
+SHA1: a65194d78913b3b3c4ed710ec5e773786eb0bbad
+SHA256: ab91c36597596058ac5a47ec46c24778f9ca6b96bcfc62a92685339e36c7b438
 Section: Math
 Multi-Arch: foreign
 Homepage: https://www.gnu.org/software/bc
@@ -3332,7 +3332,7 @@ Version: 1.0.2
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./debs/iphoneos-History/all/c/com.AD.home.ad_1.0.2_all.deb
+Filename: ./debs/History/all/c/com.AD.home.ad_1.0.2_all.deb
 Size: 279056
 MD5sum: 3b650fc5a06e7ec04bb6e92094dc4b18
 SHA1: 6e86a2d486041657a0bb2bea44c1f782f5b176d4
@@ -3351,7 +3351,7 @@ Version: 1.1.0
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./debs/iphoneos-History/all/c/com.AD.home.ad_1.1.0_all.deb
+Filename: ./debs/History/all/c/com.AD.home.ad_1.1.0_all.deb
 Size: 716116
 MD5sum: 0cb310def69c01625c07ed31267d8935
 SHA1: 7abbbc9202f9ef36ccc58d5a74397510164903ee
@@ -3371,7 +3371,7 @@ Version: 1.1.1
 Architecture: all
 Maintainer: AD
 Depends: firmware (>= 14.0)
-Filename: ./debs/iphoneos-History/all/c/com.AD.home.ad_1.1.1_all.deb
+Filename: ./debs/History/all/c/com.AD.home.ad_1.1.1_all.deb
 Size: 879584
 MD5sum: c9753132bdd65530e8d43c868ed4b83e
 SHA1: 1e744b9760f883423f8014cf2212063a70e09953
@@ -3389,26 +3389,10 @@ Name: AD的家目錄
 
 Package: com.AD.repo.ad
 Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: AD
-Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/iphoneos-History/iphoneos-arm/c/com.AD.repo.ad_1.0.1_iphoneos-arm.deb
-Size: 984
-MD5sum: 66af99c8a6c34e630c632ed96cc2161b
-SHA1: 22263807220b01698a2de512e09305b4051da5f3
-SHA256: fb836901b431907d72a3e79cbaefa539846b6fc1e2a6bcec5da4fbcde131ff55
-Section: System系统
-Description: 添加 AD 的 發行版軟件源倉庫
- - 安裝完成後需要重啟一下 sileo 來刷新軟件源
-Author: AD
-Name: AD Repo
-
-Package: com.AD.repo.ad
-Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/iphoneos-History/iphoneos-arm64e/c/com.AD.repo.ad_1.0.1_iphoneos-arm64e.deb
+Filename: ./debs/History/iphoneos-arm64e/c/com.AD.repo.ad_1.0.1_iphoneos-arm64e.deb
 Size: 988
 MD5sum: 3b0c5db6e69219875d7a136a651533af
 SHA1: 8202d25bdafa2a9cd15a5a006a164eea0b2b0a00
@@ -3424,7 +3408,7 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/iphoneos-History/iphoneos-arm64/c/com.AD.repo.ad_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/c/com.AD.repo.ad_1.0.1_iphoneos-arm64.deb
 Size: 1016
 MD5sum: e569db28537578704505270faf015cca
 SHA1: 46b0a2f6c2f08aee848085f16668ba2284b5dbcc
@@ -3436,15 +3420,15 @@ Author: AD
 Name: AD Repo
 
 Package: com.AD.repo.ad
-Version: 1.0.2
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: AD
 Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
-Filename: ./debs/arm/c/com.AD.repo.ad_1.0.2_iphoneos-arm.deb
-Size: 1124
-MD5sum: 65c82eac6d8bf506e9d45a39e6a7ec50
-SHA1: ec407f312871ef92d6100cc731d6ba6498b93459
-SHA256: c5a36b5e48d5b49c2a08a160a41fa49d4c17c51f219dd9cc3e0bf61013289603
+Filename: ./debs/History/iphoneos-arm/c/com.AD.repo.ad_1.0.1_iphoneos-arm.deb
+Size: 984
+MD5sum: 66af99c8a6c34e630c632ed96cc2161b
+SHA1: 22263807220b01698a2de512e09305b4051da5f3
+SHA256: fb836901b431907d72a3e79cbaefa539846b6fc1e2a6bcec5da4fbcde131ff55
 Section: System系统
 Description: 添加 AD 的 發行版軟件源倉庫
  - 安裝完成後需要重啟一下 sileo 來刷新軟件源
@@ -3483,6 +3467,22 @@ Description: 添加 AD 的 發行版軟件源倉庫
 Author: AD
 Name: AD Repo
 
+Package: com.AD.repo.ad
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: AD
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader
+Filename: ./debs/arm/c/com.AD.repo.ad_1.0.2_iphoneos-arm.deb
+Size: 1124
+MD5sum: 65c82eac6d8bf506e9d45a39e6a7ec50
+SHA1: ec407f312871ef92d6100cc731d6ba6498b93459
+SHA256: c5a36b5e48d5b49c2a08a160a41fa49d4c17c51f219dd9cc3e0bf61013289603
+Section: System系统
+Description: 添加 AD 的 發行版軟件源倉庫
+ - 安裝完成後需要重啟一下 sileo 來刷新軟件源
+Author: AD
+Name: AD Repo
+
 Package: com.AD.virtualmemory
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -3502,22 +3502,6 @@ Name: 虚拟内存(virtual memory)
 Package: com.Dopamine.themes
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: AD
-Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/c/com.Dopamine.themes_1.0_iphoneos-arm64.deb
-Size: 2136
-MD5sum: be59fb460c126c52b342ed2a0dcedb87
-SHA1: 3290f005f928f205e972c7e59f00565976956bb5
-SHA256: 672103d50613f49bb70dd76f2587ab47d76b85ef2bda813b46e5e864aa4315f5
-Section: Themes主题
-Description: Expand your dopamine theme.扩展你的多巴胺主题
-Author: LF
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: DopamineThemesExtended-多巴胺主题扩展
-
-Package: com.Dopamine.themes
-Version: 1.0
-Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0)
 Filename: ./pool/lfjb/binary-iphoneos-arm64/C/com.Dopamine.themes_1.0_iphoneos-arm64.deb
@@ -3531,13 +3515,29 @@ Author: LF
 Icon: https://dopamine.dhinak.net/assets/icon.png
 Name: DopamineThemesExtended-多巴胺主题扩展
 
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/c/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Size: 2136
+MD5sum: be59fb460c126c52b342ed2a0dcedb87
+SHA1: 3290f005f928f205e972c7e59f00565976956bb5
+SHA256: 672103d50613f49bb70dd76f2587ab47d76b85ef2bda813b46e5e864aa4315f5
+Section: Themes主题
+Description: Expand your dopamine theme.扩展你的多巴胺主题
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
 Package: com.adb.sct-ad
 Version: 2.6-39
 Architecture: iphoneos-arm64
 Maintainer: AD
 Pre-Depends: openssh, zsh, unzip
 Depends: openssh, zsh, unzip, sudo, dpkg, apt, coreutils, less
-Filename: ./debs/iphoneos-History/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/c/com.adb.sct-ad_2.6-39_iphoneos-arm64.deb
 Size: 7932
 MD5sum: 5bc79dcf1c3b0bbad2f77bf2769b9a00
 SHA1: 9d80798d474e4dd7fab3085b8b7421907315ffd5
@@ -3604,6 +3604,21 @@ Name: FilzaScripts Build IPA
 Package: com.couhege1380.BatteryMaster
 Version: 1.0.0
 Architecture: iphoneos-arm64
+Maintainer: @Spor0nix <(null)>
+Depends: mobilesubstrate
+Filename: ./pool/lfjb/binary-iphoneos-arm64/B/BatteryMaster1380.deb
+Size: 39480
+MD5sum: f45beac2b8f32e474ea3a5112691a2ae
+SHA1: 31187b768419efab97525c05a0217fa17c392c7e
+SHA256: 02348420de9d1f764fd0a3959510ef45f0b147d21910b8ffc259b12f3079c099
+Section: Systems系统
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Name: BatteryMaster1380-省电大师
+
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
+Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
 Filename: ./debs/iphoneos-arm64/c/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
@@ -3616,21 +3631,6 @@ Description: Add value to protect your battery life.添加值以保护您的电�
 Author: @Spor0nix 凑合哥
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: BatteryMaster1380 省电大师
-
-Package: com.couhege1380.BatteryMaster
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: @Spor0nix <(null)>
-Depends: mobilesubstrate
-Filename: ./pool/lfjb/binary-iphoneos-arm64/B/BatteryMaster1380.deb
-Size: 39480
-MD5sum: f45beac2b8f32e474ea3a5112691a2ae
-SHA1: 31187b768419efab97525c05a0217fa17c392c7e
-SHA256: 02348420de9d1f764fd0a3959510ef45f0b147d21910b8ffc259b12f3079c099
-Section: Systems系统
-Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
-Author: @Spor0nix 凑合哥
-Name: BatteryMaster1380-省电大师
 
 Package: com.discpulimited.ad
 Version: 1.0.0
@@ -3651,23 +3651,6 @@ Name: DisCPU Limited
 
 Package: com.empty-theos.ad
 Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: AD
-Installed-Size: 603.1MB
-Filename: ./debs/arm/c/com.empty-theos.ad_1.0_iphoneos-arm.deb
-Size: 16728980
-MD5sum: e37e59630cd2ede6296ddd1a0c0a3529
-SHA1: 31d87d7666ea820a9f6bb4f4ad14a563a58b6a21
-SHA256: 8640d5625d4dc1ad6f99e612b40d726cc2814910bdd7980182e70ce49f0de395
-Section: Theos/SDK
-Description: iOS Theos
-  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
-Author: AD
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: iOS Theos
-
-Package: com.empty-theos.ad
-Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: AD
 Installed-Size: 603.1MB
@@ -3683,22 +3666,22 @@ Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS Theos
 
-Package: com.netskao.BiliPurify
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphoneos-arm64/c/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
-Size: 6708128
-MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
-SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
-SHA256: e233d68807281fbd131fbb1e534775172eeff4c0ee59104cddc78a745a9c2469
-Section: Other
-Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
-Author: Netskao
+Package: com.empty-theos.ad
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: AD
+Installed-Size: 603.1MB
+Filename: ./debs/arm/c/com.empty-theos.ad_1.0_iphoneos-arm.deb
+Size: 16728980
+MD5sum: e37e59630cd2ede6296ddd1a0c0a3529
+SHA1: 31d87d7666ea820a9f6bb4f4ad14a563a58b6a21
+SHA256: 8640d5625d4dc1ad6f99e612b40d726cc2814910bdd7980182e70ce49f0de395
+Section: Theos/SDK
+Description: iOS Theos
+  - iOS Theos 沒有SDK的theos,需要自己補齊SDK
+Author: AD
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-Name: BiliPurify 哔哩哔哩净化
+Name: iOS Theos
 
 Package: com.netskao.BiliPurify
 Version: 1.0.0
@@ -3717,12 +3700,29 @@ Author: Netskao
 Icon: http://www.kuaipng.com/Uploads/pic/w/2020/07-20/89190/water_89190_698_698_.png
 Name: BiliPurify-哔哩哔哩净化
 
+Package: com.netskao.BiliPurify
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/c/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Size: 6708128
+MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
+SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
+SHA256: e233d68807281fbd131fbb1e534775172eeff4c0ee59104cddc78a745a9c2469
+Section: Other
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
+Author: Netskao
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: BiliPurify 哔哩哔哩净化
+
 Package: com.ntonia.themes.Black
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-History/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
 Size: 1805744
 MD5sum: 919ef445e9d121970ba4dbbf556a48c6
 SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
@@ -3738,7 +3738,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
 Size: 1805744
 MD5sum: 919ef445e9d121970ba4dbbf556a48c6
 SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
@@ -3771,7 +3771,7 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-History/iphoneos-arm64/c/com.pkill.ad_0.1_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/c/com.pkill.ad_0.1_iphoneos-arm64.deb
 Size: 30428
 MD5sum: 0c9f7b2aaf807a4aa5430d9f7c81a7a4
 SHA1: 8e57bbc770f045fb5de32c1c6e7293f370485e77
@@ -3841,6 +3841,25 @@ Name: rain的120hz
 
 Package: com.ryannair05.little12
 Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/iphoneos-arm64/c/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Size: 372942
+MD5sum: 25a41017bc1490029d054f83b5a55cae
+SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
+SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 15 or 16
+Author: Ryan Nair
+Name: Little12
+
+Package: com.ryannair05.little12
+Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: LF
 Installed-Size: 864
@@ -3854,25 +3873,6 @@ Size: 394268
 MD5sum: 1018b59f894d695ef9e43dda6e0007ad
 SHA1: 8faf38ba795f630d1ccdcd245a6e4655cef33790
 SHA256: bbb46bdeeac73132831879f0d7c5403441183c443db0aaa7ec36d2877bb9e2e6
-Section: Tweaks
-Description: iPhone 12 gestures and more for iOS 15 or 16
-Author: Ryan Nair
-Name: Little12
-
-Package: com.ryannair05.little12
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: LF
-Installed-Size: 864
-Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
-Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/iphoneos-arm64/c/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
-Size: 372942
-MD5sum: 25a41017bc1490029d054f83b5a55cae
-SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
-SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
 Section: Tweaks
 Description: iPhone 12 gestures and more for iOS 15 or 16
 Author: Ryan Nair
@@ -3896,14 +3896,14 @@ Name: Relic
 
 Package: com.torrekie.battman
 Version: 1.0.3.3
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: Torrekie <me@torrekie.dev>
 Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
-Filename: ./debs/arm/c/com.torrekie.battman_1.0.3.3_iphoneos-arm.deb
-Size: 3118352
-MD5sum: 2846a25846145f20cf8259618a6ef524
-SHA1: 13bfd6077f334bde865fa628144a1c679a15c2dd
-SHA256: 54c4af7ba6c5ef8a4b62ef392b75a22957d553fed2396620ed630e483c514684
+Filename: ./debs/iphoneos-arm64/c/com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb
+Size: 3118344
+MD5sum: 90e732634ed45c5b2f7bd18ac231e066
+SHA1: c01ca8aa4938e1ce49b4325e33aef83c925604ea
+SHA256: 00bce115ce0cd44654b3fcd8903d73b806f974ca64cdbf68a4d8adc0b9868dab
 Section: Applications
 Homepage: https://github.com/Torrekie/Battman
 Description: Battman the Battery Manager
@@ -3920,14 +3920,14 @@ Name: Battman
 
 Package: com.torrekie.battman
 Version: 1.0.3.3
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: Torrekie <me@torrekie.dev>
 Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
-Filename: ./debs/iphoneos-arm64/c/com.torrekie.battman_1.0.3.3_iphoneos-arm64.deb
-Size: 3118344
-MD5sum: 90e732634ed45c5b2f7bd18ac231e066
-SHA1: c01ca8aa4938e1ce49b4325e33aef83c925604ea
-SHA256: 00bce115ce0cd44654b3fcd8903d73b806f974ca64cdbf68a4d8adc0b9868dab
+Filename: ./debs/arm/c/com.torrekie.battman_1.0.3.3_iphoneos-arm.deb
+Size: 3118352
+MD5sum: 2846a25846145f20cf8259618a6ef524
+SHA1: 13bfd6077f334bde865fa628144a1c679a15c2dd
+SHA256: 54c4af7ba6c5ef8a4b62ef392b75a22957d553fed2396620ed630e483c514684
 Section: Applications
 Homepage: https://github.com/Torrekie/Battman
 Description: Battman the Battery Manager
@@ -3982,25 +3982,23 @@ Sponsor: LF
 Package: cydia
 Version: 1.1.37-3
 Architecture: iphoneos-arm64
-Maintainer: Genesis <genesis@modiverse.co.uk>
+Maintainer: Genesis
 Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
 Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/iphoneos-arm64/c/cydia_1.1.37-3_arm64.deb
-Size: 1234204
-MD5sum: 207f742fc389b70dd64ab62a909695c9
-SHA1: f947a737522a4430df061794d43c2ea176afcf44
-SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
-Section: Apply
+Filename: ./pool/lfjb/binary-iphoneos-arm64/C/CydiaInstallerBeta.deb
+Size: 1233652
+MD5sum: 0fede3e29a8a268bb2394330d0d6a1b7
+SHA1: b571164fa280011f83f5e932d9e071471256b835
+SHA256: e998d2411ac399d5df8e466807f43db75c371b0cc236d54d58fe6705a8387b0a
+Section: Systems系统
 Priority: important
-Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
-Tag: purpose::uikit, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: https://repo.ironside.org.uk/cydia-exp/
+Description: Cydia for iOS15+.idk.
+Author: Jay Freeman (saurik)
 Icon: http://cydia.saurik.com/icon@2x/cydia7.png
-Name: Cydia Installer arm64
+Name: Cydia Installer [Experimental]
 
 Package: cydia
 Version: 1.1.37-3
@@ -4026,23 +4024,25 @@ Name: Cydia Installer [Experimental]
 Package: cydia
 Version: 1.1.37-3
 Architecture: iphoneos-arm64
-Maintainer: Genesis
+Maintainer: Genesis <genesis@modiverse.co.uk>
 Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
 Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./pool/lfjb/binary-iphoneos-arm64/C/CydiaInstallerBeta.deb
-Size: 1233652
-MD5sum: 0fede3e29a8a268bb2394330d0d6a1b7
-SHA1: b571164fa280011f83f5e932d9e071471256b835
-SHA256: e998d2411ac399d5df8e466807f43db75c371b0cc236d54d58fe6705a8387b0a
-Section: Systems系统
+Filename: ./debs/iphoneos-arm64/c/cydia_1.1.37-3_arm64.deb
+Size: 1234204
+MD5sum: 207f742fc389b70dd64ab62a909695c9
+SHA1: f947a737522a4430df061794d43c2ea176afcf44
+SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
+Section: Apply
 Priority: important
-Description: Cydia for iOS15+.idk.
-Author: Jay Freeman (saurik)
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
 Icon: http://cydia.saurik.com/icon@2x/cydia7.png
-Name: Cydia Installer [Experimental]
+Name: Cydia Installer arm64
 
 Package: fakecpuzero
 Version: 1.0.0-R
@@ -4050,7 +4050,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 136
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/c/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/f/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
 Size: 4536
 MD5sum: c4d05144795fb97aa543f2b2b277234a
 SHA1: 3ba8be80bb79ad7aff7947a1e1c8c8be45608d1d
@@ -4094,22 +4094,6 @@ Name: iOS26-Lock-Designer-Theme（26锁屏主题）
 
 Package: iOS26LockDesignerTheme
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: LF
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./pool/lfjb/History/binary-iphoneos-arm64e/i/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
-Size: 35624
-MD5sum: e66d4eff8494056e63c0e624e95be1b4
-SHA1: 06e9cb444e7822e48542ab026834b7d79d6910b2
-SHA256: ebc296c6e484bef5cc9249a7e5a12b192a8c1ae9f267bbd774e5f8039a73179c
-Section: Themes主题
-Description: iOS26风格锁屏主题，字体来自威锋大佬，Powered by Designer
-Author: LF
-Icon: https://pic3.zhimg.com/v2-f5381ebfd5266d9cfd4e83017e24fb5c_r.jpg
-Name: iOS26-Lock-Designer-Theme（26锁屏主题）
-
-Package: iOS26LockDesignerTheme
-Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -4118,6 +4102,22 @@ Size: 35616
 MD5sum: 6679d2cb4ddbfba2b43a17055cd96efc
 SHA1: d2a202ffa5f7cb6cfce095eef83aad59b5fab84a
 SHA256: d7ff07bf9163be44d94c9a2f0780cabebab6b5997134273c9ea050e7a84659fd
+Section: Themes主题
+Description: iOS26风格锁屏主题，字体来自威锋大佬，Powered by Designer
+Author: LF
+Icon: https://pic3.zhimg.com/v2-f5381ebfd5266d9cfd4e83017e24fb5c_r.jpg
+Name: iOS26-Lock-Designer-Theme（26锁屏主题）
+
+Package: iOS26LockDesignerTheme
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./pool/lfjb/History/binary-iphoneos-arm64e/i/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
+Size: 35624
+MD5sum: e66d4eff8494056e63c0e624e95be1b4
+SHA1: 06e9cb444e7822e48542ab026834b7d79d6910b2
+SHA256: ebc296c6e484bef5cc9249a7e5a12b192a8c1ae9f267bbd774e5f8039a73179c
 Section: Themes主题
 Description: iOS26风格锁屏主题，字体来自威锋大佬，Powered by Designer
 Author: LF
@@ -4145,7 +4145,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: ./pool/lfjb/History/binary-iphoneos-arm64/i/iOS26e.deb
+Filename: ./pool/lfjb/binary-iphoneos-arm64/i/iOS26e.deb
 Size: 2223336
 MD5sum: 93574ce253ce800f96074ffdbb39dfbd
 SHA1: 72815fbc47098a690314512c33123255458076f1
@@ -4160,7 +4160,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: ./pool/lfjb/binary-iphoneos-arm64/i/iOS26e.deb
+Filename: ./pool/lfjb/History/binary-iphoneos-arm64/i/iOS26e.deb
 Size: 2223336
 MD5sum: 93574ce253ce800f96074ffdbb39dfbd
 SHA1: 72815fbc47098a690314512c33123255458076f1
@@ -4207,7 +4207,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-History/iphoneos-arm64/i/itheosmaker_1.1_iphoneos-arm64.deb
+Filename: ./debs/History/iphoneos-arm64/i/itheosmaker_1.1_iphoneos-arm64.deb
 Size: 1219596
 MD5sum: c07f6d62a719fa29195c619612fcddd4
 SHA1: a2aeba89175a998fdbfa799432b79afd8d0a42d0
@@ -4259,7 +4259,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: ./pool/lfjb/History/binary-iphoneos-arm64/L/LottieBar.deb
+Filename: ./pool/lfjb/binary-iphoneos-arm64/L/LottieBar.deb
 Size: 1013688
 MD5sum: 3a73c1f2907f60d4a51ab3e60b534f48
 SHA1: 7a77ad224ea5f1deac0a6714a5aee190cebd4a39
@@ -4274,7 +4274,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: ./pool/lfjb/binary-iphoneos-arm64/L/LottieBar.deb
+Filename: ./pool/lfjb/History/binary-iphoneos-arm64/L/LottieBar.deb
 Size: 1013688
 MD5sum: 3a73c1f2907f60d4a51ab3e60b534f48
 SHA1: 7a77ad224ea5f1deac0a6714a5aee190cebd4a39
@@ -4305,7 +4305,7 @@ Package: official.ad.adsu
 Version: 1.0.2-3
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.0.2-3_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.0.2-3_all.deb
 Size: 26284
 MD5sum: c1b0758b6ed35ec1761395d47ba4eff2
 SHA1: 61998aaa44b37f822e7ece4e6e1c969ee2b058a0
@@ -4319,7 +4319,7 @@ Package: official.ad.adsu
 Version: 1.0.2-4
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.0.2-4_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.0.2-4_all.deb
 Size: 26188
 MD5sum: ba65d9f02eccf9288381a3f01c6ea5cf
 SHA1: 97aa8c22684871a17c3710b77025a05972fc4cd0
@@ -4333,7 +4333,7 @@ Package: official.ad.adsu
 Version: 1.0.2-6
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.0.2-6_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.0.2-6_all.deb
 Size: 25904
 MD5sum: 8c933f59e539a4ef0588d0d3e600e5a3
 SHA1: c7397a640e38562466c52396a9824d99bca281e9
@@ -4347,7 +4347,7 @@ Package: official.ad.adsu
 Version: 1.0.2-7
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.0.2-7_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.0.2-7_all.deb
 Size: 25916
 MD5sum: d7aeacaec67e269fa1cbd763181265c1
 SHA1: 2c73808e384df85aef7f970a0b17d68b70db45af
@@ -4361,7 +4361,7 @@ Package: official.ad.adsu
 Version: 1.5-2
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.5-2_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.5-2_all.deb
 Size: 52760
 MD5sum: 6e143dec040b7552789ba9482dd86f39
 SHA1: cb324dd4622e7e5dcfc67ad7ec7ed906103cd96f
@@ -4376,7 +4376,7 @@ Package: official.ad.adsu
 Version: 1.5-3
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.5-3_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.5-3_all.deb
 Size: 52800
 MD5sum: dab78f8ae3bf82302bdd0524d8bd950e
 SHA1: 86a11857ec9049677c8faba686ca8f2c3899a1e6
@@ -4391,7 +4391,7 @@ Package: official.ad.adsu
 Version: 1.5-4
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: ./debs/iphoneos-History/all/c/official.ad.adsu_1.5-4_all.deb
+Filename: ./debs/History/all/c/official.ad.adsu_1.5-4_all.deb
 Size: 52820
 MD5sum: ecf80a36a36b8a2a020e718aa7b13014
 SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
@@ -4472,14 +4472,14 @@ Author: Andrew Wood <andrew@ivarch.com>
 
 Package: pv
 Version: 1.10.3-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: AD <1107154510@qq.com>
 Installed-Size: 289
-Filename: ./debs/arm/p/pv_1.10.3-1_iphoneos-arm.deb
-Size: 135214
-MD5sum: eba98df27aadff8e0e02db6d9a19cbc3
-SHA1: 5e50546f069b4f90940966e73ce42fef6f5cff52
-SHA256: e3363bf7ff2a361248039c92f9b54e1f182172e5cf89f3c10fda00a6c21c1900
+Filename: ./debs/iphoneos-arm64/p/pv_1.10.3-1_iphoneos-arm64.deb
+Size: 134636
+MD5sum: ec742475d3191c3973d5c8e1e275bceb
+SHA1: 26aa0cfcfde237bcd1502656d15b51f19030bfb4
+SHA256: 8fc227190ca7a66e8f12201fb25b28e6272196ff8512d7bd72708d70be97f0c4
 Section: Utilities
 Priority: optional
 Homepage: https://www.ivarch.com/programs/pv.shtml
@@ -4494,14 +4494,14 @@ Author: Andrew Wood <andrew@ivarch.com>
 
 Package: pv
 Version: 1.10.3-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: AD <1107154510@qq.com>
 Installed-Size: 289
-Filename: ./debs/iphoneos-arm64/p/pv_1.10.3-1_iphoneos-arm64.deb
-Size: 134636
-MD5sum: ec742475d3191c3973d5c8e1e275bceb
-SHA1: 26aa0cfcfde237bcd1502656d15b51f19030bfb4
-SHA256: 8fc227190ca7a66e8f12201fb25b28e6272196ff8512d7bd72708d70be97f0c4
+Filename: ./debs/arm/p/pv_1.10.3-1_iphoneos-arm.deb
+Size: 135214
+MD5sum: eba98df27aadff8e0e02db6d9a19cbc3
+SHA1: 5e50546f069b4f90940966e73ce42fef6f5cff52
+SHA256: e3363bf7ff2a361248039c92f9b54e1f182172e5cf89f3c10fda00a6c21c1900
 Section: Utilities
 Priority: optional
 Homepage: https://www.ivarch.com/programs/pv.shtml
@@ -4557,7 +4557,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>> 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/iphoneos-History/iphoneos-arm64/r/repofix.deb
+Filename: ./debs/History/iphoneos-arm64/r/repofix.deb
 Size: 1092
 MD5sum: 4336cbbf3793a33766421920a200bc00
 SHA1: 458c1a179029afc7b841241b826c176cea206750
