@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://ad-ios.github.io/ad/sileodepiction/Default/top_0.png",
+    "headerImage": "https://xmz-team.github.io/ad/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -57,17 +57,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.9.8-beta4+debug3-4",
+                    "text": "1.9.9-beta3-2+debug11",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "markdown": "15-16.6.1",
+                    "markdown": "14.0-16.7.15-17.3.1?",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 06 月 06 日",
+                    "text": "2026 年 08 月 06 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+		{
+		    "class": "DepictionSubheaderView",
+    		    "title": "1.9.9-beta3-2+debug11",
+    		    "useBoldText": true,
+    		    "useBottomMargin": false
+		},
+		{
+		    "class": "DepictionMarkdownView",
+		    "markdown": "本次更新修复了一些已知的问题<br>添加了a1pm, a1core api<br>添加a1mod-scan<br>修复a1ctl调用a1hub失败的问题",
+		    "useRawFormat": true
+		},
 		{
     		    "class": "DepictionSubheaderView",
     		    "title": "1.9.8-beta4+debug3-4",

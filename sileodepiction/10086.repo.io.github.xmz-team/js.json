@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://ad-ios.github.io/ad/sileodepiction/Default/top_0.png",
+    "headerImage": "https://xmz-team.github.io/ad/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "在iOS上编译插件\n由LF加入无根越狱支持\n由AD修复了因为没有代码签名导致无法打开的问题\n需要flex依赖,请自行安装\n需要自行补齐其他依赖",
+                    "markdown": "**本源的公告**\n\n**声明一下: 本源只是将网上作者分享的插件、交流群群友做的插件,以及源主做的插件上传到本源,其中其他插件作者发的的插件和群友做的插件未做任何修改**\n\n**部分插件标识符和作者插件一致导致显示问题,这是Cydia/Sileo的默认规则导致(先添加谁的源就会显示谁的),并非我们劫持插件**\n\n**若本源的部分插件或者软件安装后无法使用/安裝的话可以添加搬运工源(byg.iosios.net)去下载对应的版本或者去其他源下载对应的版本或者可以联系源主去修复**\n\n**因为本源是GitHub托管的所以服务器在美国,遇到下载问题请尝试:切换VPN或者更换网络环境**\n\n**本源已经由 XMZ-Team 所有并且维护**\n\n交流群:\n\n -  QQ1群:1030152896\n\n -  QQ2群:837894083\n\n -  QQ文件群: 1027358518",
                     "useRawFormat": false
                 },
                 {
@@ -20,7 +20,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://ad-ios.github.io/ad/sileodepiction/Default/top_Screenshot_0.png"
+                            "url": "https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/official.ad.repo.10086/Screenshot_01.png"
                         }
                     ]
                 },
@@ -47,27 +47,27 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "crazymind90",
+                    "text": "AD",
                     "title": "创作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "LF, AD",
+                    "text": "XMZ-Team",
                     "title": "维护者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.1+debug",
+                    "text": "1.0.1-1",
                     "title": "最新版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "15-16.6.1",
+                    "markdown": "unknown",
                     "title": "理论支持系统范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 2 月 9 日",
+                    "text": "2026 年 08 月 06 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -82,35 +82,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "1.1+debug:",
+                    "title": "unknown",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "修复因为没有代码签名导致的无法打开问题",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.1:",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "LF移植到了rootless",
-                    "useRawFormat": true
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.0:",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "基础版本",
+                    "markdown": "no update log",
                     "useRawFormat": true
                 }
             ]

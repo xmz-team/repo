@@ -3697,15 +3697,15 @@ Author: Sniper_GER & Nezuko & Ethan Whited
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
 Name: GestureX16
 
-Package: official.xmz-team.10086
-Name: Announcement（公告）
-Version: 1.0
+Package: 10086.repo.io.github.xmz-team
+Name: Announcement (公告)
+Version: 1.0.1-1
 Architecture: all
-Maintainer: XMZ-Team
-Author: iOS-AD
-Section: 源公告
+Maintainer: XMZ-Team <xmz-team@outlook.com>
+Author: XMZ-Team <xmz-team@outlook.com>
+Section: 10086
 Priority: required
-Depends: firmware (>= -1.0)
-Icon: https://ad-ios.github.io/ad/CydiaIcon.png
-SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/com.AD.10086/js.json
+Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
+Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
 Description: 10086
