@@ -25,9 +25,9 @@ echo "[2/5] Generate Packages file..."
 
 declare -A ARCH_POOL_MAP
 ARCH_POOL_MAP["all"]="pool/main/all pool/dev/all"
-ARCH_POOL_MAP["iphoneos-arm"]="pool/main/arm pool/dev/arm pool/lfjb/binary-iphoneos-arm"
-ARCH_POOL_MAP["iphoneos-arm64"]="pool/main/arm64 pool/dev/arm64 pool/lfjb/binary-iphoneos-arm64"
-ARCH_POOL_MAP["iphoneos-arm64e"]="pool/main/arm64e pool/dev/arm64e pool/lfjb/binary-iphoneos-arm64e"
+ARCH_POOL_MAP["iphoneos-arm"]="pool/main/arm pool/dev/arm"
+ARCH_POOL_MAP["iphoneos-arm64"]="pool/main/arm64 pool/dev/arm64"
+ARCH_POOL_MAP["iphoneos-arm64e"]="pool/main/arm64e pool/dev/arm64e"
 
 COMPONENTS=("main" "dev")
 
@@ -42,8 +42,8 @@ for component in "${COMPONENTS[@]}"; do
                 case "$arch" in
                     all) pool_paths="pool/main/all" ;;
                     iphoneos-arm) pool_paths="pool/main/arm" ;;
-                    iphoneos-arm64) pool_paths="pool/main/arm64 pool/lfjb/binary-iphoneos-arm64" ;;
-                    iphoneos-arm64e) pool_paths="pool/main/arm64e pool/lfjb/binary-iphoneos-arm64e" ;;
+                    iphoneos-arm64) pool_paths="pool/main/arm64" ;;
+                    iphoneos-arm64e) pool_paths="pool/main/arm64e" ;;
                 esac
                 ;;
             dev)

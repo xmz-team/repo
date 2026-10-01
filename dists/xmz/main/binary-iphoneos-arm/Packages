@@ -1,13 +1,13 @@
 Package: a1
-Version: 1.9.9-beta3-2+debug12
+Version: 2.0.1.37
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: /tmp/tmp.pwdPOgmx2K/a/a1_1.9.9-beta3-2+debug12_iphoneos-arm.deb
-Size: 71032
-MD5sum: 0287576199ff6ddcba384fd1dbd69751
-SHA1: 7bb6c74bb5a50431c2218ff27d1e525170361290
-SHA256: 235bcb3b9d283755dbb527e8c7ff9d5e90d3f9e0493aff05b4c32b4c81f29843
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
+Filename: /var/jb/tmp/tmp.hWpZZLlAY7/a/a1/a1_2.0.1.37_iphoneos-arm.deb
+Size: 614812
+MD5sum: c4feb4e2a3de0e2a19f681f27f41181f
+SHA1: de2c3d6ad440c9084692e9a316d7be69ee919b58
+SHA256: a980d3c215dc22f0a0e00eb1adae53f6aae985be055f6d36a5678d3be8367a1a
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -27,7 +27,7 @@ Architecture: iphoneos-arm
 Maintainer: AD-dev <1107154510@qq.com>
 Installed-Size: 413
 Depends: libiosexec1 (>= 1.3.1), texinfo, bison, flex
-Filename: /tmp/tmp.pwdPOgmx2K/b/bc_1.08.2_iphoneos-arm.deb
+Filename: /var/jb/tmp/tmp.hWpZZLlAY7/b/bc_1.08.2_iphoneos-arm.deb
 Size: 150898
 MD5sum: bcc647a4d81c1ea29c50e92389b31715
 SHA1: a65194d78913b3b3c4ed710ec5e773786eb0bbad
@@ -50,7 +50,7 @@ Version: 1.10.3-1
 Architecture: iphoneos-arm
 Maintainer: AD <1107154510@qq.com>
 Installed-Size: 289
-Filename: /tmp/tmp.pwdPOgmx2K/p/pv_1.10.3-1_iphoneos-arm.deb
+Filename: /var/jb/tmp/tmp.hWpZZLlAY7/p/pv_1.10.3-1_iphoneos-arm.deb
 Size: 135214
 MD5sum: eba98df27aadff8e0e02db6d9a19cbc3
 SHA1: 5e50546f069b4f90940966e73ce42fef6f5cff52

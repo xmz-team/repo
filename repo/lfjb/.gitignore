@@ -1,9 +1,0 @@
-.DS_Store
-!Terminal
-*.temp
-*.tmp
-*.sh
-*.log
-*.old
-update-repo
-!Debs/*/Terminal
