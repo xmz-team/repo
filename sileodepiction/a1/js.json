@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://xmz-team.github.io/ad/sileodepiction/Default/top_0.png",
+    "headerImage": "https://xmz-team.github.io/repo/sileodepiction/Default/top_0.png",
     "tintColor": "#1DBBFF",
     "minVersion": "0.3",
     "tabs": [
@@ -57,7 +57,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.9.9-beta3-2+debug11",
+                    "text": "2.0.1.37",
                     "title": "最新版本"
                 },
                 {
@@ -67,7 +67,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2026 年 08 月 06 日",
+                    "text": "2026 年 10 月 1 日",
                     "title": "最后更新日期"
                 },
                 {
@@ -80,6 +80,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
+		{
+		    "class": "DepictionSubheaderView",
+    		    "title": "2.0.1.37",
+    		    "useBoldText": true,
+    		    "useBottomMargin": false
+		},
+		{
+		    "class": "DepictionMarkdownView",
+		    "markdown": "使用C++重构了整个a1<br>不向后兼容的更新<br>添加myini二进制工具<br>解决耗电/发热很严重问题?(不确定)<br>模块系统打升级，可以用lua去编写模块<br>修复在非root状态下提权到root失败的问题<br>移除 log_reincarnation 和 experimental 功能",
+		    "useRawFormat": true
+		},
 		{
 		    "class": "DepictionSubheaderView",
     		    "title": "1.9.9-beta3-2+debug11",
