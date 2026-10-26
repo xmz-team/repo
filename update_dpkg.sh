@@ -1,18 +1,16 @@
 #!/bin/bash
 
-# 由于 repo 已经升级为 发行版结构 ，此脚本现已被废弃，现用于扁平化兼容
-# 由 new.update.sh 调用
+# Because the repo has been upgraded to the distribution structure, this script has now been discarded and is now used for flattening compatibility.
+# Called by new.update.sh
 
-# 生成索引文件
+# Generate index files
 dpkg-scanpackages -m . /dev/null > Packages
 # {
-# 添加虚假 deb 包
-orig_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-echo "$(cat "$orig_dir"/template/10086.template)" >> Packages
+# Add fake deb packages
+orig_dir="$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)"
+echo "$(cat ${orig_dir}/template/10086.template)" >> Packages
 # }
 xz -c Packages > Packages.xz
 bzip2 -c Packages > Packages.bz2
 gzip -c Packages > Packages.gz
 zstd -c Packages > Packages.zst
-
-# ./update_git.sh

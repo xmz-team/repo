@@ -1,10 +1,10 @@
 #!/bin/bash
 set -e
 
-REPO_ROOT="$(cd $(dirname "$0") && pwd)"
+REPO_ROOT=$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)
 cd "$REPO_ROOT"
 
-echo "Time: $(date '+%Y-%m-%d %H:%M:%S')"
+echo "UTC Time: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 echo "[1/5] Clear env..."
 find pool -type d \( \
         -name "DEBIAN" -o \
@@ -99,37 +99,15 @@ do
 done
 
 echo "[3/5] Generate Contents file..."
-
 for component in "${COMPONENTS[@]}"
 do
     for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
     do
-        output_dir="dists/AD/${component}/binary-${arch}"
-        contents_file="${output_dir}/Contents-${arch}"
-        packages_file="${output_dir}/Packages"
-        if [ -s "$packages_file" ]; then
+        pool_dir="pool/${component}/${arch}"
+        contents_file="dists/AD/${component}/binary-${arch}/Contents-${arch}"
+        if [ -d "$pool_dir" ] && [ -n "$(find "$pool_dir" -name '*.deb' -type f 2>/dev/null)" ]; then
             echo "  Generate Contents: ${component}/${arch}"
-            > "$contents_file"
-            current_package=""
-            current_filename=""
-            while IFS= read -r line
-            do
-                if [[ "$line" =~ ^Package:\ (.*) ]]; then
-                    current_package="${BASH_REMATCH[1]}"
-                elif [[ "$line" =~ ^Filename:\ (.*) ]]; then
-                    current_filename="${BASH_REMATCH[1]}"
-                    if [ -n "$current_filename" ] && [ -f "$current_filename" ]; then
-                        echo "[Debug]: Generate Contents: $current_filename"
-                        dpkg-deb -c "$current_filename" | while IFS= read -r fileline
-                        do
-                            file_path=$(echo "$fileline" | awk '{print $NF}' | sed 's/^\.//')
-                            if [ -n "$file_path" ] && [ "$file_path" != "/" ]; then
-                                echo "$file_path $current_package" >> "$contents_file"
-                            fi
-                        done
-                    fi
-                fi
-            done < "$packages_file"
+            apt-ftparchive contents "$pool_dir" > "$contents_file"
             if [ -s "$contents_file" ]; then
                 sort -u "$contents_file" -o "$contents_file"
                 gzip -9c "$contents_file" > "${contents_file}.gz"
@@ -214,11 +192,14 @@ echo "[5/5] Create a compatible symbolic link"
 ln -sf dists/AD/Release Release 2>/dev/null || true
 
 echo ""
-echo "  Update done!"
-echo "  UTC Time: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-echo "  Update the compatible flat warehouse"
-./update_dpkg.sh >/dev/null 2>&1
-echo "  Upload to Github"
+echo "Update done!"
+echo "UTC Time: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+echo "Update the compatible flat warehouse"
+echo ""
+./update_dpkg.sh
+echo "Upload to Github"
+echo ""
 ./update_git.sh
+echo ""
 echo "Done"
 

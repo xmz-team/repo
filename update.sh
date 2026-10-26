@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# 已废弃，请不要使用此脚本而是使用 new.update.sh 脚本
+# It has been abandoned. Please do not use this script but use the new.update.sh script
 # {
 : '
-# 生成索引文件
+# Generate index files
 dpkg-scanpackages -m . /dev/null > Packages
 xz -c Packages > Packages.xz
 bzip2 -c Packages > Packages.bz2
 gzip -c Packages > Packages.gz
 zstd -c Packages > Packages.zst
 
-# 计算校验值
+# Calculate the check value
 #### pkg
 md5_pkg=$(md5sum Packages | cut -d' ' -f1)
 size_pkg=$(wc -c < Packages)
@@ -24,9 +24,9 @@ size_bz2=$(wc -c < Packages.bz2)
 md5_zst=$(md5sum Packages.zst | cut -d' ' -f1)
 size_zst=$(wc -c < Packages.zst)
 
-./mkgpg.sh
+./mkgpg
 
-# 提交更新
+# Submit updates
 git add .
 git commit -m "Auto-update $(date +'%Y-%m-%d %H:%M')"
 git pull --rebase
