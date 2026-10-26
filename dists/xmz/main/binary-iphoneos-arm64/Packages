@@ -1,0 +1,399 @@
+Package: 1688SHFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: bash
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
+Size: 5801684
+MD5sum: b3ef0dd29383f5943fcc38cca8f13000
+SHA1: bff9347621df689ca172363020cbecac2cbf5fe4
+SHA256: ee06e22b6f0e1aae798989d6463810e1c252cda8434211fdc981d9accd0c1c3e
+Section: Themes
+Description: 阿里巴巴官方数黑体，支持真皮挂载的完美字体！
+  - 使用说明：
+    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
+    2. 安装本插件
+    3. 重启设备即可生效
+  - 注意事项：
+    - 仅支持 iOS 15.0 及以上系统
+    - 需要完整的越狱环境
+Author: 1688
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: 阿里巴巴数黑体85 (挂载版)
+Original-Maintainer: LF
+
+Package: DYFonts
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/DYFonts/DYFonts_1.0_iphoneos-arm64.deb
+Size: 8750592
+MD5sum: ad6d01b77cf81a25a9a8851e7245a79a
+SHA1: 93bd233e4433e85ba4ea76c6d09f7c5937603d86
+SHA256: 9da0291ff08bb341829b3aff3cecee7af401c6fc4503604dfe564b620bdbd13c
+Section: Themes
+Description: 非常好看的抖音圆体！现已支持真皮挂载，在多巴胺里挂载/System/Library/Fonts然后安装此插件，最后重启设备即可生效！Support by LF！Enjoy！
+Author: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
+Name: DYFonts(挂载版)
+
+Package: LegacyPatcher
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/LegacyPatcher/LegacyPatcher_1.0_iphoneos-arm64.deb
+Size: 95964
+MD5sum: 79a397da419547a9084d483b25ac2021
+SHA1: 76916eeb343e92cbd7bd7d7edd56a79be7b89c8e
+SHA256: 4b7724639dac3d64d7955f1afc0b4e8f24d5d791a1d93b163ba67d009a4c805d
+Section: System
+Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
+Author: LF
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
+Name: LegacyPatcher
+
+Package: LinearBarSwitch
+Version: 1.4.2-1S
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/LinearBarSwitch/LinearBarSwitch_1.4.2-1S_iphoneos-arm64.deb
+Size: 201848
+MD5sum: 152263d8d7eb0501602356ba277d8b1b
+SHA1: 179cd07c2394e2c9b354dd71504185eb77bbab05
+SHA256: e9e567f4589dbc69b6ab7a566670c690340d7caaeca2ccd686ebe999c1dec29e
+Section: Themes
+Description: Linear bar theme for CallAssist.原版的电池使用配置方式加载，但电话助手并不支持，所以使用风格类似的电池图标
+Author: alphastream and UAE_AD1001
+Name: LinearBar-Switch
+
+Package: PlumpyBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/PlumpyBar/PlumpyBar_1.2_iphoneos-arm64.deb
+Size: 70332
+MD5sum: b1ab505f6fa78a8ed2c015fff29b225e
+SHA1: bdc756f4164b5a8789e2bfdc2a0f5137db02c8b9
+SHA256: b03b20f88fe24adc7561ee05e1f4c0c2abc4fb9880a29fe5e3ded5ada58fad67
+Section: Themes
+Description: Plumpy styles bar theme for callassist.由LF支持电话助手，修复了系统开关与电池的问题，请在电话助手内选择普通图标模式，此为无根越狱版本，RootHide用户请转插.Enjoy!
+Author: LF
+Name: PlumpyBar
+
+Package: WatermelonBar
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/WatermelonBar/WatermelonBar_1.2_iphoneos-arm64.deb
+Size: 286884
+MD5sum: c790c6a9a7448c0b5fab8d8fc602d642
+SHA1: e99bab9d88fcccb7935c087fc515e0349d53c356
+SHA256: a913f4f08c3c3af07cd032302ab24df6c4cc11248ffbaabe44190cd0ff1ffc3f
+Section: Themes
+Description: Custom status bar.西瓜定制状态栏，从NiceBarX转移到电话助手，支持无根越狱.仅供测试使用.
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: WatermelonBar
+
+Package: a1
+Version: 2.0.1.37
+Architecture: iphoneos-arm64
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/a1/a1_2.0.1.37_iphoneos-arm64.deb
+Size: 614828
+MD5sum: 44f1e524d865150de304c1895b7c8b1e
+SHA1: c3e48e3f3d08a326ed062b71821c3c6b5ac85db2
+SHA256: d40d7fa415378d8e9447b067f835c103f871e62f4b3a918b46ba614ae19612e5
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: com.Dopamine.themes
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: firmware (>= 15.0)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.Dopamine.themes/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Size: 2136
+MD5sum: 31dd612817680cd837800957d9a92ad4
+SHA1: 39e957e003f25fc6a5ed6ac035f35a16801dca22
+SHA256: a7df7be44ee6b4bff16222115e10e11fb8c2dddde7b3be7c7ba0ae75135b626e
+Section: Themes
+Description: Expand your dopamine theme.扩展你的多巴胺主题
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: DopamineThemesExtended-多巴胺主题扩展
+
+Package: com.build.ipa.filza.ad
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iOS-AD
+Depends: firmware (>= 15.0)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.build.ipa.filza.ad/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Size: 1416
+MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
+SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
+SHA256: 4ad35818d06a34e8ad61f56e32fc80ca2ff04b419d7225701eb2fc23a0003e7f
+Section: Filza-Expand
+Priority: required
+Description: 给 Filza 添加打包 IPA 的快捷方法
+  - 长按 Payload 文件夹找到 scripts 选项点击 Build IPA 即可打包成 IPA
+Author: iOS-AD
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: FilzaScripts Build IPA
+
+Package: com.couhege1380.BatteryMaster
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AD
+Depends: mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.couhege1380.BatteryMaster/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Size: 39480
+MD5sum: 817e8a4cdbf4f5bbdc528422fe47f915
+SHA1: 1d99575dad8506b37702a149db13f1117f156365
+SHA256: dbf403d66e8d55f6bd5b612a774001440418306d92edd80d0fe315e9886df4f9
+Section: System
+Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
+Author: @Spor0nix 凑合哥
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: BatteryMaster1380 省电大师
+
+Package: com.netskao.BiliPurify
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.netskao.BiliPurify/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Size: 6708128
+MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
+SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
+SHA256: e233d68807281fbd131fbb1e534775172eeff4c0ee59104cddc78a745a9c2469
+Section: Other
+Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
+Author: Netskao
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: BiliPurify 哔哩哔哩净化
+
+Package: com.plicationsnext
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.plicationsnext/com.plicationsnext_4.0_iphoneos-arm64.deb
+Size: 656464
+MD5sum: 3a627c5a35c2af9b6488530c56990eb9
+SHA1: 3764d76bc9fa3c8b3f9c70087e27e7d938df9626
+SHA256: ae54a3ad7ba15450b070e9e0b7a12978ec1704fae4d247dfe96546383ecb599e
+Section: Themes
+Description: 在iOS锁屏上的watchOS小组件
+  - 更新日志：
+  - 修复支持iOS15～16 Rootless
+  - 补充说明：
+  - 无需补依赖，已汉化！
+  - Chinese by LF！Enjoy！
+Author: Ben Giannis
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: Complications WatchLS
+Sponsor: LF
+
+Package: com.ryannair05.little12
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Size: 372942
+MD5sum: 25a41017bc1490029d054f83b5a55cae
+SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
+SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 15 or 16
+Author: Ryan Nair
+Name: Little12
+
+Package: cydia
+Version: 1.1.37-3
+Architecture: iphoneos-arm64
+Maintainer: Genesis <genesis@modiverse.co.uk>
+Pre-Depends: debianutils, dpkg (>= 1.16.1), firmware (>=15.0)
+Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmds, system-cmds, uikittools (>= 1.1.14), xz-utils, zstd, ellekit
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources, cydia-lproj
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
+Size: 1234204
+MD5sum: 207f742fc389b70dd64ab62a909695c9
+SHA1: f947a737522a4430df061794d43c2ea176afcf44
+SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
+Section: Apply
+Priority: important
+Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: https://repo.ironside.org.uk/cydia-exp/
+Icon: http://cydia.saurik.com/icon@2x/cydia7.png
+Name: Cydia Installer arm64
+
+Package: fakecpuzero
+Version: 1.0.0-R
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 136
+Depends: firmware (>= 15.0)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/fakecpuzero/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
+Size: 4536
+MD5sum: c4d05144795fb97aa543f2b2b277234a
+SHA1: 3ba8be80bb79ad7aff7947a1e1c8c8be45608d1d
+SHA256: 607092c03564362cf0f8d8c6f1897f4502796211f30bf755489c9d85e3baf8ad
+Section: Tweaks
+Description: The occupancy of camouflage CPU is 0%.Can it solve the frequency reduction of some devices under high CPU occupation?
+Author: LF
+Name: FakeCPUZero
+
+Package: iOS26e
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: com.spark.snowboard
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/iOS26e/iOS26e_1.1_iphoneos-arm64.deb
+Size: 4003628
+MD5sum: dd330db97efd7845a97928a458949a19
+SHA1: 12413c6c473523b3b1e3529c54094e2485b14d36
+SHA256: c339d734e9695ba404254147f3e1ac2c17beea6417429e83c91b66c6875f72ce
+Section: Themes
+Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「experience」！没想到新系统刚发布3天，就有主题了！毕竟是首发，不太完善！就如iOS26 BETA1一样，有很多问题，喜欢的自行体验吧！Enjoy！
+Author: LF
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iOS26e
+
+Package: iperformancetweak
+Version: 1.0.0Beta
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: bash
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/iperformancetweak/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Size: 9064
+MD5sum: 8b90e78346e55be1429242076a3dd2e8
+SHA1: 0097efb1006648f47eb8a071550b28b4616e9835
+SHA256: 7990603f256547a3838bd11d8a42d9662affcb4d8cb2cc33f179c27cc750aaa9
+Section: System
+Description: boost game performance.提高游戏性能
+Author: Moose
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: iPerformanceTweak
+
+Package: lottiestatusbar
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/lottiestatusbar/lottiestatusbar_1.0.8_iphoneos-arm64.deb
+Size: 1014340
+MD5sum: e748ae88caf778a7db70b7c1e514a9a2
+SHA1: d6274a5caefe3515bc46010bbe2690d5df3a2adc
+SHA256: 2485f402e70e5ecfd280273e239b3b568955800b69c122ab53e91a92e48df9a9
+Section: Themes
+Description: The best free status bar tweak of the year.年度最佳免费状态栏插件！需要转插！LF汉化！已经尽力汉化了！如果显示找不到依赖，请添加国外依赖源repo.cypwn.xyz！
+Author: MiRO
+Name: LottieBar
+
+Package: me.tomt000.stageduo
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/me.tomt000.stageduo/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Size: 3073132
+MD5sum: 8ab3b55953edd00bf21cd4423f339965
+SHA1: 47dbc9f469fcb7e3bbd6270d6353e217a9d9289d
+SHA256: db3863b4267706e329ed3ae9d6c2f91509c7abc769f247adce90debd594a9197
+Section: Themes
+Description: 适用于 iPhone 的全新后台分屏器！现在，它是免费的！LF也为它提供了免费的中文版本！Enjoy！
+Author: tomt000
+Icon: https://ad-ios.github.io/ad/CydiaIcon.png
+Name: DynamicStage-灵动分屏
+
+Package: repo.lfjb.baiduciku
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/repo.lfjb.baiduciku/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
+Size: 10233128
+MD5sum: cf8a0b0077ec83050c1c58f1fcfe3d98
+SHA1: b27592dcf0e0f5069e9859cacc0d62656ffb6fa0
+SHA256: c26b4189a8d93f27b2909075c4e5b122322a9597b1f1b42fd8d993a563d856c2
+Section: System
+Description: 将系统默认词库替换为某人制作的百度词库，显著提升系统自带输入法的智能度！让系统键盘再次伟大！
+Author: 百度
+Icon: https://raw.githubusercontent.com/ichitaso/HideKBSettings/master/Preferences/Resources/icon%403x.png
+Name: 百度词库
+
+Package: vnodebypassnext
+Version: 0.4.5.2-Next
+Architecture: iphoneos-arm64
+Maintainer: alias20, LF, AD
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/vnodebypassnext/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Size: 65116
+MD5sum: 250c0dfc2f10d81983410f9b1049094d
+SHA1: eef95a398df8c9cf18050f4367e2496b9a6debf2
+SHA256: cac519e18defc2f37ae60e78db3f94bfce8f0dce9fa19dc9924c8a4c2f282430
+Section: System
+Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ
+  - 添加安装完成后重启SpringBoard弹窗的支持
+Author: XsF1re, ichitaso, level3tjg, LF, AD
+Icon: https://axs66.github.io/repo/icon/vnodebypass.png
+Name: vnodebypass-next
+Sileodepiction: https://raw.githubusercontent.com/ad-ios/ad/main/sileodepiction/vnodebypassnext/js.json
+
+Package: xyz.cypwn.rescale2
+Version: 4.0b1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: /var/jb/tmp/tmp.BAJa6oQcWu/xyz.cypwn.rescale2/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
+Size: 25564
+MD5sum: 216a780690e0dc7657b7f2d1d1273c81
+SHA1: 3217ef68c753ddd32c437aa075f239df31d8aeb5
+SHA256: 896863ac6b73d4def08ea8861d9fc785ddb8e013349dd15aeca649bb73e0477f
+Section: Tweaks
+Description: 最完整的iPhoneX手势在iOS16（包括状态栏、键盘、相机、控制中心..）
+Author: Sniper_GER & Nezuko & Ethan Whited
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/little12.png
+Name: GestureX16
+
+Package: 10086.repo.io.github.xmz-team
+Name: Announcement (公告)
+Version: 1.0.1-1
+Architecture: all
+Maintainer: XMZ-Team <xmz-team@outlook.com>
+Author: XMZ-Team <xmz-team@outlook.com>
+Section: 10086
+Priority: required
+Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
+Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
+Description: 10086

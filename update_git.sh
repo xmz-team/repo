@@ -9,10 +9,11 @@ elif [ ! -f ".git-upload/instructions.ini" ]; then
 fi
 
 source ".git-upload/instructions.ini"
-export text="$instructions"
+export text="updated by the update script
+${instructions}
+$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
 
 git add .
-git diff --staged --quiet || git commit -m "updated by the update script $text $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-
+git diff --staged --quiet || git commit -m "${text}"
 git pull --rebase
 git push origin main

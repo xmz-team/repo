@@ -1,12 +1,20 @@
 #!/bin/bash
 set -e
 
-REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
+REPO_ROOT="$(cd $(dirname "$0") && pwd)"
 cd "$REPO_ROOT"
 
 echo "Time: $(date '+%Y-%m-%d %H:%M:%S')"
 echo "[1/5] Clear env..."
-find pool -type d \( -name "DEBIAN" -o -name "var" -o -name "usr" -o -name "bin" -o -name "share" -o -name "etc" \) \
+find pool -type d \( \
+        -name "DEBIAN" -o \
+        -name "var" -o    \
+        -name "usr" -o    \
+        -name "bin" -o    \
+        -name "share" -o  \
+        -name "etc" -o    \
+        -name "Library"   \
+    \)                    \
     -not -path "*/.git/*" \
     -exec rm -rf {} + 2>/dev/null || true
 
@@ -25,14 +33,16 @@ echo "[2/5] Generate Packages file..."
 
 declare -A ARCH_POOL_MAP
 ARCH_POOL_MAP["all"]="pool/main/all pool/dev/all"
-ARCH_POOL_MAP["iphoneos-arm"]="pool/main/arm pool/dev/arm"
-ARCH_POOL_MAP["iphoneos-arm64"]="pool/main/arm64 pool/dev/arm64"
-ARCH_POOL_MAP["iphoneos-arm64e"]="pool/main/arm64e pool/dev/arm64e"
+ARCH_POOL_MAP["iphoneos-arm"]="pool/main/iphoneos-arm pool/dev/iphoneos-arm"
+ARCH_POOL_MAP["iphoneos-arm64"]="pool/main/iphoneos-arm64 pool/dev/iphoneos-arm64"
+ARCH_POOL_MAP["iphoneos-arm64e"]="pool/main/iphoneos-arm64e pool/dev/iphoneos-arm64e"
 
 COMPONENTS=("main" "dev")
 
-for component in "${COMPONENTS[@]}"; do
-    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e; do
+for component in "${COMPONENTS[@]}"
+do
+    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+    do
         output_dir="dists/AD/${component}/binary-${arch}"
         output_file="${output_dir}/Packages"
         echo "  handle: ${component}/${arch}"
@@ -41,22 +51,23 @@ for component in "${COMPONENTS[@]}"; do
             main)
                 case "$arch" in
                     all) pool_paths="pool/main/all" ;;
-                    iphoneos-arm) pool_paths="pool/main/arm" ;;
-                    iphoneos-arm64) pool_paths="pool/main/arm64" ;;
-                    iphoneos-arm64e) pool_paths="pool/main/arm64e" ;;
+                    iphoneos-arm) pool_paths="pool/main/iphoneos-arm" ;;
+                    iphoneos-arm64) pool_paths="pool/main/iphoneos-arm64" ;;
+                    iphoneos-arm64e) pool_paths="pool/main/iphoneos-arm64e" ;;
                 esac
                 ;;
             dev)
                 case "$arch" in
                     all) pool_paths="pool/dev/all" ;;
-                    iphoneos-arm) pool_paths="pool/dev/arm" ;;
-                    iphoneos-arm64) pool_paths="pool/dev/arm64" ;;
-                    iphoneos-arm64e) pool_paths="pool/dev/arm64e" ;;
+                    iphoneos-arm) pool_paths="pool/dev/iphoneos-arm" ;;
+                    iphoneos-arm64) pool_paths="pool/dev/iphoneos-arm64" ;;
+                    iphoneos-arm64e) pool_paths="pool/dev/iphoneos-arm64e" ;;
                 esac
                 ;;
         esac
         has_debs=false
-        for pp in $pool_paths; do
+        for pp in $pool_paths
+        do
             if [ -d "$pp" ] && [ -n "$(find "$pp" -name "*.deb" -type f 2>/dev/null)" ]; then
                 has_debs=true
                 break
@@ -64,7 +75,8 @@ for component in "${COMPONENTS[@]}"; do
         done
         if [ "$has_debs" = true ]; then
             temp_pool=$(mktemp -d)
-            for pp in $pool_paths; do
+            for pp in $pool_paths
+            do
                 if [ -d "$pp" ]; then
                     cp -r "$pp"/* "$temp_pool"/ 2>/dev/null || true
                 fi
@@ -88,8 +100,10 @@ done
 
 echo "[3/5] Generate Contents file..."
 
-for component in "${COMPONENTS[@]}"; do
-    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e; do
+for component in "${COMPONENTS[@]}"
+do
+    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+    do
         output_dir="dists/AD/${component}/binary-${arch}"
         contents_file="${output_dir}/Contents-${arch}"
         packages_file="${output_dir}/Packages"
@@ -98,7 +112,8 @@ for component in "${COMPONENTS[@]}"; do
             > "$contents_file"
             current_package=""
             current_filename=""
-            while IFS= read -r line; do
+            while IFS= read -r line
+            do
                 if [[ "$line" =~ ^Package:\ (.*) ]]; then
                     current_package="${BASH_REMATCH[1]}"
                 elif [[ "$line" =~ ^Filename:\ (.*) ]]; then
@@ -127,9 +142,11 @@ done
 echo "[4/5] Generate Release file..."
 
 components_list=""
-for component in "${COMPONENTS[@]}"; do
+for component in "${COMPONENTS[@]}"
+do
     has_packages=false
-    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e; do
+    for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+    do
         if [ -s "dists/AD/${component}/binary-${arch}/Packages" ]; then
             has_packages=true
             break
@@ -143,8 +160,10 @@ done
 components_list=$(echo "$components_list" | xargs)  # trim
 arches_list=""
 
-for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e; do
-    for component in $components_list; do
+for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+do
+    for component in $components_list
+    do
         if [ -s "dists/AD/${component}/binary-${arch}/Packages" ]; then
             arches_list="$arches_list $arch"
             break
@@ -153,7 +172,7 @@ for arch in all iphoneos-arm iphoneos-arm64 iphoneos-arm64e; do
 done
 
 arches_list=$(echo "$arches_list" | xargs)
-release_date=$(date -R)
+release_date=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
 release_file="dists/AD/Release"
 
 cat > "$release_file" << EOF
@@ -170,11 +189,14 @@ EOF
 
 echo "MD5Sum:" >> "$release_file"
 
-for component in $components_list; do
-    for arch in $arches_list; do
+for component in $components_list
+do
+    for arch in $arches_list
+    do
         binary_dir="dists/AD/${component}/binary-${arch}"
         for file in "Packages" "Packages.gz" "Packages.bz2" "Packages.xz" "Packages.zst" \
-                    "Contents-${arch}" "Contents-${arch}.gz" "Contents-${arch}.bz2" "Contents-${arch}.xz" "Contents-${arch}.zst"; do
+                    "Contents-${arch}" "Contents-${arch}.gz" "Contents-${arch}.bz2" "Contents-${arch}.xz" "Contents-${arch}.zst"
+        do
             full_path="${binary_dir}/${file}"
             relative_path="${component}/binary-${arch}/${file}"
             if [ -f "$full_path" ]; then

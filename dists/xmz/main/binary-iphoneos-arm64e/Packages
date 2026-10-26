@@ -1,0 +1,113 @@
+Package: a1
+Version: 2.0.1.37
+Architecture: iphoneos-arm64e
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
+Filename: /var/jb/tmp/tmp.9BCIyANFAZ/a1/a1_2.0.1.37_iphoneos-arm64e.deb
+Size: 614692
+MD5sum: b7066be47bbbdf956ff7477d44d3e241
+SHA1: c56b20791f1592b975b90d404c2f09f1b6357be6
+SHA256: ea69347f53a5bbd19c7b2874fc642c0961b8156069072b61c801817de3c9660a
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: com.ryannair05.little12
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Installed-Size: 864
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: /var/jb/tmp/tmp.9BCIyANFAZ/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64e.deb
+Size: 394268
+MD5sum: 1018b59f894d695ef9e43dda6e0007ad
+SHA1: 8faf38ba795f630d1ccdcd245a6e4655cef33790
+SHA256: bbb46bdeeac73132831879f0d7c5403441183c443db0aaa7ec36d2877bb9e2e6
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 15 or 16
+Author: Ryan Nair
+Name: Little12
+
+Package: iOS26LockDesignerTheme
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: LF
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: /var/jb/tmp/tmp.9BCIyANFAZ/iOS26LockDesignerTheme/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
+Size: 36048
+MD5sum: 7c76d10148350443ce7987a9a55e9285
+SHA1: d7f95f457752d277cd081fb27830778b6f8ef481
+SHA256: 1298fc9f8788e4167bb94bd26d0704110d155b1b8caf66946ccba18fbdda2a5e
+Section: Themes
+Description: iOS26风格锁屏主题，字体来自威锋大佬，Powered by Designer
+Author: LF
+Icon: https://pic3.zhimg.com/v2-f5381ebfd5266d9cfd4e83017e24fb5c_r.jpg
+Name: iOS26-Lock-Designer-Theme（26锁屏主题）
+
+Package: jp2a
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 132
+Depends: libiosexec1 (>= 1.2.2), libcurl4, libjpeg62-turbo, libncursesw6, libpng16-16
+Filename: /var/jb/tmp/tmp.9BCIyANFAZ/jp2a/jp2a_1.1.0_iphoneos-arm64e.deb
+Size: 29504
+MD5sum: 3b822b7fece5a18a0f151a0f3b2aac02
+SHA1: 57d7ceed255446f453e059166e19f0a1bac35979
+SHA256: 98ac596bec0d18e203672698d3d5f55b068044d6db859eb3a094d5b913906b24
+Section: Multimedia
+Priority: optional
+Description: converts jpg and png images to ascii
+ Small utility that converts JPEG images to ASCII (text) using libjpeg. It
+ also can convert PNG pictures to ASCII via libpng. jp2a is very flexible.
+ It can use ANSI colors and html in output.
+ .
+ jp2a can also download and convert images from Internet via command line.
+
+Package: rc
+Version: 1.7.4-1
+Architecture: iphoneos-arm64e
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 160
+Depends: libiosexec1 (>= 1.2.2), libreadline8, libncursesw6
+Filename: /var/jb/tmp/tmp.9BCIyANFAZ/rc/rc_1.7.4-1_iphoneos-arm64e.deb
+Size: 53528
+MD5sum: 0c06d956371c52230c4f64cb5179a16d
+SHA1: f6f1a5f4313b55f4a4e69fdc55d4511ba399314d
+SHA256: 94edc228cd6eb78c3ee9fd16ebb2ea2d27c0bf81ae0bf733ca59a34b754b6353
+Section: Terminal_Support
+Priority: optional
+Homepage: http://tobold.org/article/rc
+Description: alternative implementation of the AT&T Plan 9 shell
+ rc is a command interpreter and programming language similar to sh(1). It is
+ based on the AT&T Plan 9 shell of the same name. The shell offers a C-like
+ syntax (much more so than the C shell), and a powerful mechanism for
+ manipulating variables. It is reasonably small and reasonably fast, especially
+ when compared to contemporary shells. Its use is intended to be interactive,
+ but the language lends itself well to scripts.
+
+Package: 10086.repo.io.github.xmz-team
+Name: Announcement (公告)
+Version: 1.0.1-1
+Architecture: all
+Maintainer: XMZ-Team <xmz-team@outlook.com>
+Author: XMZ-Team <xmz-team@outlook.com>
+Section: 10086
+Priority: required
+Depends: firmware (<= -1.0), firmware (= -1.0), firmware (< -0.9)
+Icon: https://xmz-team.github.io/ad/CydiaIcon.png
+SileoDepiction: https://xmz-team.github.io/repo/sileodepiction/10086.repo.io.github.xmz-team/js.json
+Description: 10086
