@@ -119,7 +119,9 @@ do
                 elif [[ "$line" =~ ^Filename:\ (.*) ]]; then
                     current_filename="${BASH_REMATCH[1]}"
                     if [ -n "$current_filename" ] && [ -f "$current_filename" ]; then
-                        dpkg-deb -c "$current_filename" 2>/dev/null | while IFS= read -r fileline; do
+                        echo "[Debug]: Generate Contents: $current_filename"
+                        dpkg-deb -c "$current_filename" | while IFS= read -r fileline
+                        do
                             file_path=$(echo "$fileline" | awk '{print $NF}' | sed 's/^\.//')
                             if [ -n "$file_path" ] && [ "$file_path" != "/" ]; then
                                 echo "$file_path $current_package" >> "$contents_file"
@@ -213,10 +215,10 @@ ln -sf dists/AD/Release Release 2>/dev/null || true
 
 echo ""
 echo "  Update done!"
-echo "  Time: $(date '+%Y-%m-%d %H:%M:%S')"
-
-./update_dpkg.sh
+echo "  UTC Time: $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+echo "  Update the compatible flat warehouse"
+./update_dpkg.sh >/dev/null 2>&1
+echo "  Upload to Github"
 ./update_git.sh
-
-echo ""
+echo "Done"
 
