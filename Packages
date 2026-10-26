@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: ./debs/iphoneos-arm64/1/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
 Size: 5801684
 MD5sum: b3ef0dd29383f5943fcc38cca8f13000
 SHA1: bff9347621df689ca172363020cbecac2cbf5fe4
@@ -27,7 +27,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./debs/iphoneos-arm64/c/fonts/DYFonts_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/DYFonts/DYFonts_1.0_iphoneos-arm64.deb
 Size: 8750592
 MD5sum: ad6d01b77cf81a25a9a8851e7245a79a
 SHA1: 93bd233e4433e85ba4ea76c6d09f7c5937603d86
@@ -38,35 +38,12 @@ Author: 百度主题源
 Icon: https://chinesebuilding.club/pic/zt.png
 Name: DYFonts(挂载版)
 
-Package: DYFonts
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: LF
-Depends: bash
-Filename: ./debs/iphoneos-arm64/D/DYFonts_1.0_iphoneos-arm64.deb
-Size: 8771660
-MD5sum: 0c3b8c08347760cb0d724c0a77631ea3
-SHA1: 1a5657a74424933703829f8fcea95564fb647ff2
-SHA256: 92835592451118347438f3a2e58773f8160bc0d2095ce85db17fd2784c6d4707
-Section: Themes
-Description: 非常好看的抖音圆体！现已支持真皮挂载
-  - 使用说明：
-    1. 在真皮多巴胺中挂载 /System/Library/Fonts 目录
-    2. 安装本插件
-    3. 重启设备即可生效
-  - 注意事项：
-    - 仅支持 iOS 15.0 及以上系统
-    - 需要完整的越狱环境
-Author: 百度主题源
-Icon: https://chinesebuilding.club/pic/zt.png
-Name: DYFonts(挂载版)
-
 Package: LegacyPatcher
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/L/LegacyPatcher_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/LegacyPatcher/LegacyPatcher_1.0_iphoneos-arm64.deb
 Size: 95964
 MD5sum: 79a397da419547a9084d483b25ac2021
 SHA1: 76916eeb343e92cbd7bd7d7edd56a79be7b89c8e
@@ -82,7 +59,7 @@ Version: 1.4.2-1S
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/L/LinearBarSwitch_1.4.2-1S_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/LinearBarSwitch/LinearBarSwitch_1.4.2-1S_iphoneos-arm64.deb
 Size: 201848
 MD5sum: 152263d8d7eb0501602356ba277d8b1b
 SHA1: 179cd07c2394e2c9b354dd71504185eb77bbab05
@@ -97,7 +74,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/P/PlumpyBar_1.2_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/PlumpyBar/PlumpyBar_1.2_iphoneos-arm64.deb
 Size: 70332
 MD5sum: b1ab505f6fa78a8ed2c015fff29b225e
 SHA1: bdc756f4164b5a8789e2bfdc2a0f5137db02c8b9
@@ -112,7 +89,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/W/WatermelonBar_1.2_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/WatermelonBar/WatermelonBar_1.2_iphoneos-arm64.deb
 Size: 286884
 MD5sum: c790c6a9a7448c0b5fab8d8fc602d642
 SHA1: e99bab9d88fcccb7935c087fc515e0349d53c356
@@ -128,7 +105,7 @@ Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.3_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.3_iphoneos-arm64.deb
 Size: 10260
 MD5sum: d69b68c2be980cbda8d923fc86e7ed47
 SHA1: 94b144c1d94ae44528778639c0001e5cbd310c4e
@@ -160,7 +137,7 @@ Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.5_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.5_iphoneos-arm64.deb
 Size: 16984
 MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
 SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
@@ -202,7 +179,7 @@ Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/A1-v1.6(16001)-Release(swap).deb
+Filename: ./debs/history/iphoneos-arm64/a1/A1-v1.6(16001)-Release(swap).deb
 Size: 18448
 MD5sum: 682bda59ef078b59f7fce8bd95cb8ffe
 SHA1: 154057f63e7ff74aabec07df332f2e163b32e599
@@ -246,7 +223,7 @@ Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.6_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.6_iphoneos-arm64.deb
 Size: 18516
 MD5sum: 3bb1573d619395d468ef8406b83c895c
 SHA1: 794e7892667238054dd41e63b36211b9c7746a30
@@ -290,7 +267,7 @@ Version: 1.7
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.7_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.7_iphoneos-arm64.deb
 Size: 18128
 MD5sum: 06174147cd394f45536e41ed5a9cbe67
 SHA1: 8cebc7d9b39c06d8aa2f038aacdf4ea32c88fb2a
@@ -338,7 +315,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9_iphoneos-arm64 (25).deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (25).deb
 Size: 35216
 MD5sum: 100cbe7977b0767c6dee1a34eb2b29f1
 SHA1: 0ff44109f139fcc9a5efe1083a46b96244976cac
@@ -410,7 +387,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9_fix1_rootless-iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_fix1_rootless-iphoneos-arm64.deb
 Size: 24160
 MD5sum: 72dd3c681336012b40fadad5cb438793
 SHA1: ee62fa713611da0d45eeb3b904c02d6be5457832
@@ -479,7 +456,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9_iphoneos-arm64 (18).deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (18).deb
 Size: 24892
 MD5sum: a7efaba966d0b446548b61e06ab0bb92
 SHA1: ee18a95d9ddf516ebc094d90504fd930bfa595c8
@@ -551,7 +528,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64.deb
 Size: 22180
 MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
 SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
@@ -615,7 +592,7 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9_iphoneos-arm64 (27).deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (27).deb
 Size: 36440
 MD5sum: b366315f735c033c9d0430c61db97cc8
 SHA1: 6500c6a061d1ec647459b90fd8821476bb24278b
@@ -687,7 +664,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e.deb
 Size: 22876
 MD5sum: bf39b2ab0fa9d83c092b8419605b7f93
 SHA1: 0ef9953df647278f1a0ffd8736da22676dfece58
@@ -751,7 +728,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9_iphoneos-arm64e (7).deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e (7).deb
 Size: 47544
 MD5sum: 33f3c35d0016e6fd3749f4a50ad0ad84
 SHA1: d3173f32e894ef02cc04150ad20103dc8673d790
@@ -820,7 +797,7 @@ Version: 1.9
 Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
 Size: 24204
 MD5sum: ce5c87835792c8c07b07477a4a3821e9
 SHA1: 250816f2ddf2ec91f1555e3236020bd98ba760f6
@@ -889,7 +866,7 @@ Version: 1.9.5+debug1
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.5+debug1_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.5+debug1_iphoneos-arm64.deb
 Size: 48828
 MD5sum: 1f55a324939dfe21f8b624def74e272c
 SHA1: 5d4a78608a5637fca5b7afa40f9a68c73fda4890
@@ -976,7 +953,7 @@ Version: 1.9.5+debug1
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.5+debug1_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.5+debug1_iphoneos-arm64e.deb
 Size: 48652
 MD5sum: bfb2ed4cdb62828db793975b5e39866f
 SHA1: 2c2b583b4238c05e83b0408ba24ff1c1d1b9f2b6
@@ -1063,7 +1040,7 @@ Version: 1.9.5+debug1
 Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm/a/a1/a1_1.9.5+debug1_iphoneos-arm.deb
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.5+debug1_iphoneos-arm.deb
 Size: 48600
 MD5sum: 3a535d5e99cf916060772441037bf825
 SHA1: d06a333422705d0ec9e48312911b2a7145b19afd
@@ -1150,7 +1127,7 @@ Version: 1.9.7+debug1
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug1_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug1_iphoneos-arm64.deb
 Size: 51100
 MD5sum: 4b79f39422f056d04b94d119c88d80d5
 SHA1: fa47b2bfca0fa5fd0aa1575c6f8aec2446790c6b
@@ -1250,7 +1227,7 @@ Version: 1.9.7+debug1
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug1_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug1_iphoneos-arm64e.deb
 Size: 50900
 MD5sum: 38325a6c8a12a3e7f21823ae377bfa7b
 SHA1: 9d48911b894a54f5147e4a4609da30c4d0c87c9f
@@ -1350,7 +1327,7 @@ Version: 1.9.7+debug1
 Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm/a/a1/a1_1.9.7+debug1_iphoneos-arm.deb
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug1_iphoneos-arm.deb
 Size: 50832
 MD5sum: 4c6ed71191bc7fa89fe51672d8696358
 SHA1: 46afaa12ca5a986231d1e1bf7d700736297f8ff2
@@ -1450,7 +1427,7 @@ Version: 1.9.7+debug2
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug2_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug2_iphoneos-arm64.deb
 Size: 51092
 MD5sum: 4fc1757750f818708fbeca70696debad
 SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
@@ -1550,7 +1527,7 @@ Version: 1.9.7+debug2
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug2_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug2_iphoneos-arm64e.deb
 Size: 50940
 MD5sum: 693abdde31bae4ae57a901790daf03e5
 SHA1: aa67e30dc1250cb3f1b04e8cbc535de8665f3521
@@ -1650,7 +1627,7 @@ Version: 1.9.7+debug3
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug3_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug3_iphoneos-arm64.deb
 Size: 51136
 MD5sum: 84a1fd8189562337a29a0443af6e864b
 SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
@@ -1750,7 +1727,7 @@ Version: 1.9.7+debug3
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug3_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug3_iphoneos-arm64e.deb
 Size: 50904
 MD5sum: ab6e150712f5cf0b56faa78e767720bf
 SHA1: 0f3d59f66ca09164aab152bf02fa554dbbd58270
@@ -1850,7 +1827,7 @@ Version: 1.9.7+debug4
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug4_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug4_iphoneos-arm64e.deb
 Size: 51536
 MD5sum: b1de06f6532f24bdf9fbf01716894d91
 SHA1: e9dcfa78d6fbbcee91d6107c4b314b2f59733992
@@ -1950,7 +1927,7 @@ Version: 1.9.7+debug5
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug5_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug5_iphoneos-arm64.deb
 Size: 51656
 MD5sum: 444887fae96033caa3dadd4488845dd7
 SHA1: 893a19ae672b1cceb16af06502c5682dd5c02294
@@ -2050,7 +2027,7 @@ Version: 1.9.7+debug5
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug5_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug5_iphoneos-arm64e.deb
 Size: 51432
 MD5sum: c657f96f45bb986663aa662844861f03
 SHA1: 60707f7f1bbf110b775a3217f1d70a3a8d80b409
@@ -2150,7 +2127,7 @@ Version: 1.9.7+debug6
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug6_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug6_iphoneos-arm64.deb
 Size: 51900
 MD5sum: 5557c627d7442629093cc5f5cacc26ab
 SHA1: 6fa8c1f7c61e2646cbaa2ef8b5302bdc9346028b
@@ -2250,7 +2227,7 @@ Version: 1.9.7+debug6
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug6_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug6_iphoneos-arm64e.deb
 Size: 51708
 MD5sum: 92d6751a2429def677dafb6d1d572519
 SHA1: 10450a131a22149fce5f9b76367e3ca9354b9a4c
@@ -2350,7 +2327,7 @@ Version: 1.9.7+debug6
 Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm/a/a1/a1_1.9.7+debug6_iphoneos-arm6.deb
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug6_iphoneos-arm6.deb
 Size: 51808
 MD5sum: a64e07f871b1c59029e91a4fe7736712
 SHA1: 37c175484cd1786a5dd516921180e377b32da932
@@ -2450,7 +2427,7 @@ Version: 1.9.7+debug7
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
 Size: 51944
 MD5sum: 5e3d98ea792b2907a20a4778841e0418
 SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
@@ -2550,7 +2527,7 @@ Version: 1.9.7+debug7
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.7+debug7_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug7_iphoneos-arm64e.deb
 Size: 51756
 MD5sum: 8de1141d04c1f0ad3d776512071ed8f7
 SHA1: 045c4a4f0592c31bff8df5802e90af4b69b61e59
@@ -2650,7 +2627,7 @@ Version: 1.9.7+debug7
 Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/iphoneos-history/iphoneos-arm/a/a1/a1_1.9.7+debug7_iphoneos-arm.deb
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug7_iphoneos-arm.deb
 Size: 51832
 MD5sum: d251d6423256ef44bde17517873ef4d8
 SHA1: b3d667b82a2eccf3195ce8d196140cf01474a98e
@@ -2750,7 +2727,7 @@ Version: 1.9.8-beta4+debug3-4
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
 Size: 59012
 MD5sum: 132b5c50ce49fd1c8045687ed72ed546
 SHA1: bcc10300ac43e682fe82307664dff699df75cb06
@@ -2854,7 +2831,7 @@ Version: 1.9.8-beta4+debug3-4
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
 Size: 58768
 MD5sum: ccb6d7773b45fb0a27fd3154801a2b79
 SHA1: 9506e19960fd1f0ee52bb5cf7de25d2de578b5bf
@@ -2958,7 +2935,7 @@ Version: 1.9.9-beta3-2+debug12
 Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64/a/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64.deb
 Size: 70948
 MD5sum: 49ec3e2f57f3b13b6887a8b044d99993
 SHA1: ec4ebf407b88898bc86e821339b1bb70cec8014b
@@ -2981,7 +2958,7 @@ Version: 1.9.9-beta3-2+debug12
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/iphoneos-history/iphoneos-arm64e/a/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64e.deb
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64e.deb
 Size: 70900
 MD5sum: 78b022bd555e8d4b6510cd2ecfe5255f
 SHA1: 47470630b4f50e3f4f5f33e3d05ffdd138128132
@@ -3004,7 +2981,7 @@ Version: 1.9.9-beta3-2+debug12
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/iphoneos-history/iphoneos-arm/a/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm.deb
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm.deb
 Size: 71032
 MD5sum: 0287576199ff6ddcba384fd1dbd69751
 SHA1: 7bb6c74bb5a50431c2218ff27d1e525170361290
@@ -3027,7 +3004,7 @@ Version: 2.0.1.37
 Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm64/a/a1/a1_2.0.1.37_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/a1/a1_2.0.1.37_iphoneos-arm64.deb
 Size: 614828
 MD5sum: 44f1e524d865150de304c1895b7c8b1e
 SHA1: c3e48e3f3d08a326ed062b71821c3c6b5ac85db2
@@ -3050,7 +3027,7 @@ Version: 2.0.1.37
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm64e/a/a1/a1_2.0.1.37_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/a1/a1_2.0.1.37_iphoneos-arm64e.deb
 Size: 614692
 MD5sum: b7066be47bbbdf956ff7477d44d3e241
 SHA1: c56b20791f1592b975b90d404c2f09f1b6357be6
@@ -3073,7 +3050,7 @@ Version: 2.0.1.37
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm/a/a1/a1_2.0.1.37_iphoneos-arm.deb
+Filename: ./debs/iphoneos-arm/a1/a1_2.0.1.37_iphoneos-arm.deb
 Size: 614812
 MD5sum: c4feb4e2a3de0e2a19f681f27f41181f
 SHA1: de2c3d6ad440c9084692e9a316d7be69ee919b58
@@ -3096,7 +3073,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/c/themes/dopamine/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.Dopamine.themes/com.Dopamine.themes_1.0_iphoneos-arm64.deb
 Size: 2136
 MD5sum: 31dd612817680cd837800957d9a92ad4
 SHA1: 39e957e003f25fc6a5ed6ac035f35a16801dca22
@@ -3112,7 +3089,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/c/filza-script/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.build.ipa.filza.ad/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
 Size: 1416
 MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
 SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
@@ -3130,7 +3107,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
-Filename: ./debs/iphoneos-arm64/c/tweak/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.couhege1380.BatteryMaster/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
 Size: 39480
 MD5sum: 817e8a4cdbf4f5bbdc528422fe47f915
 SHA1: 1d99575dad8506b37702a149db13f1117f156365
@@ -3147,7 +3124,7 @@ Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphoneos-arm64/c/tweak/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.netskao.BiliPurify/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
 Size: 6708128
 MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
 SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
@@ -3163,7 +3140,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-history/iphoneos-arm64/c/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
+Filename: ./debs/history/iphoneos-arm64/com.ntonia.themes.black/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
 Size: 1805744
 MD5sum: 919ef445e9d121970ba4dbbf556a48c6
 SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
@@ -3180,7 +3157,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 3022
 Depends: mobilesubstrate
-Filename: ./debs/iphoneos-arm64/c/tweak/com.plicationsnext_4.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.plicationsnext/com.plicationsnext_4.0_iphoneos-arm64.deb
 Size: 656464
 MD5sum: 3a627c5a35c2af9b6488530c56990eb9
 SHA1: 3764d76bc9fa3c8b3f9c70087e27e7d938df9626
@@ -3206,7 +3183,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/iphoneos-arm64/c/tweak/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
 Size: 372942
 MD5sum: 25a41017bc1490029d054f83b5a55cae
 SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
@@ -3226,7 +3203,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/iphoneos-arm64e/c/com.ryannair05.little12_1.0.1_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64e.deb
 Size: 394268
 MD5sum: 1018b59f894d695ef9e43dda6e0007ad
 SHA1: 8faf38ba795f630d1ccdcd245a6e4655cef33790
@@ -3245,7 +3222,7 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/iphoneos-arm64/c/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
 Size: 1234204
 MD5sum: 207f742fc389b70dd64ab62a909695c9
 SHA1: f947a737522a4430df061794d43c2ea176afcf44
@@ -3265,7 +3242,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 136
 Depends: firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/f/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/fakecpuzero/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
 Size: 4536
 MD5sum: c4d05144795fb97aa543f2b2b277234a
 SHA1: 3ba8be80bb79ad7aff7947a1e1c8c8be45608d1d
@@ -3280,7 +3257,7 @@ Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/iphoneos-arm64e/i/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/iOS26LockDesignerTheme/iOS26LockDesignerTheme_1.0_iphoneos-arm64e.deb
 Size: 36048
 MD5sum: 7c76d10148350443ce7987a9a55e9285
 SHA1: d7f95f457752d277cd081fb27830778b6f8ef481
@@ -3296,7 +3273,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-arm64/i/iOS26e_1.1_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/iOS26e/iOS26e_1.1_iphoneos-arm64.deb
 Size: 4003628
 MD5sum: dd330db97efd7845a97928a458949a19
 SHA1: 12413c6c473523b3b1e3529c54094e2485b14d36
@@ -3312,7 +3289,7 @@ Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: ./debs/iphoneos-arm64/i/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/iperformancetweak/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
 Size: 9064
 MD5sum: 8b90e78346e55be1429242076a3dd2e8
 SHA1: 0097efb1006648f47eb8a071550b28b4616e9835
@@ -3329,7 +3306,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 132
 Depends: libiosexec1 (>= 1.2.2), libcurl4, libjpeg62-turbo, libncursesw6, libpng16-16
-Filename: ./debs/iphoneos-arm64e/j/jp2a_1.1.0_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/jp2a/jp2a_1.1.0_iphoneos-arm64e.deb
 Size: 29504
 MD5sum: 3b822b7fece5a18a0f151a0f3b2aac02
 SHA1: 57d7ceed255446f453e059166e19f0a1bac35979
@@ -3348,7 +3325,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: ./debs/iphoneos-arm64/l/lottiestatusbar_1.0.8_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/lottiestatusbar/lottiestatusbar_1.0.8_iphoneos-arm64.deb
 Size: 1014340
 MD5sum: e748ae88caf778a7db70b7c1e514a9a2
 SHA1: d6274a5caefe3515bc46010bbe2690d5df3a2adc
@@ -3364,7 +3341,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 4900
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: ./debs/iphoneos-arm64/m/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/me.tomt000.stageduo/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
 Size: 3073132
 MD5sum: 8ab3b55953edd00bf21cd4423f339965
 SHA1: 47dbc9f469fcb7e3bbd6270d6353e217a9d9289d
@@ -3379,7 +3356,7 @@ Package: official.ad.adsu
 Version: 1.0.2-3
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.0.2-3_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-3_all.deb
 Size: 26284
 MD5sum: c1b0758b6ed35ec1761395d47ba4eff2
 SHA1: 61998aaa44b37f822e7ece4e6e1c969ee2b058a0
@@ -3393,7 +3370,7 @@ Package: official.ad.adsu
 Version: 1.0.2-4
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.0.2-4_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-4_all.deb
 Size: 26188
 MD5sum: ba65d9f02eccf9288381a3f01c6ea5cf
 SHA1: 97aa8c22684871a17c3710b77025a05972fc4cd0
@@ -3407,7 +3384,7 @@ Package: official.ad.adsu
 Version: 1.0.2-6
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.0.2-6_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-6_all.deb
 Size: 25904
 MD5sum: 8c933f59e539a4ef0588d0d3e600e5a3
 SHA1: c7397a640e38562466c52396a9824d99bca281e9
@@ -3421,7 +3398,7 @@ Package: official.ad.adsu
 Version: 1.0.2-7
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.0.2-7_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-7_all.deb
 Size: 25916
 MD5sum: d7aeacaec67e269fa1cbd763181265c1
 SHA1: 2c73808e384df85aef7f970a0b17d68b70db45af
@@ -3435,7 +3412,7 @@ Package: official.ad.adsu
 Version: 1.5-2
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.5-2_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-2_all.deb
 Size: 52760
 MD5sum: 6e143dec040b7552789ba9482dd86f39
 SHA1: cb324dd4622e7e5dcfc67ad7ec7ed906103cd96f
@@ -3450,7 +3427,7 @@ Package: official.ad.adsu
 Version: 1.5-3
 Architecture: all
 Maintainer: AD
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.5-3_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-3_all.deb
 Size: 52800
 MD5sum: dab78f8ae3bf82302bdd0524d8bd950e
 SHA1: 86a11857ec9049677c8faba686ca8f2c3899a1e6
@@ -3465,7 +3442,7 @@ Package: official.ad.adsu
 Version: 1.5-4
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: ./debs/iphoneos-history/all/c/official.ad.adsu_1.5-4_all.deb
+Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-4_all.deb
 Size: 52820
 MD5sum: ecf80a36a36b8a2a020e718aa7b13014
 SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
@@ -3480,7 +3457,7 @@ Package: official.ad.adsu
 Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
-Filename: ./debs/all/c/official.ad.adsu_1.6-1_all.deb
+Filename: ./debs/all/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
 Size: 58596
 MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
 SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
@@ -3497,7 +3474,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Procursus Team <support@procurs.us>
 Installed-Size: 160
 Depends: libiosexec1 (>= 1.2.2), libreadline8, libncursesw6
-Filename: ./debs/iphoneos-arm64e/r/rc_1.7.4-1_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/rc/rc_1.7.4-1_iphoneos-arm64e.deb
 Size: 53528
 MD5sum: 0c06d956371c52230c4f64cb5179a16d
 SHA1: f6f1a5f4313b55f4a4e69fdc55d4511ba399314d
@@ -3518,7 +3495,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/r/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/repo.lfjb.baiduciku/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
 Size: 10233128
 MD5sum: cf8a0b0077ec83050c1c58f1fcfe3d98
 SHA1: b27592dcf0e0f5069e9859cacc0d62656ffb6fa0
@@ -3534,7 +3511,7 @@ Version: 0.4.5.2-Next
 Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
-Filename: ./debs/iphoneos-arm64/v/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/vnodebypassnext/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
 Size: 65116
 MD5sum: 250c0dfc2f10d81983410f9b1049094d
 SHA1: eef95a398df8c9cf18050f4367e2496b9a6debf2
@@ -3552,7 +3529,7 @@ Version: 4.0b1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: ./debs/iphoneos-arm64/x/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64/xyz.cypwn.rescale2/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
 Size: 25564
 MD5sum: 216a780690e0dc7657b7f2d1d1273c81
 SHA1: 3217ef68c753ddd32c437aa075f239df31d8aeb5
