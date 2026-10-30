@@ -3,12 +3,12 @@ Version: 2.0.1.124
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
-Filename: /var/jb/tmp/tmp.hPjtYOylGz/a1/a1_2.0.1.124_iphoneos-arm.deb
-Size: 658876
-MD5sum: 43d75ac64015994f88021dcf878feebb
-SHA1: a90788a61d47c7dab53fd95d3ef6ede2b301a3f2
-SHA256: 5511e6cc894a72659575d99797a84905bdd972060ccc0ce30059d0ce919f7882
-Section: a1
+Filename: /var/jb/tmp/tmp.t5snnUDd3W/a1/a1_2.0.1.124_iphoneos-arm.deb
+Size: 658572
+MD5sum: b32d9c4723c2cbb82e713199e20bb0f5
+SHA1: 31aadc226325790cd7c6db127316f76f80cf843d
+SHA256: a491185804dd60516f78a5ee9f8c373b3566ed317c66d4832c0d0e7f8fda4377
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.

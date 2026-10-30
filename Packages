@@ -44,11 +44,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/iphoneos-arm64/LegacyPatcher/LegacyPatcher_1.0_iphoneos-arm64.deb
-Size: 95964
-MD5sum: 79a397da419547a9084d483b25ac2021
-SHA1: 76916eeb343e92cbd7bd7d7edd56a79be7b89c8e
-SHA256: 4b7724639dac3d64d7955f1afc0b4e8f24d5d791a1d93b163ba67d009a4c805d
-Section: System
+Size: 95900
+MD5sum: 84a7b9c793c38d9f546867f26b5af8ed
+SHA1: 4f4ec7912215fbf5ce6a8da396c79c04a4e08736
+SHA256: 448660fefbf09e5dd3f006697b935a08bcc371770174a9769fd586d422a6b12e
+Section: Tweaks
 Description: Optimized patches for old equipment.为老设备准备的优化补丁，让你的老设备焕发第二春！通过禁用设备性能限制，优化动画流畅性，修复网络配置 来给老设备新的体验！Enjoy!
 Author: LF
 Icon: https://repo.cypwn.xyz/assets/repo/Featured/jetsamunlimited.png
@@ -106,11 +106,11 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.3_iphoneos-arm64.deb
-Size: 10260
-MD5sum: d69b68c2be980cbda8d923fc86e7ed47
-SHA1: 94b144c1d94ae44528778639c0001e5cbd310c4e
-SHA256: 63e8c9c19416b7707f312920c004ae2d6980b155647778e335769dad3b214620
-Section: System系统
+Size: 10244
+MD5sum: 76ab3d6edffaf1a03b9e457b3d625bfb
+SHA1: 79fb570a6e7f15a0c28d63f9926b4ef6325fcd3e
+SHA256: 2ddd863ebaea523b0a8cc16b63fda28f36b1d8e87825f104852cdecad7dc0b6a
+Section: System
 Description: Adjust Jetsam and kernel parameters to optimize background task performance.
   优化 Jetsam 和内核参数以提升后台任务性能。
   - Lowers priority of useless processes to improve system fluidity.
@@ -138,11 +138,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.5_iphoneos-arm64.deb
-Size: 16984
-MD5sum: 9ca3a50628c7eee818f0c391d6bcc5e2
-SHA1: 2a17345e93b15698a02101759c159229e9d8f00d
-SHA256: d26c9f1ad7c12ae8bd4aebdba7e154a94df70a722f96522048703d238f817f23
-Section: System系统
+Size: 16964
+MD5sum: 24e857146e39fdd39818503cb2a7ce86
+SHA1: 928df54c0232d2bcb61a467aa77f07934b7d8cff
+SHA256: 1b3a1441430e1abc9ee816273b049221f7b09a401c5f66d3f2e236de7cfcbca3
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -180,11 +180,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
 Filename: ./debs/history/iphoneos-arm64/a1/A1-v1.6(16001)-Release(swap).deb
-Size: 18448
-MD5sum: 682bda59ef078b59f7fce8bd95cb8ffe
-SHA1: 154057f63e7ff74aabec07df332f2e163b32e599
-SHA256: 23aafc4c8d27b0d81d79f86dd792f1043d062edd88bf6224fd027b6bf8231a8e
-Section: Systems系统
+Size: 18424
+MD5sum: a7ddeb575e7002db18a1a6acfbbba90a
+SHA1: a1d6c7171ee56d426168156794e0ec0a63f05d96
+SHA256: dc7d3a473f65d00fb10c216dfcbc22d037ce05e9583ab71f879045a574a8db5c
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -224,11 +224,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.6_iphoneos-arm64.deb
-Size: 18516
-MD5sum: 3bb1573d619395d468ef8406b83c895c
-SHA1: 794e7892667238054dd41e63b36211b9c7746a30
-SHA256: b417e622ea7b1aaa21dc3491c34a92c91cb59a34639b716b75e164a21f0872cb
-Section: System系统
+Size: 18504
+MD5sum: 65c5d7a8d4e91fe16efef7b1e7abb281
+SHA1: 1cec6e36c4f2130f8bc507285729eb76b0522dd1
+SHA256: 7d2dc095e6e6182d7851321a44de9cba631bc4da20bb4b79b8420bf04c11e39e
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -268,11 +268,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.7_iphoneos-arm64.deb
-Size: 18128
-MD5sum: 06174147cd394f45536e41ed5a9cbe67
-SHA1: 8cebc7d9b39c06d8aa2f038aacdf4ea32c88fb2a
-SHA256: 7897295b12661afee4467b8eee97b56866909e563a235e58eae73155d0de2997
-Section: System系统
+Size: 18116
+MD5sum: 8d545139e91374abb959d11b1991599b
+SHA1: b53a6fac282612aa66d7865afb0e572e3675f1b1
+SHA256: ff2e0566127a9c4eb0b896b05f625eb7d603ce6d7f39e3c468b7b34437f5ae1d
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -317,10 +317,10 @@ Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
 Size: 24204
-MD5sum: ce5c87835792c8c07b07477a4a3821e9
-SHA1: 250816f2ddf2ec91f1555e3236020bd98ba760f6
-SHA256: 068b778d70c32895e8960ef7a82193581c51157e04174f6db185f1154187b0ef
-Section: Systems系统
+MD5sum: b65a1bf96764bae6286aae7b1b6da157
+SHA1: ab6c31e4b37db8bc3ec9af6a1c72151c8dd9d04c
+SHA256: ef6c9a53115aa79d904bec44c24c3893e93332534de65ff1a389481ee2e27241
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -385,11 +385,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e (7).deb
-Size: 47544
-MD5sum: 33f3c35d0016e6fd3749f4a50ad0ad84
-SHA1: d3173f32e894ef02cc04150ad20103dc8673d790
-SHA256: 36f755f8d9095dcd6bca8392601814b5e985e0d2c95c320ef7789927a1e4ce00
-Section: Systems系统
+Size: 47536
+MD5sum: 39867b5ace2350092e0afdfc8172fb28
+SHA1: 9e502816fe3e5d97914db63616846c2569cd9d60
+SHA256: 03788162e2fdcb25db22d2769ecf58d8fa4574a4856e58dd81918b101cf7c3ea
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -454,11 +454,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e.deb
-Size: 22876
-MD5sum: bf39b2ab0fa9d83c092b8419605b7f93
-SHA1: 0ef9953df647278f1a0ffd8736da22676dfece58
-SHA256: 834dfde2329e2e2a88e6d348dbb5cac6678cae4c815bac6c86d263041b9f5e5b
-Section: Systems系统
+Size: 22856
+MD5sum: 8649c4f392d197f99f4bc6ac4f323a43
+SHA1: 374aa63c5bd60f0cbfdb8aae5d7b925b4d432e0e
+SHA256: a1d49f70dd990dfde5082a83ce578bcd419683c421bd93e9446a39dbafe6c649
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -518,11 +518,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_fix1_rootless-iphoneos-arm64.deb
-Size: 24160
-MD5sum: 72dd3c681336012b40fadad5cb438793
-SHA1: ee62fa713611da0d45eeb3b904c02d6be5457832
-SHA256: 91beec6ab1276f19e9c7bbed005fdf08760ed9f76925436f5b6760678d03d231
-Section: Systems系统
+Size: 24168
+MD5sum: 5d449057b1f24c92f02daad286a9c06c
+SHA1: aad171766c1629f2d619ea21485a9cf423a01e48
+SHA256: c96b4bb55b18c5754377f9020906f2bf91de0d6f94e4e3f4649ed38db63ed88e
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -588,10 +588,10 @@ Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (18).deb
 Size: 24892
-MD5sum: a7efaba966d0b446548b61e06ab0bb92
-SHA1: ee18a95d9ddf516ebc094d90504fd930bfa595c8
-SHA256: a1bbe55f97b7deac82e3bef4425829a58dfa286196373bf4a09f1c48406bf6bc
-Section: Systems系统
+MD5sum: ace8b8d35866908be555cca7bc4b19fb
+SHA1: f59e69650506a154156c8a0d365faac15e7040f4
+SHA256: 3f4c03741563091e3a3dea17616870d63ed5788e250eb8955fbbd574d04abd38
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -659,11 +659,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (25).deb
-Size: 35216
-MD5sum: 100cbe7977b0767c6dee1a34eb2b29f1
-SHA1: 0ff44109f139fcc9a5efe1083a46b96244976cac
-SHA256: 3eb9d1a661979c17974d4b4b4b306a0d670a49118ca7f6088e5f7e4932b043b2
-Section: Systems系统
+Size: 35180
+MD5sum: 9464ce1726414f91720250cf49c9fec7
+SHA1: 340ed9838ee19d144f085c3c6f672573f2cd7ed6
+SHA256: b1dda2d57b7d39e454deda75475a7fafaf5171660d9ba1b5930344345fa3fb97
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -731,11 +731,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (27).deb
-Size: 36440
-MD5sum: b366315f735c033c9d0430c61db97cc8
-SHA1: 6500c6a061d1ec647459b90fd8821476bb24278b
-SHA256: f6c791e8813c93780d70bd8b1879b61865aeefa90fcd184a155f81c5a1028a60
-Section: Systems系统
+Size: 36420
+MD5sum: 01b648aa7eeff1a2994f81bf17d60c69
+SHA1: 092a48671541ed589465bcbfd339c9cb79e0a0cc
+SHA256: 0083e3490a5cafcc70d2643f496ef71e3501a9d9ea41f1d3fdf0cbb4764bc927
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -803,11 +803,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64.deb
-Size: 22180
-MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
-SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
-SHA256: 141ac16bc5365151aef3ec4cd6df0c42f83e8f8c5153e6babd9c7ce97bbf8bfd
-Section: Systems系统
+Size: 22168
+MD5sum: 65de8d3b31501525609f5b264d00eedb
+SHA1: cda89e6ec4628a3ca7e6eb2deb7115bb4fbdf118
+SHA256: fc627f5bbb4036a7a29a258d32c96b1498b9d40c268a099a2436539149138be6
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -867,11 +867,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.5+debug1_iphoneos-arm64e.deb
-Size: 48652
-MD5sum: bfb2ed4cdb62828db793975b5e39866f
-SHA1: 2c2b583b4238c05e83b0408ba24ff1c1d1b9f2b6
-SHA256: 37ae400b106f03dcc2e0e2bd91fa3a2ef62b0ded49a97a3920bd8f8ff0a70216
-Section: Systems系统
+Size: 48640
+MD5sum: 0c891b40c38d9add8904b04d2a3b083a
+SHA1: 64dc27221ce4136e6f716fc70e85f0bc65ce143f
+SHA256: 5caf4473dbac5c89be22865045b835b2470808febea6d957403318aa9e0f38bf
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -954,11 +954,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.5+debug1_iphoneos-arm64.deb
-Size: 48828
-MD5sum: 1f55a324939dfe21f8b624def74e272c
-SHA1: 5d4a78608a5637fca5b7afa40f9a68c73fda4890
-SHA256: 5b6116fb037349010e47d066c2aadd7e50e2894e2dde936140b2778293b8841d
-Section: Systems系统
+Size: 48816
+MD5sum: 874718716a14b28c41a2ec62a40bd75d
+SHA1: c649270c7d1bec13a5426d6ec256b3357f8e877e
+SHA256: f1f29be9a42b92364c2c0d27b1c39b4bf12d75bebb9a742af10a125647260f8f
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1041,11 +1041,11 @@ Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.5+debug1_iphoneos-arm.deb
-Size: 48600
-MD5sum: 3a535d5e99cf916060772441037bf825
-SHA1: d06a333422705d0ec9e48312911b2a7145b19afd
-SHA256: dfab9249383cb7e6078eb00696798a17ca81c0ee2fdae0540885c02ac81bfee9
-Section: Systems系统
+Size: 48592
+MD5sum: 5467630069cdbd1c893052b1a78c23e1
+SHA1: 666dfc57398f538704178f95a35d6435f8f4d6b7
+SHA256: 2121a54758e06cea4ff3aaf73f731df988d9d65f330570a75ba779652ec04c11
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1128,11 +1128,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug1_iphoneos-arm64e.deb
-Size: 50900
-MD5sum: 38325a6c8a12a3e7f21823ae377bfa7b
-SHA1: 9d48911b894a54f5147e4a4609da30c4d0c87c9f
-SHA256: ea4b663803b7b9d51e9da107c8475929c4b3eb499d524b3e148523f741b48a31
-Section: Systems系统
+Size: 50864
+MD5sum: f6ae84796134f4e7533a5718bab197d7
+SHA1: cf256219dfd95a216e6ee71318177925378c24b3
+SHA256: a00d86a9358bdd196e0fb29acd85428edff919bc5ff665b88c455abea47e92ee
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1228,11 +1228,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug1_iphoneos-arm64.deb
-Size: 51100
-MD5sum: 4b79f39422f056d04b94d119c88d80d5
-SHA1: fa47b2bfca0fa5fd0aa1575c6f8aec2446790c6b
-SHA256: 1f4d3f8c5f520402614da784a1042c20896bfa2b56dfc64c0f5935a97fa5b113
-Section: Systems系统
+Size: 51032
+MD5sum: eca358ab377a4aa5eecf6047b767ad7f
+SHA1: 66cf66d7a3ddb3709533be5b36fba62a4d14d0ca
+SHA256: 791e7725797b38ba7f51cc1d9ab40f47298fec1d38f9197864b5269e9dff1516
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1328,11 +1328,11 @@ Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug1_iphoneos-arm.deb
-Size: 50832
-MD5sum: 4c6ed71191bc7fa89fe51672d8696358
-SHA1: 46afaa12ca5a986231d1e1bf7d700736297f8ff2
-SHA256: 3c70fbf412c2a6fa0446740aa58b465d027c36b2662b311b3fcea1a4569e216a
-Section: Systems系统
+Size: 50800
+MD5sum: af271fb122b2119c697845fee9eb8dc2
+SHA1: 991c24044a65cde1430f222433021e661a18e376
+SHA256: 84b1857532e72dbe470da436c909c3ca03b3f29291438de6f594addff956ae09
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1428,11 +1428,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug2_iphoneos-arm64e.deb
-Size: 50940
-MD5sum: 693abdde31bae4ae57a901790daf03e5
-SHA1: aa67e30dc1250cb3f1b04e8cbc535de8665f3521
-SHA256: 216ab30cef3aac905798184e515b2ed8e793d2881867691cda567512ffa8396b
-Section: Systems系统
+Size: 50852
+MD5sum: 35949aea235de329bda7a4c8359056d1
+SHA1: f99a9ef2ec58a3d8849379940d6902e8613fc350
+SHA256: 580f77e0ae84fa1a1aa8c2e7953c6b3d345d40aebfbb14edde636e4766b9d1a8
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1528,11 +1528,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug2_iphoneos-arm64.deb
-Size: 51092
-MD5sum: 4fc1757750f818708fbeca70696debad
-SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
-SHA256: 6796f7dc6c46d684dccc463057b00e5dca779580c6c1f958da5a7dbbaa9e60ed
-Section: Systems系统
+Size: 51068
+MD5sum: a17d059602346cb718a28a6746ba3b19
+SHA1: 7c38db7d8e7f7f79d5fd0ff798d87f3520899f1c
+SHA256: 47a681dc45463921ef866f19ea812aee595e4fc991c0407c45d105a349eee77d
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1628,11 +1628,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug3_iphoneos-arm64e.deb
-Size: 50904
-MD5sum: ab6e150712f5cf0b56faa78e767720bf
-SHA1: 0f3d59f66ca09164aab152bf02fa554dbbd58270
-SHA256: f7bb9f5a48c2b7ea29abbcd305985d1f6bc72a9b20484f17a2f5ba30ff18dc1a
-Section: Systems系统
+Size: 50852
+MD5sum: 601554bccb5c61365f209774d7daaeb1
+SHA1: d34f01f1fff8c21390ae3fae2d8e6464720d6e47
+SHA256: 4910a3fd9dac66efda64449e18216fed752cb9ae350bac3ee0e000383b5cf523
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1728,11 +1728,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug3_iphoneos-arm64.deb
-Size: 51136
-MD5sum: 84a1fd8189562337a29a0443af6e864b
-SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
-SHA256: 10890c082af3b6428fbf95c598813ee420c50cc4b9e29ab0c0204272d175b8cb
-Section: Systems系统
+Size: 51060
+MD5sum: 0b2a45f6662aa11dcf292a1afd4bc637
+SHA1: 615356a348c153a0c6a911091b578abfd41cdf6d
+SHA256: 642e0736de8484b5b74d49ff9aa88e58103cfbab7d32e0d7d634c2790f8b39fa
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1828,11 +1828,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug4_iphoneos-arm64e.deb
-Size: 51536
-MD5sum: b1de06f6532f24bdf9fbf01716894d91
-SHA1: e9dcfa78d6fbbcee91d6107c4b314b2f59733992
-SHA256: de7992aa4a5881a0101416a90b8ed247dbb2f631d17275edb74844293c95a5bb
-Section: Systems系统
+Size: 51492
+MD5sum: 9bb0f34e33ad99c443b55f36a40bd65c
+SHA1: 9210e62f63b2f4b7463b3a4d8f416b878491ffca
+SHA256: 7ec394cae392c3b513cc905a35242e990f66dcaeceab5fe5c66d0ac35b771fe5
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -1928,11 +1928,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug5_iphoneos-arm64e.deb
-Size: 51432
-MD5sum: c657f96f45bb986663aa662844861f03
-SHA1: 60707f7f1bbf110b775a3217f1d70a3a8d80b409
-SHA256: 8ed0e2737f8da13462d73aa1343ee11809b686d28ff6121a3261e66f958e9c83
-Section: Systems系统
+Size: 51408
+MD5sum: 51251d15dfc5dc2eddd601e1bb22baee
+SHA1: e4066ef187d635699cdbd39f7786cfc793f00915
+SHA256: dec1af19746f5e11792b0e3f8ccb5692f7e34555e8d3df53b7859be5af3c30b0
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2028,11 +2028,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug5_iphoneos-arm64.deb
-Size: 51656
-MD5sum: 444887fae96033caa3dadd4488845dd7
-SHA1: 893a19ae672b1cceb16af06502c5682dd5c02294
-SHA256: 6ffb9fca460108cf5d7271a8a83976edb8827414c309bc9f71b204979636943b
-Section: Systems系统
+Size: 51628
+MD5sum: 993b2dfc01dc406b9be075970a1dbd0e
+SHA1: b12e1c61dd1fb7e57bc703e62de2aea447f23863
+SHA256: 41d304de4fbc6237143ccd08c861cb9bb389d2dd7271b092ba90f6cb1d860a60
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2128,11 +2128,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug6_iphoneos-arm64e.deb
-Size: 51708
-MD5sum: 92d6751a2429def677dafb6d1d572519
-SHA1: 10450a131a22149fce5f9b76367e3ca9354b9a4c
-SHA256: 7bb03636948aec51b2f4f32205cdb5b028820ad9cc72d989ad1277a79cc3ce12
-Section: Systems系统
+Size: 51656
+MD5sum: 72b8004b05d532ea080ec537888485b8
+SHA1: e04b8f459b56c53a151070db8cc7684a2004dc82
+SHA256: 8325a70748c154d65d2fbc2e32048740147e68969cca21391611bf1ebc274ee9
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2228,11 +2228,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug6_iphoneos-arm64.deb
-Size: 51900
-MD5sum: 5557c627d7442629093cc5f5cacc26ab
-SHA1: 6fa8c1f7c61e2646cbaa2ef8b5302bdc9346028b
-SHA256: 46ceba9e44bcc8a9b35e0f3f5baa49605570a5d034851819f57c7d86a245368a
-Section: Systems系统
+Size: 51828
+MD5sum: fd1c7fad6a2f9c0e2a30d6a69edf47a7
+SHA1: ccdfbc9f8246082e67b06c1ca9478d58356b617c
+SHA256: a43048e8dbf52a5c909689652121ce49369a798ad583fae6257bb53094c7bd4a
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2328,11 +2328,11 @@ Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug6_iphoneos-arm6.deb
-Size: 51808
-MD5sum: a64e07f871b1c59029e91a4fe7736712
-SHA1: 37c175484cd1786a5dd516921180e377b32da932
-SHA256: 5ddda335b7d0a4572b855db032cf07da2cd899dd54168ad80a90a8eaab892933
-Section: Systems系统
+Size: 51704
+MD5sum: 655263f7ae654ed14d154b315e0ed7e8
+SHA1: cd2c745431fba3087d477b950b27e38bdaf805f3
+SHA256: 3906c6c907583092d4a665237d68a93b59febd487ce7dcf9723c9219297476f6
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2428,11 +2428,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug7_iphoneos-arm64e.deb
-Size: 51756
-MD5sum: 8de1141d04c1f0ad3d776512071ed8f7
-SHA1: 045c4a4f0592c31bff8df5802e90af4b69b61e59
-SHA256: b84c20348780b305fb63e8b6b486d0595679ab574367e4ab8d4e43f5e5cdc1c4
-Section: Systems系统
+Size: 51708
+MD5sum: 0fa8c3dc09f1e78f4dad9fc07787ac12
+SHA1: 6dcd82fc0d1c0a146ba43a3d56ceda09a66c711d
+SHA256: 38bc6d4125b0e66d2c051142456f1c6e63468edcc9155c8a8799b34625cbfdb3
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2528,11 +2528,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
-Size: 51944
-MD5sum: 5e3d98ea792b2907a20a4778841e0418
-SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
-SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
-Section: Systems系统
+Size: 51884
+MD5sum: 5261334e82bd191ac1c21cb2855ae07e
+SHA1: 6c55808ce076840edc79bb7a29690dd382f05c7c
+SHA256: c7a75825ce17932b2dc1d976dee5011f4211743f334289fa53126027f5ee0bac
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2628,11 +2628,11 @@ Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
 Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug7_iphoneos-arm.deb
-Size: 51832
-MD5sum: d251d6423256ef44bde17517873ef4d8
-SHA1: b3d667b82a2eccf3195ce8d196140cf01474a98e
-SHA256: dfaa3b53e404893f1e813f37ba1f275a457beaaf611697e44939a305d642bbb9
-Section: Systems系统
+Size: 51752
+MD5sum: 9be887b46d673bf88bff76c72beea4ec
+SHA1: 5468066c0b2d6d35c0259fe7974c2d709c2c6389
+SHA256: 4a0f11254962de9f964cea61835944197555a185c59e95e48da463caa9b35a1d
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2728,11 +2728,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64e.deb
-Size: 58768
-MD5sum: ccb6d7773b45fb0a27fd3154801a2b79
-SHA1: 9506e19960fd1f0ee52bb5cf7de25d2de578b5bf
-SHA256: 81a0ad69fe93f5167692bc144f10197e3d1e53d728bde4e3277901bbf3321119
-Section: a1
+Size: 58788
+MD5sum: a49c248649e9657085710c41b908301f
+SHA1: 27bad0432ac668caf632dedc47725adbf237b792
+SHA256: 9ee0fb3a104738660ac93a6bf125c64a78d7f841ac60ebaa9d2f140849afe59f
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2832,11 +2832,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
-Size: 59012
-MD5sum: 132b5c50ce49fd1c8045687ed72ed546
-SHA1: bcc10300ac43e682fe82307664dff699df75cb06
-SHA256: ac25189addeae460ff3a93f367aa0b35204e386f4cc4f7a1536a148b35e07fce
-Section: a1
+Size: 59040
+MD5sum: afc435593bee0618886de73d6bbec6db
+SHA1: 320e5f2f609ee5735b64a6d06fd8836eb71d33a6
+SHA256: 60354e5e2a6fdfea17bd91d3017ed5baafeb2ccb8f9dadd00861b6574bbe0f86
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2936,11 +2936,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64e.deb
-Size: 70900
-MD5sum: 78b022bd555e8d4b6510cd2ecfe5255f
-SHA1: 47470630b4f50e3f4f5f33e3d05ffdd138128132
-SHA256: 65c2d495718abde4782c8d9a5e580ab22a4f535103d317328428a350e1db2500
-Section: a1
+Size: 70848
+MD5sum: fc369239afdc76c9d3acf49d657932d7
+SHA1: fa0b6759ab772baa3032e550f0a6cd25da54bf76
+SHA256: 3c7ff8d8e45e1e9aa74ec5eb782e72023f6de7bace497ceede4daebe195ac1d5
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2959,11 +2959,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64.deb
-Size: 70948
-MD5sum: 49ec3e2f57f3b13b6887a8b044d99993
-SHA1: ec4ebf407b88898bc86e821339b1bb70cec8014b
-SHA256: 681906639d0e3748c88a9e38fe35673a0273a2fb5300536fb0f1561688120bdb
-Section: a1
+Size: 70916
+MD5sum: 5138e0621322a4cc67a8bccf8355d91d
+SHA1: 9751d8843bb02d5d020ecbb3a3e71c3cf645ebc0
+SHA256: af2c6233797028a5d3a6fd209fc3a094a9f9f5cbd590d779eef7413bd2fe479a
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -2982,11 +2982,11 @@ Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
 Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm.deb
-Size: 71032
-MD5sum: 0287576199ff6ddcba384fd1dbd69751
-SHA1: 7bb6c74bb5a50431c2218ff27d1e525170361290
-SHA256: 235bcb3b9d283755dbb527e8c7ff9d5e90d3f9e0493aff05b4c32b4c81f29843
-Section: a1
+Size: 70948
+MD5sum: 3270e295b7e8f540a714b9217dadbec1
+SHA1: 02a4095776678ce8c8db3e4305fdefd50945ebd3
+SHA256: 1db78999a5f5cebc5e5e101b2c9f4cc9a78ea4279d03e39811bfb9d34e70df3b
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -3005,11 +3005,11 @@ Architecture: iphoneos-arm64e
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
 Filename: ./debs/iphoneos-arm64e/a1/a1_2.0.1.124_iphoneos-arm64e.deb
-Size: 659132
-MD5sum: 45f59f96efc26032648a3d5cd64d2273
-SHA1: bd467ad0087fd90af3f0f9f714a74c6044ae9641
-SHA256: f9667b2e791b5581baa286a41b67cebad7f85baa0ed3d064f67fbe5890443017
-Section: a1
+Size: 659232
+MD5sum: 8dc4066226b301cfc7683e6172631b1b
+SHA1: 5b771ff2e625f32ed4491a9fbc6bb1a5983dd267
+SHA256: 7a4cf7c318ad6136e14bdb21d0b45caf22fa197fc65d1986a4743c97da5497c0
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -3028,11 +3028,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
 Filename: ./debs/iphoneos-arm64/a1/a1_2.0.1.124_iphoneos-arm64.deb
-Size: 659228
-MD5sum: 0131f4aabbcfe5287245452d240b5803
-SHA1: 780b16b48254d0fe698c0faeff0b9c4ec4487e01
-SHA256: 87baadaf9591307f77883882f5aaf7b6a28f913f729c89d0e36140656bf05b4e
-Section: a1
+Size: 659400
+MD5sum: 0a067510c84a060965b362a31a538ad5
+SHA1: 8a4625933266abc1824e761008befb57e72096e2
+SHA256: 382a171014d24cd76b7b216c1a32c342cad1cbc44c50d3b38f2c1497467f1863
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -3051,11 +3051,11 @@ Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
 Filename: ./debs/iphoneos-arm/a1/a1_2.0.1.124_iphoneos-arm.deb
-Size: 658876
-MD5sum: 43d75ac64015994f88021dcf878feebb
-SHA1: a90788a61d47c7dab53fd95d3ef6ede2b301a3f2
-SHA256: 5511e6cc894a72659575d99797a84905bdd972060ccc0ce30059d0ce919f7882
-Section: a1
+Size: 658572
+MD5sum: b32d9c4723c2cbb82e713199e20bb0f5
+SHA1: 31aadc226325790cd7c6db127316f76f80cf843d
+SHA256: a491185804dd60516f78a5ee9f8c373b3566ed317c66d4832c0d0e7f8fda4377
+Section: System
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
   - Reduce priority of non-essential processes to improve system fluidity.
@@ -3159,11 +3159,11 @@ Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: firmware (>= 15.0)
 Filename: ./debs/iphoneos-arm64/com.build.ipa.filza.ad/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
-Size: 1416
-MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
-SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
-SHA256: 4ad35818d06a34e8ad61f56e32fc80ca2ff04b419d7225701eb2fc23a0003e7f
-Section: Filza-Expand
+Size: 1400
+MD5sum: 718cfd99fd5b8c206ffb98e174e79a83
+SHA1: e387395f816c4ded615a289f55dbc9a9d5978bf0
+SHA256: 6b2ffa408996e8e981558ea52779cdccbeed6fb2e2ba8978a3391799ea6c9e08
+Section: Filza Script
 Priority: required
 Description: 给 Filza 添加打包 IPA 的快捷方法
   - 长按 Payload 文件夹找到 scripts 选项点击 Build IPA 即可打包成 IPA
@@ -3177,11 +3177,11 @@ Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
 Filename: ./debs/iphoneos-arm64/com.couhege1380.BatteryMaster/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
-Size: 39480
-MD5sum: 817e8a4cdbf4f5bbdc528422fe47f915
-SHA1: 1d99575dad8506b37702a149db13f1117f156365
-SHA256: dbf403d66e8d55f6bd5b612a774001440418306d92edd80d0fe315e9886df4f9
-Section: System
+Size: 39476
+MD5sum: 16bcece8a394e78b581f403634bb7c2a
+SHA1: 629438814cc01686cf9fc317a04aa73a4cef7fff
+SHA256: 526512638582a4672e36334cafd0a5670deb30ba5096decf520ed19d04c67f91
+Section: Tweaks
 Description: Add value to protect your battery life.添加值以保护您的电池寿命，BatteryMaster1380安装可实现！省电模式越狱然后关闭省电模式即可.
 Author: @Spor0nix 凑合哥
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
@@ -3194,11 +3194,11 @@ Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/iphoneos-arm64/com.netskao.BiliPurify/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
-Size: 6708128
-MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
-SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
-SHA256: e233d68807281fbd131fbb1e534775172eeff4c0ee59104cddc78a745a9c2469
-Section: Other
+Size: 6713396
+MD5sum: a96c68fffb8739e742a8e7522186f4ab
+SHA1: 13328ccb9c027dd1a83ae4a7aa7917e5b6039ed9
+SHA256: c8bc84eab2092d5871302402b2df00bda0a0acd960497a7ae7f07c351d1458f6
+Section: Tweaks
 Description: Unlock the clean Bilibili.解锁干净的哔哩哔哩,由LF将Dylib打包成插件!Enjoy!
 Author: Netskao
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
@@ -3210,11 +3210,11 @@ Architecture: iphoneos-arm64
 Maintainer: Ntonia
 Depends: com.spark.snowboard
 Filename: ./debs/history/iphoneos-arm64/com.ntonia.themes.black/com.ntonia.themes.Black_1.0_iphoneos-arm64.deb
-Size: 1805744
-MD5sum: 919ef445e9d121970ba4dbbf556a48c6
-SHA1: df49588c121b23d44094c42ba6c8b66da33d3339
-SHA256: 8966370be97227bfdf72dc5ca878512d8b486aac0e2c00ac064ffb1490791273
-Section: Themes主题
+Size: 1805732
+MD5sum: 3feff28d2cdd291119747da1f14780e9
+SHA1: 2a5a7d62c23bec8c878ff90c573cd1f228f3fa2a
+SHA256: 0e462c5a5ac2f60c2895eb5ade9ab0afa8a1be8bb6963167251c533f1d2cb43b
+Section: Themes
 Description: 一款主題,由 AD 打包成 deb 創作者是 Ntonia
 Author: Ntonia
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
@@ -3291,12 +3291,12 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: ./debs/iphoneos-arm64/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
-Size: 1234204
-MD5sum: 207f742fc389b70dd64ab62a909695c9
-SHA1: f947a737522a4430df061794d43c2ea176afcf44
-SHA256: baa66b565b48d67e7cf4d7b856492e52e2e7d76fd4fa455ad9d8c16db461f922
-Section: Apply
+Filename: ./debs/iphoneos-arm64/cydia/cydia_1.1.37-3_iphoneos-arm64-modified.deb
+Size: 1233880
+MD5sum: fc40df2ae32acdbfdaf11701251cd106
+SHA1: 8ec5242edda0030f10a4189b8d30eee3cc0b210b
+SHA256: 3cc08f0347c2b512d2ea84548af01ec29744a54c77b804a3397e98f79f753f1b
+Section: Application
 Priority: important
 Description: graphical iPhone front-end for APT. （仅怀旧使用/Nostalgic use only）
 Tag: purpose::uikit, role::enduser
@@ -3361,9 +3361,9 @@ Depends: libiosexec1
 Conflicts: com.conradkramer.open
 Filename: ./debs/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
 Size: 8756
-MD5sum: 28c8823fd83d37ad908d738c51bfbfc5
-SHA1: 4cc327f7dd37ca27908aa850a9cad4fbbe47f531
-SHA256: 92fafe0f1223c858106cfefecce5198582df92876404b8a24dd53266cefa65fb
+MD5sum: f6580f5ca8600f53535ae389accde564
+SHA1: d3d0e3d94106832f109ff82e9bd51fe01b56f1cf
+SHA256: 71b7a7b3d3aeb140c1b55c7dce0337d299d5c3612f5408e349b261ade3259eb9
 Section: Tools
 Description: Simple substitutes of macOS open command
 Author: XMZ <xmz-team@outlook.com>
@@ -3392,11 +3392,11 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
 Filename: ./debs/iphoneos-arm64/iperformancetweak/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
-Size: 9064
-MD5sum: 8b90e78346e55be1429242076a3dd2e8
-SHA1: 0097efb1006648f47eb8a071550b28b4616e9835
-SHA256: 7990603f256547a3838bd11d8a42d9662affcb4d8cb2cc33f179c27cc750aaa9
-Section: System
+Size: 9020
+MD5sum: 29bf96ca5140fa69cd29141381b2870c
+SHA1: 1b7d7817608a0119a4df39df9576975f37441fd0
+SHA256: e0d6bf7dacd27a92020f5184fc0014449e2f48d515227eba13185140822266c7
+Section: Tweaks
 Description: boost game performance.提高游戏性能
 Author: Moose
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
@@ -3459,11 +3459,11 @@ Version: 1.0.2-3
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-3_all.deb
-Size: 26284
-MD5sum: c1b0758b6ed35ec1761395d47ba4eff2
-SHA1: 61998aaa44b37f822e7ece4e6e1c969ee2b058a0
-SHA256: d1c53fe4ae64ee81f7cf9308e44ef5065383528e33fbc18b39f93a20737d8a56
-Section: adopt
+Size: 26268
+MD5sum: e0aba55b2affa3c9f6f04552b3ce5bc5
+SHA1: 00258f587d34fe411e53fdf812d7aaa1cfbc6dc2
+SHA256: 15df65a42f5c0771da3eadef7fbdebe8535103d2dd88e51e357da29996cba334
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3473,11 +3473,11 @@ Version: 1.0.2-4
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-4_all.deb
-Size: 26188
-MD5sum: ba65d9f02eccf9288381a3f01c6ea5cf
-SHA1: 97aa8c22684871a17c3710b77025a05972fc4cd0
-SHA256: 8fce5f66cb39579ea80ca7ffa72e23469e09fde70efc7d4676a14ed38f6b84f7
-Section: adopt
+Size: 26192
+MD5sum: 8f7e0ec079f75523eb7932c9aaeb939f
+SHA1: 1b2db08c94fb46c758c390b1365bc82007161bad
+SHA256: ca1fb81abd8b4fb0845e6ea106571d1479274e9e1267ef4c4fa6995713d526d8
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3487,11 +3487,11 @@ Version: 1.0.2-6
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-6_all.deb
-Size: 25904
-MD5sum: 8c933f59e539a4ef0588d0d3e600e5a3
-SHA1: c7397a640e38562466c52396a9824d99bca281e9
-SHA256: a4c39f5655ef7988c1171b90f7205445259ca73cd3056c19c293fcf3bfa66af6
-Section: adopt
+Size: 25896
+MD5sum: 1ca069ec04ed5e0d114bc32f7ef2e63f
+SHA1: db50d2fb76bd7d2e3a04973a3ca76e4c1d05c49b
+SHA256: 56b3cdeadc2c8bf656b862a501de1ea7383a82579a1ac1e20bee6b5aa2a69b62
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3501,11 +3501,11 @@ Version: 1.0.2-7
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.0.2-7_all.deb
-Size: 25916
-MD5sum: d7aeacaec67e269fa1cbd763181265c1
-SHA1: 2c73808e384df85aef7f970a0b17d68b70db45af
-SHA256: a42fe0fea3220acdf2c6b5533204b3619abcd28d625671337d3f3a8166cf2508
-Section: adopt
+Size: 25936
+MD5sum: 9aeb52de0ef9f629fef622bbff7dd28c
+SHA1: f0d58dffdde084c37d4b3a4b8bee182780e0a3b4
+SHA256: 32f249cb66d0369f2431336e340d678d7bcc249a11ad34f7e8c36c6b4899d40d
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3515,11 +3515,11 @@ Version: 1.5-2
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-2_all.deb
-Size: 52760
-MD5sum: 6e143dec040b7552789ba9482dd86f39
-SHA1: cb324dd4622e7e5dcfc67ad7ec7ed906103cd96f
-SHA256: 4b405fab218e5d16d2d551eec795fa6c4c4c24a413b610176311086cc21c9e71
-Section: adopt
+Size: 52684
+MD5sum: 1009365f496e92abb14a51569020ecd0
+SHA1: c7c5de6039594da3c109ab1ab761eef8e07361e9
+SHA256: 8eb4320d54a15e3f546caba284b598ebbbe2e64cbce106a3a11432cada6e8445
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3530,11 +3530,11 @@ Version: 1.5-3
 Architecture: all
 Maintainer: AD
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-3_all.deb
-Size: 52800
-MD5sum: dab78f8ae3bf82302bdd0524d8bd950e
-SHA1: 86a11857ec9049677c8faba686ca8f2c3899a1e6
-SHA256: 69910d9b7844985cfa95b4dc7cfe14c9096631c98f1c1a0f2df766a6742079e5
-Section: adopt
+Size: 52828
+MD5sum: 1b0ea3361e37ffc4f7f12453cf87803c
+SHA1: 688707538fbfd0ea4bf510b29f76299af06cfa51
+SHA256: 4c569f16bfb980f4be0a78adea78cb5521a96e6d72b355ba46a43ddc7f31d892
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD
 Name: adsu
@@ -3545,11 +3545,11 @@ Version: 1.5-4
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
 Filename: ./debs/history/all/official.ad.adsu/official.ad.adsu_1.5-4_all.deb
-Size: 52820
-MD5sum: ecf80a36a36b8a2a020e718aa7b13014
-SHA1: 5b6ea1d2179495492c8817d0eecb098266f2cf7f
-SHA256: 72a0bf28ed369682bb36502c48d7da6156b65c13c911de1d389cf9da44413eaf
-Section: adopt
+Size: 52744
+MD5sum: 3b6b20b36077fb51091826cf37bdfbf9
+SHA1: 2ea62082b1cd30158ec076b6e6e135693ea5f08d
+SHA256: fe3251581e8bd923c7ccdd014bab5673ca180c05fdffc4a7c81ffce7fddbb99f
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required (if the account has a password)
 Author: AD <ad-ios334@outlook.com>
 Name: adsu
@@ -3560,11 +3560,11 @@ Version: 1.6-1
 Architecture: all
 Maintainer: AD <ad-ios334@outlook.com>
 Filename: ./debs/all/official.ad.adsu/official.ad.adsu_1.6-1_all.deb
-Size: 58596
-MD5sum: dba4e5e0c77d82891dbf5ca27edd25cd
-SHA1: b9d5fa8c59acc8d959dbe5cf36f01d675d1763d0
-SHA256: 95af08e24037ac1780a364f235d12e42f47b0ba911fc1a64a360183953ae88d7
-Section: adopt
+Size: 58524
+MD5sum: 06f758067dfdd4a72eab901b37bf7e6f
+SHA1: 14d03264015c19a229db6eb6645e7fd80108d3d4
+SHA256: 865b9bd79200e252967981132f7d80de4e2e45be9d9728123f026d80f59f2045
+Section: Tools
 Description: adsu a simple substitute for su, pam is not required, but a password is required? (if the account has a password), possibly no need passwd
 Author: AD <ad-ios334@outlook.com>
 Name: adsu
@@ -3614,11 +3614,11 @@ Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
 Filename: ./debs/iphoneos-arm64/vnodebypassnext/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
-Size: 65116
-MD5sum: 250c0dfc2f10d81983410f9b1049094d
-SHA1: eef95a398df8c9cf18050f4367e2496b9a6debf2
-SHA256: cac519e18defc2f37ae60e78db3f94bfce8f0dce9fa19dc9924c8a4c2f282430
-Section: System
+Size: 65088
+MD5sum: 864c361820a7134d70d548018cef3128
+SHA1: 3280784be3bf018faaca0a52c8b15b1890775418
+SHA256: 3267353a52b1e9d015ff897e7b72fdfa063722704c82bd7ccb1f53cf8b9cd1fc
+Section: Tweaks
 Description: Hide jailbreak traces and bypass detection mechanisms. Automatically configures paths and fixes post-removal issues. Compatible with Dopamine environment. Initial installation may take extra time due to path setup—please be patient! 隐藏越狱痕迹，绕过检测机制，自动配置路径，修复卸载残留问题。兼容 Dopamine 越狱环境，首次安装可能因路径配置稍有延迟，请耐心等待～(づ￣ 3￣)づ
   - 添加安装完成后重启SpringBoard弹窗的支持
 Author: XsF1re, ichitaso, level3tjg, LF, AD
