@@ -3,7 +3,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: bash
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/1688SHFonts/1688SHFonts_1.0_iphoneos-arm64.deb
 Size: 5801684
 MD5sum: b3ef0dd29383f5943fcc38cca8f13000
 SHA1: bff9347621df689ca172363020cbecac2cbf5fe4
@@ -27,7 +27,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/DYFonts/DYFonts_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/DYFonts/DYFonts_1.0_iphoneos-arm64.deb
 Size: 8750592
 MD5sum: ad6d01b77cf81a25a9a8851e7245a79a
 SHA1: 93bd233e4433e85ba4ea76c6d09f7c5937603d86
@@ -43,7 +43,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/LegacyPatcher/LegacyPatcher_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/LegacyPatcher/LegacyPatcher_1.0_iphoneos-arm64.deb
 Size: 95964
 MD5sum: 79a397da419547a9084d483b25ac2021
 SHA1: 76916eeb343e92cbd7bd7d7edd56a79be7b89c8e
@@ -59,7 +59,7 @@ Version: 1.4.2-1S
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/LinearBarSwitch/LinearBarSwitch_1.4.2-1S_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/LinearBarSwitch/LinearBarSwitch_1.4.2-1S_iphoneos-arm64.deb
 Size: 201848
 MD5sum: 152263d8d7eb0501602356ba277d8b1b
 SHA1: 179cd07c2394e2c9b354dd71504185eb77bbab05
@@ -74,7 +74,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/PlumpyBar/PlumpyBar_1.2_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/PlumpyBar/PlumpyBar_1.2_iphoneos-arm64.deb
 Size: 70332
 MD5sum: b1ab505f6fa78a8ed2c015fff29b225e
 SHA1: bdc756f4164b5a8789e2bfdc2a0f5137db02c8b9
@@ -89,7 +89,7 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/WatermelonBar/WatermelonBar_1.2_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/WatermelonBar/WatermelonBar_1.2_iphoneos-arm64.deb
 Size: 286884
 MD5sum: c790c6a9a7448c0b5fab8d8fc602d642
 SHA1: e99bab9d88fcccb7935c087fc515e0349d53c356
@@ -101,15 +101,15 @@ Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: WatermelonBar
 
 Package: a1
-Version: 2.0.1.37
+Version: 2.0.1.124
 Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/a1/a1_2.0.1.37_iphoneos-arm64.deb
-Size: 614828
-MD5sum: 44f1e524d865150de304c1895b7c8b1e
-SHA1: c3e48e3f3d08a326ed062b71821c3c6b5ac85db2
-SHA256: d40d7fa415378d8e9447b067f835c103f871e62f4b3a918b46ba614ae19612e5
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/a1/a1_2.0.1.124_iphoneos-arm64.deb
+Size: 659228
+MD5sum: 0131f4aabbcfe5287245452d240b5803
+SHA1: 780b16b48254d0fe698c0faeff0b9c4ec4487e01
+SHA256: 87baadaf9591307f77883882f5aaf7b6a28f913f729c89d0e36140656bf05b4e
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -128,7 +128,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: firmware (>= 15.0)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.Dopamine.themes/com.Dopamine.themes_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.Dopamine.themes/com.Dopamine.themes_1.0_iphoneos-arm64.deb
 Size: 2136
 MD5sum: 31dd612817680cd837800957d9a92ad4
 SHA1: 39e957e003f25fc6a5ed6ac035f35a16801dca22
@@ -144,7 +144,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: iOS-AD
 Depends: firmware (>= 15.0)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.build.ipa.filza.ad/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.build.ipa.filza.ad/com.build.ipa.filza.ad_1.0_iphoneos-arm64.deb
 Size: 1416
 MD5sum: 923f8f02a9b07bfdb81f6dfe8425f60f
 SHA1: 5bc3679a33e68d611d97b7e317ee9a0fd84f520e
@@ -162,7 +162,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: AD
 Depends: mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.couhege1380.BatteryMaster/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.couhege1380.BatteryMaster/com.couhege1380.BatteryMaster_1.0.0_iphoneos-arm64.deb
 Size: 39480
 MD5sum: 817e8a4cdbf4f5bbdc528422fe47f915
 SHA1: 1d99575dad8506b37702a149db13f1117f156365
@@ -179,7 +179,7 @@ Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.netskao.BiliPurify/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.netskao.BiliPurify/com.netskao.BiliPurify_1.0.0_iphoneos-arm64.deb
 Size: 6708128
 MD5sum: d70aeac3d4d056ba9774b301eff4ea0a
 SHA1: 57d34fd41fd42111a70d9315f47dff64f5f2b29b
@@ -196,7 +196,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 3022
 Depends: mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.plicationsnext/com.plicationsnext_4.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.plicationsnext/com.plicationsnext_4.0_iphoneos-arm64.deb
 Size: 656464
 MD5sum: 3a627c5a35c2af9b6488530c56990eb9
 SHA1: 3764d76bc9fa3c8b3f9c70087e27e7d938df9626
@@ -222,7 +222,7 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
 Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
 Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
 Size: 372942
 MD5sum: 25a41017bc1490029d054f83b5a55cae
 SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
@@ -241,7 +241,7 @@ Depends: bzip2, darwintools, debianutils, dpkg (>= 1.19.1), gzip, sed, shell-cmd
 Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, cydia-lproj, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Provides: bigbossbetarepo, cydia-sources, cydia-lproj
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/cydia/cydia_1.1.37-3_iphoneos-arm64.deb
 Size: 1234204
 MD5sum: 207f742fc389b70dd64ab62a909695c9
 SHA1: f947a737522a4430df061794d43c2ea176afcf44
@@ -261,7 +261,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 136
 Depends: firmware (>= 15.0)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/fakecpuzero/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/fakecpuzero/fakecpuzero_1.0.0-R_iphoneos-arm64.deb
 Size: 4536
 MD5sum: c4d05144795fb97aa543f2b2b277234a
 SHA1: 3ba8be80bb79ad7aff7947a1e1c8c8be45608d1d
@@ -276,7 +276,7 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: com.spark.snowboard
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/iOS26e/iOS26e_1.1_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/iOS26e/iOS26e_1.1_iphoneos-arm64.deb
 Size: 4003628
 MD5sum: dd330db97efd7845a97928a458949a19
 SHA1: 12413c6c473523b3b1e3529c54094e2485b14d36
@@ -287,12 +287,45 @@ Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS26e
 
+Package: io.github.xmz-team.open-ios
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: XNZ <xmz-team@outlook.com>
+Depends: libiosexec1
+Conflicts: com.conradkramer.open
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
+Size: 8756
+MD5sum: 28c8823fd83d37ad908d738c51bfbfc5
+SHA1: 4cc327f7dd37ca27908aa850a9cad4fbbe47f531
+SHA256: 92fafe0f1223c858106cfefecce5198582df92876404b8a24dd53266cefa65fb
+Section: Tools
+Description: Simple substitutes of macOS open command
+Author: XMZ <xmz-team@outlook.com>
+Name: open-ios
+
+Package: io.github.xmz-team.zerocpu
+Version: 1.0.0-3+debug
+Architecture: iphoneos-arm64
+Maintainer: XMZ <xmz-team@outlook.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: fakecpuzero
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/io.github.xmz-team.zerocpu/io.github.xmz-team.zerocpu_1.0.0-3+debug_iphoneos-arm64.deb
+Size: 5230
+MD5sum: 569b9ed7af95cbbbe817c0df85e283a8
+SHA1: ac64f65f1865c6e7a3630e5bf2380a58a28e767b
+SHA256: f1b7816310c14a1ff808f11d25d660681dd3900120ef3beaf42ea9db3ff20bf9
+Section: Tweaks
+Description: A Tweak that can turn all the obtained CPU usage rates into 0%.
+Author: XMZ <xmz-team@outlook.com>
+Name: CPU Usage Zero
+
 Package: iperformancetweak
 Version: 1.0.0Beta
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: bash
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/iperformancetweak/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/iperformancetweak/iperformancetweak_1.0.0Beta_iphoneos-arm64.deb
 Size: 9064
 MD5sum: 8b90e78346e55be1429242076a3dd2e8
 SHA1: 0097efb1006648f47eb8a071550b28b4616e9835
@@ -308,7 +341,7 @@ Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common, xyz.cypwn.cephei-compat, xyz.cypwn.onboardingkitfix | firmware (<< 16.0), xyz.cypwn.xinam1ne
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/lottiestatusbar/lottiestatusbar_1.0.8_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/lottiestatusbar/lottiestatusbar_1.0.8_iphoneos-arm64.deb
 Size: 1014340
 MD5sum: e748ae88caf778a7db70b7c1e514a9a2
 SHA1: d6274a5caefe3515bc46010bbe2690d5df3a2adc
@@ -324,7 +357,7 @@ Architecture: iphoneos-arm64
 Maintainer: LF
 Installed-Size: 4900
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/me.tomt000.stageduo/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/me.tomt000.stageduo/me.tomt000.stageduo_1.2_iphoneos-arm64.deb
 Size: 3073132
 MD5sum: 8ab3b55953edd00bf21cd4423f339965
 SHA1: 47dbc9f469fcb7e3bbd6270d6353e217a9d9289d
@@ -340,7 +373,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/repo.lfjb.baiduciku/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/repo.lfjb.baiduciku/repo.lfjb.baiduciku_1.0_iphoneos-arm64.deb
 Size: 10233128
 MD5sum: cf8a0b0077ec83050c1c58f1fcfe3d98
 SHA1: b27592dcf0e0f5069e9859cacc0d62656ffb6fa0
@@ -356,7 +389,7 @@ Version: 0.4.5.2-Next
 Architecture: iphoneos-arm64
 Maintainer: alias20, LF, AD
 Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/vnodebypassnext/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/vnodebypassnext/vnodebypassnext_0.4.5.2-Next_iphoneos-arm64.deb
 Size: 65116
 MD5sum: 250c0dfc2f10d81983410f9b1049094d
 SHA1: eef95a398df8c9cf18050f4367e2496b9a6debf2
@@ -374,7 +407,7 @@ Version: 4.0b1
 Architecture: iphoneos-arm64
 Maintainer: LF
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: /var/jb/tmp/tmp.vVkiqhuprL/xyz.cypwn.rescale2/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
+Filename: /var/jb/tmp/tmp.s6x3DGca0r/xyz.cypwn.rescale2/xyz.cypwn.rescale2_4.0b1_iphoneos-arm64.deb
 Size: 25564
 MD5sum: 216a780690e0dc7657b7f2d1d1273c81
 SHA1: 3217ef68c753ddd32c437aa075f239df31d8aeb5

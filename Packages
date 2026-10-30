@@ -312,14 +312,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (25).deb
-Size: 35216
-MD5sum: 100cbe7977b0767c6dee1a34eb2b29f1
-SHA1: 0ff44109f139fcc9a5efe1083a46b96244976cac
-SHA256: 3eb9d1a661979c17974d4b4b4b306a0d670a49118ca7f6088e5f7e4932b043b2
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
+Size: 24204
+MD5sum: ce5c87835792c8c07b07477a4a3821e9
+SHA1: 250816f2ddf2ec91f1555e3236020bd98ba760f6
+SHA256: 068b778d70c32895e8960ef7a82193581c51157e04174f6db185f1154187b0ef
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -360,22 +360,152 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   -完善、修复a1ctl
   -注释掉3个提升系统压力的内核参数
 1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
+  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
   -加入自动优化功能
   -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
   -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
+  -完善配置系统
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
   -修复卸载脚本不能完全清除残留的问题
   -增加超多低优先级进程，原28现125！流畅度提升！
   -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
+  -加入loop-sleep来调节循环模式间隔
+  -加入扩展系统
   -...
   -等你来探索！
+  -Happy New Year！
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9
+Architecture: iphoneos-arm64e
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e (7).deb
+Size: 47544
+MD5sum: 33f3c35d0016e6fd3749f4a50ad0ad84
+SHA1: d3173f32e894ef02cc04150ad20103dc8673d790
+SHA256: 36f755f8d9095dcd6bca8392601814b5e985e0d2c95c320ef7789927a1e4ce00
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -优先级级别调整
+  -完善配置系统
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入loop-sleep来调节循环模式间隔
+  -加入扩展系统
+  -...
+  -等你来探索！
+  -Happy New Year！
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9
+Architecture: iphoneos-arm64e
+Maintainer: LF，AD
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e.deb
+Size: 22876
+MD5sum: bf39b2ab0fa9d83c092b8419605b7f93
+SHA1: 0ef9953df647278f1a0ffd8736da22676dfece58
+SHA256: 834dfde2329e2e2a88e6d348dbb5cac6678cae4c815bac6c86d263041b9f5e5b
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -优先级级别调整
+  -完善配置系统
+  -美化a1ctl（A1控制面板）（A1Hub）
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
   -Happy New Year！
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
@@ -528,11 +658,11 @@ Version: 1.9
 Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64.deb
-Size: 22180
-MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
-SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
-SHA256: 141ac16bc5365151aef3ec4cd6df0c42f83e8f8c5153e6babd9c7ce97bbf8bfd
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64 (25).deb
+Size: 35216
+MD5sum: 100cbe7977b0767c6dee1a34eb2b29f1
+SHA1: 0ff44109f139fcc9a5efe1083a46b96244976cac
+SHA256: 3eb9d1a661979c17974d4b4b4b306a0d670a49118ca7f6088e5f7e4932b043b2
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -573,14 +703,22 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   -完善、修复a1ctl
   -注释掉3个提升系统压力的内核参数
 1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）
+  -彻底修复优先级调整（感谢灰灰指导！）
   -加入自动优化功能
   -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
   -优先级级别调整
-  -完善配置系统
-  -美化a1ctl（A1控制面板）（A1Hub）
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
   -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现126！流畅度提升！
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
   -Happy New Year！
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
@@ -661,14 +799,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: LF，AD
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e.deb
-Size: 22876
-MD5sum: bf39b2ab0fa9d83c092b8419605b7f93
-SHA1: 0ef9953df647278f1a0ffd8736da22676dfece58
-SHA256: 834dfde2329e2e2a88e6d348dbb5cac6678cae4c815bac6c86d263041b9f5e5b
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9_iphoneos-arm64.deb
+Size: 22180
+MD5sum: 93b6322d7e703b8947f7280c4ed2cd9f
+SHA1: ac310479d4351a1e77d736724ffbb101fef421c5
+SHA256: 141ac16bc5365151aef3ec4cd6df0c42f83e8f8c5153e6babd9c7ce97bbf8bfd
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -709,240 +847,15 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   -完善、修复a1ctl
   -注释掉3个提升系统压力的内核参数
 1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
+  -彻底修复优先级调整（非HelloMS逻辑）
   -加入自动优化功能
   -加入动态调整功能（legacy）
   -优先级级别调整
   -完善配置系统
   -美化a1ctl（A1控制面板）（A1Hub）
   -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
+  -增加超多低优先级进程，原28现126！流畅度提升！
   -Happy New Year！
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9
-Architecture: iphoneos-arm64e
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_iphoneos-arm64e (7).deb
-Size: 47544
-MD5sum: 33f3c35d0016e6fd3749f4a50ad0ad84
-SHA1: d3173f32e894ef02cc04150ad20103dc8673d790
-SHA256: 36f755f8d9095dcd6bca8392601814b5e985e0d2c95c320ef7789927a1e4ce00
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -优先级级别调整
-  -完善配置系统
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入loop-sleep来调节循环模式间隔
-  -加入扩展系统
-  -...
-  -等你来探索！
-  -Happy New Year！
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9
-Architecture: iphoneos-arm64e
-Maintainer: LF，AD
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, zstd, shell-cmds, coreutils
-Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9_fix1_roothide-iphoneos-arm64e.deb
-Size: 24204
-MD5sum: ce5c87835792c8c07b07477a4a3821e9
-SHA1: 250816f2ddf2ec91f1555e3236020bd98ba760f6
-SHA256: 068b778d70c32895e8960ef7a82193581c51157e04174f6db185f1154187b0ef
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 此版本支持Rootless，不支持RootHide！请使用专属版本！
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（非HelloMS逻辑）（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -优先级级别调整
-  -完善配置系统
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入loop-sleep来调节循环模式间隔
-  -加入扩展系统
-  -...
-  -等你来探索！
-  -Happy New Year！
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.5+debug1
-Architecture: iphoneos-arm64
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.5+debug1_iphoneos-arm64.deb
-Size: 48828
-MD5sum: 1f55a324939dfe21f8b624def74e272c
-SHA1: 5d4a78608a5637fca5b7afa40f9a68c73fda4890
-SHA256: 5b6116fb037349010e47d066c2aadd7e50e2894e2dde936140b2778293b8841d
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
@@ -1037,6 +950,93 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.5+debug1
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.5+debug1_iphoneos-arm64.deb
+Size: 48828
+MD5sum: 1f55a324939dfe21f8b624def74e272c
+SHA1: 5d4a78608a5637fca5b7afa40f9a68c73fda4890
+SHA256: 5b6116fb037349010e47d066c2aadd7e50e2894e2dde936140b2778293b8841d
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.5+debug1
 Architecture: iphoneos-arm
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
@@ -1124,14 +1124,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug1_iphoneos-arm64.deb
-Size: 51100
-MD5sum: 4b79f39422f056d04b94d119c88d80d5
-SHA1: fa47b2bfca0fa5fd0aa1575c6f8aec2446790c6b
-SHA256: 1f4d3f8c5f520402614da784a1042c20896bfa2b56dfc64c0f5935a97fa5b113
+Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug1_iphoneos-arm64e.deb
+Size: 50900
+MD5sum: 38325a6c8a12a3e7f21823ae377bfa7b
+SHA1: 9d48911b894a54f5147e4a4609da30c4d0c87c9f
+SHA256: ea4b663803b7b9d51e9da107c8475929c4b3eb499d524b3e148523f741b48a31
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -1224,14 +1224,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64e/a1/a1_1.9.7+debug1_iphoneos-arm64e.deb
-Size: 50900
-MD5sum: 38325a6c8a12a3e7f21823ae377bfa7b
-SHA1: 9d48911b894a54f5147e4a4609da30c4d0c87c9f
-SHA256: ea4b663803b7b9d51e9da107c8475929c4b3eb499d524b3e148523f741b48a31
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug1_iphoneos-arm64.deb
+Size: 51100
+MD5sum: 4b79f39422f056d04b94d119c88d80d5
+SHA1: fa47b2bfca0fa5fd0aa1575c6f8aec2446790c6b
+SHA256: 1f4d3f8c5f520402614da784a1042c20896bfa2b56dfc64c0f5935a97fa5b113
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -1424,106 +1424,6 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug2
-Architecture: iphoneos-arm64
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug2_iphoneos-arm64.deb
-Size: 51092
-MD5sum: 4fc1757750f818708fbeca70696debad
-SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
-SHA256: 6796f7dc6c46d684dccc463057b00e5dca779580c6c1f958da5a7dbbaa9e60ed
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
-1.9.6+debug1+1: (from AD update)
-  -本次更新修復了一些已知的問題
-  -修復了模組系統解析ini元數據文件失敗的問題
-  -添加了兼容模式,沒有問題的不要開啟
-  -完善了跨環境腳本
-  -修復了跨環境沒有獲取到 rootfs 變量的問題
-  -添加了 al , a1 的別名
-1.9.7+debug1: (from AD,LF update)
-  -本次更新修復了一些已知的問題
-  -合併了部分a1ctl的命令
-  -完善了a1,使其占用更低
-  -修復配置文件中缺失的變量
-  -添加alctl, almod, almodule別名
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.7+debug2
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
@@ -1623,15 +1523,15 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9.7+debug3
+Version: 1.9.7+debug2
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug3_iphoneos-arm64.deb
-Size: 51136
-MD5sum: 84a1fd8189562337a29a0443af6e864b
-SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
-SHA256: 10890c082af3b6428fbf95c598813ee420c50cc4b9e29ab0c0204272d175b8cb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug2_iphoneos-arm64.deb
+Size: 51092
+MD5sum: 4fc1757750f818708fbeca70696debad
+SHA1: b96b28caa2329370790cda1ba194e3c6f3a50481
+SHA256: 6796f7dc6c46d684dccc463057b00e5dca779580c6c1f958da5a7dbbaa9e60ed
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -1732,6 +1632,106 @@ Size: 50904
 MD5sum: ab6e150712f5cf0b56faa78e767720bf
 SHA1: 0f3d59f66ca09164aab152bf02fa554dbbd58270
 SHA256: f7bb9f5a48c2b7ea29abbcd305985d1f6bc72a9b20484f17a2f5ba30ff18dc1a
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.7+debug3
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug3_iphoneos-arm64.deb
+Size: 51136
+MD5sum: 84a1fd8189562337a29a0443af6e864b
+SHA1: 8ad1b935a6dc825d718907d7302c99eb0dadbec8
+SHA256: 10890c082af3b6428fbf95c598813ee420c50cc4b9e29ab0c0204272d175b8cb
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -1924,106 +1924,6 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug5
-Architecture: iphoneos-arm64
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug5_iphoneos-arm64.deb
-Size: 51656
-MD5sum: 444887fae96033caa3dadd4488845dd7
-SHA1: 893a19ae672b1cceb16af06502c5682dd5c02294
-SHA256: 6ffb9fca460108cf5d7271a8a83976edb8827414c309bc9f71b204979636943b
-Section: Systems系统
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
-1.9.6+debug1+1: (from AD update)
-  -本次更新修復了一些已知的問題
-  -修復了模組系統解析ini元數據文件失敗的問題
-  -添加了兼容模式,沒有問題的不要開啟
-  -完善了跨環境腳本
-  -修復了跨環境沒有獲取到 rootfs 變量的問題
-  -添加了 al , a1 的別名
-1.9.7+debug1: (from AD,LF update)
-  -本次更新修復了一些已知的問題
-  -合併了部分a1ctl的命令
-  -完善了a1,使其占用更低
-  -修復配置文件中缺失的變量
-  -添加alctl, almod, almodule別名
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.7+debug5
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
@@ -2123,15 +2023,15 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9.7+debug6
+Version: 1.9.7+debug5
 Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug6_iphoneos-arm64.deb
-Size: 51900
-MD5sum: 5557c627d7442629093cc5f5cacc26ab
-SHA1: 6fa8c1f7c61e2646cbaa2ef8b5302bdc9346028b
-SHA256: 46ceba9e44bcc8a9b35e0f3f5baa49605570a5d034851819f57c7d86a245368a
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug5_iphoneos-arm64.deb
+Size: 51656
+MD5sum: 444887fae96033caa3dadd4488845dd7
+SHA1: 893a19ae672b1cceb16af06502c5682dd5c02294
+SHA256: 6ffb9fca460108cf5d7271a8a83976edb8827414c309bc9f71b204979636943b
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2324,14 +2224,14 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug6
-Architecture: iphoneos-arm6
+Architecture: iphoneos-arm64
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug6_iphoneos-arm6.deb
-Size: 51808
-MD5sum: a64e07f871b1c59029e91a4fe7736712
-SHA1: 37c175484cd1786a5dd516921180e377b32da932
-SHA256: 5ddda335b7d0a4572b855db032cf07da2cd899dd54168ad80a90a8eaab892933
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug6_iphoneos-arm64.deb
+Size: 51900
+MD5sum: 5557c627d7442629093cc5f5cacc26ab
+SHA1: 6fa8c1f7c61e2646cbaa2ef8b5302bdc9346028b
+SHA256: 46ceba9e44bcc8a9b35e0f3f5baa49605570a5d034851819f57c7d86a245368a
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2423,15 +2323,15 @@ Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9.7+debug7
-Architecture: iphoneos-arm64
+Version: 1.9.7+debug6
+Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
-Size: 51944
-MD5sum: 5e3d98ea792b2907a20a4778841e0418
-SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
-SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
+Filename: ./debs/history/iphoneos-arm/a1/a1_1.9.7+debug6_iphoneos-arm6.deb
+Size: 51808
+MD5sum: a64e07f871b1c59029e91a4fe7736712
+SHA1: 37c175484cd1786a5dd516921180e377b32da932
+SHA256: 5ddda335b7d0a4572b855db032cf07da2cd899dd54168ad80a90a8eaab892933
 Section: Systems系统
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2624,6 +2524,106 @@ Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.7+debug7
+Architecture: iphoneos-arm64
+Maintainer: LF, AD
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.7+debug7_iphoneos-arm64.deb
+Size: 51944
+MD5sum: 5e3d98ea792b2907a20a4778841e0418
+SHA1: a9342d8b3b59b427f5c3371dcf8dc944698612fa
+SHA256: 2f7794ce2910c16f35707a680b2e4a4636bf51b68f35e6d39155600e76c525af
+Section: Systems系统
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.7+debug7
 Architecture: iphoneos-arm6
 Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil
@@ -2721,110 +2721,6 @@ Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
 Sileodepiction: https://ad-ios.github.io/ad/sileodepiction/a1/js.json
-
-Package: a1
-Version: 1.9.8-beta4+debug3-4
-Architecture: iphoneos-arm64
-Maintainer: LF, AD
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
-Size: 59012
-MD5sum: 132b5c50ce49fd1c8045687ed72ed546
-SHA1: bcc10300ac43e682fe82307664dff699df75cb06
-SHA256: ac25189addeae460ff3a93f367aa0b35204e386f4cc4f7a1536a148b35e07fce
-Section: a1
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-1.3:
-  - Added post-removal cleanup script | 新增卸载清理脚本
-  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
-  - Extended application compatibility list | 扩展应用兼容性列表
-  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
-1.4:
-  - Enhanced compatibility with additional applications.
-    扩展应用兼容性列表，支持更多第三方应用。
-1.5:
-  - 集成 aJetsamctl 与 swapon (AD)
-  - 扩展进程管理范围，覆盖更多系统服务
-  - 修改postinst与postrm
-  - 去除a1、a1laucher的.sh后缀
-  - 增加多个内核优化
-1.6:
-  -修复了路径bug
-  -修正了命令行工具的位置
-  -加入更加适合大家的内核配置（感谢飘散的烟）
-  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
-  -修复了postinst的路径问题，去除了postrm
-1.7:
-  -补全依赖项与路径，避免无法运行
-  -更新，完善a1ctl。
-  -加入更多注释，帮助萌新小白
-1.8:
-  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
-  -首次支持RootHide
-  -修复a1ctl的pgrep报错
-  -完善、修复a1ctl
-  -注释掉3个提升系统压力的内核参数
-1.9:
-  -彻底修复优先级调整（感谢灰灰指导！）
-  -加入自动优化功能
-  -加入动态调整功能（legacy）
-  -加入扩展系统
-  -加入自动调整功能[最推荐的功能]
-  -加入loop-sleep来调节循环模式间隔
-  -优先级级别调整
-  -完善配置系统（感谢iOS-AD）
-  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
-  -
-  -修复卸载脚本不能完全清除残留的问题
-  -增加超多低优先级进程，原28现125！流畅度提升！
-  -降低循环模式、动态调整下的CPU占用
-  -加入优先级恢复功能
-  -...
-  -等你来探索！
-  -Happy New Year！
-1.9.3: (from AD update)
-  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
-  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
-  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
-  -添加sudo免密模式
-  -添加免root模式
-  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
-1.9.4: (from AD,LF update)
-  -AD修復了跨環境
-  -修復了一些已知的問題
-  -新添加了自定義優先級
-  -修復了啟動問題
-  -修復了配置問題
-1.9.5+debug1: (from AD update)
-  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
-  -修復了跨環境腳本的一些問題
-1.9.6+debug1+1: (from AD update)
-  -本次更新修復了一些已知的問題
-  -修復了模組系統解析ini元數據文件失敗的問題
-  -添加了兼容模式,沒有問題的不要開啟
-  -完善了跨環境腳本
-  -修復了跨環境沒有獲取到 rootfs 變量的問題
-  -添加了 al , a1 的別名
-1.9.7+debug1: (from AD,LF update)
-  -本次更新修復了一些已知的問題
-  -合併了部分a1ctl的命令
-  -完善了a1,使其占用更低
-  -修復配置文件中缺失的變量
-  -添加alctl, almod, almodule別名
-1.9.8-Beta1+debug2-1:
-  -修復了一次重大的錯誤
-  -允許修改 flock 機制
-  -修復其他已知的問題
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
 
 Package: a1
 Version: 1.9.8-beta4+debug3-4
@@ -2931,15 +2827,15 @@ Name: A1
 Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
 
 Package: a1
-Version: 1.9.9-beta3-2+debug12
+Version: 1.9.8-beta4+debug3-4
 Architecture: iphoneos-arm64
-Maintainer: LF, AD, XMZ
+Maintainer: LF, AD
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
-Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64.deb
-Size: 70948
-MD5sum: 49ec3e2f57f3b13b6887a8b044d99993
-SHA1: ec4ebf407b88898bc86e821339b1bb70cec8014b
-SHA256: 681906639d0e3748c88a9e38fe35673a0273a2fb5300536fb0f1561688120bdb
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.8-beta4+debug3-4_iphoneos-arm64.deb
+Size: 59012
+MD5sum: 132b5c50ce49fd1c8045687ed72ed546
+SHA1: bcc10300ac43e682fe82307664dff699df75cb06
+SHA256: ac25189addeae460ff3a93f367aa0b35204e386f4cc4f7a1536a148b35e07fce
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -2948,6 +2844,87 @@ Description: Optimize Jetsam and kernel parameters to enhance background task pe
   - Modify kernel memory management parameters for better background task handling.
     优化内核内存管理参数，改善后台任务调度机制。
   - 终端输入a1手动执行，输入a1ctl打开管理面板
+1.3:
+  - Added post-removal cleanup script | 新增卸载清理脚本
+  - Fixed path resolution issues (grep/awk/sysctl) | 修复路径解析错误
+  - Extended application compatibility list | 扩展应用兼容性列表
+  - Implemented log rotation to prevent disk space exhaustion | 新增日志轮转机制，避免磁盘空间耗尽
+1.4:
+  - Enhanced compatibility with additional applications.
+    扩展应用兼容性列表，支持更多第三方应用。
+1.5:
+  - 集成 aJetsamctl 与 swapon (AD)
+  - 扩展进程管理范围，覆盖更多系统服务
+  - 修改postinst与postrm
+  - 去除a1、a1laucher的.sh后缀
+  - 增加多个内核优化
+1.6:
+  -修复了路径bug
+  -修正了命令行工具的位置
+  -加入更加适合大家的内核配置（感谢飘散的烟）
+  -首次引入a1ctl（Beta）（a1管理面板）去除了a1laucher
+  -修复了postinst的路径问题，去除了postrm
+1.7:
+  -补全依赖项与路径，避免无法运行
+  -更新，完善a1ctl。
+  -加入更多注释，帮助萌新小白
+1.8:
+  -修复循环模式（默认关闭）下的进程堆积与僵尸进程
+  -首次支持RootHide
+  -修复a1ctl的pgrep报错
+  -完善、修复a1ctl
+  -注释掉3个提升系统压力的内核参数
+1.9:
+  -彻底修复优先级调整（感谢灰灰指导！）
+  -加入自动优化功能
+  -加入动态调整功能（legacy）
+  -加入扩展系统
+  -加入自动调整功能[最推荐的功能]
+  -加入loop-sleep来调节循环模式间隔
+  -优先级级别调整
+  -完善配置系统（感谢iOS-AD）
+  -美化a1ctl（A1控制面板）（你现在也可以用a1hub来打开）（不再需要手动提权与输密码）
+  -
+  -修复卸载脚本不能完全清除残留的问题
+  -增加超多低优先级进程，原28现125！流畅度提升！
+  -降低循环模式、动态调整下的CPU占用
+  -加入优先级恢复功能
+  -...
+  -等你来探索！
+  -Happy New Year！
+1.9.3: (from AD update)
+  -擴展系統正式回歸,並迎來了大更新(擴展系統已更名為模塊/擴展模組/A1模塊)
+  -模塊正式添加打包/安裝模塊等等功能,具體請輸入 a1ctl mod help 或者 a1mod help 查看
+  -優化安裝模塊的邏輯(這是前擴展模組的一大痛點之一)
+  -添加sudo免密模式
+  -添加免root模式
+  -引入iOS-AD的跨環境,極大程度上避免了因為不同越獄導致的路徑不統一導致的難適配的問題
+1.9.4: (from AD,LF update)
+  -AD修復了跨環境
+  -修復了一些已知的問題
+  -新添加了自定義優先級
+  -修復了啟動問題
+  -修復了配置問題
+1.9.5+debug1: (from AD update)
+  -修復了因為檢測問題導致的roothide配置 autofonf.ini 失敗的問題
+  -修復了跨環境腳本的一些問題
+1.9.6+debug1+1: (from AD update)
+  -本次更新修復了一些已知的問題
+  -修復了模組系統解析ini元數據文件失敗的問題
+  -添加了兼容模式,沒有問題的不要開啟
+  -完善了跨環境腳本
+  -修復了跨環境沒有獲取到 rootfs 變量的問題
+  -添加了 al , a1 的別名
+1.9.7+debug1: (from AD,LF update)
+  -本次更新修復了一些已知的問題
+  -合併了部分a1ctl的命令
+  -完善了a1,使其占用更低
+  -修復配置文件中缺失的變量
+  -添加alctl, almod, almodule別名
+1.9.8-Beta1+debug2-1:
+  -修復了一次重大的錯誤
+  -允許修改 flock 機制
+  -修復其他已知的問題
 Author: LF
 Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
 Name: A1
@@ -2963,6 +2940,29 @@ Size: 70900
 MD5sum: 78b022bd555e8d4b6510cd2ecfe5255f
 SHA1: 47470630b4f50e3f4f5f33e3d05ffdd138128132
 SHA256: 65c2d495718abde4782c8d9a5e580ab22a4f535103d317328428a350e1db2500
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: a1
+Version: 1.9.9-beta3-2+debug12
+Architecture: iphoneos-arm64
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, bash, adv-cmds, gawk, shell-cmds, coreutils, zip, unzip, jq, sed, findutils, plutil, notifyutil
+Filename: ./debs/history/iphoneos-arm64/a1/a1_1.9.9-beta3-2+debug12_iphoneos-arm64.deb
+Size: 70948
+MD5sum: 49ec3e2f57f3b13b6887a8b044d99993
+SHA1: ec4ebf407b88898bc86e821339b1bb70cec8014b
+SHA256: 681906639d0e3748c88a9e38fe35673a0273a2fb5300536fb0f1561688120bdb
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -3000,11 +3000,103 @@ Name: A1
 Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
 
 Package: a1
+Version: 2.0.1.124
+Architecture: iphoneos-arm64e
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
+Filename: ./debs/iphoneos-arm64e/a1/a1_2.0.1.124_iphoneos-arm64e.deb
+Size: 659132
+MD5sum: 45f59f96efc26032648a3d5cd64d2273
+SHA1: bd467ad0087fd90af3f0f9f714a74c6044ae9641
+SHA256: f9667b2e791b5581baa286a41b67cebad7f85baa0ed3d064f67fbe5890443017
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: a1
+Version: 2.0.1.124
+Architecture: iphoneos-arm64
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
+Filename: ./debs/iphoneos-arm64/a1/a1_2.0.1.124_iphoneos-arm64.deb
+Size: 659228
+MD5sum: 0131f4aabbcfe5287245452d240b5803
+SHA1: 780b16b48254d0fe698c0faeff0b9c4ec4487e01
+SHA256: 87baadaf9591307f77883882f5aaf7b6a28f913f729c89d0e36140656bf05b4e
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: a1
+Version: 2.0.1.124
+Architecture: iphoneos-arm
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
+Filename: ./debs/iphoneos-arm/a1/a1_2.0.1.124_iphoneos-arm.deb
+Size: 658876
+MD5sum: 43d75ac64015994f88021dcf878feebb
+SHA1: a90788a61d47c7dab53fd95d3ef6ede2b301a3f2
+SHA256: 5511e6cc894a72659575d99797a84905bdd972060ccc0ce30059d0ce919f7882
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: a1
+Version: 2.0.1.37
+Architecture: iphoneos-arm
+Maintainer: LF, AD, XMZ
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
+Filename: ./debs/iphoneos-arm64e/a1/old/a1_2.0.1.37_iphoneos-arm.deb
+Size: 614812
+MD5sum: c4feb4e2a3de0e2a19f681f27f41181f
+SHA1: de2c3d6ad440c9084692e9a316d7be69ee919b58
+SHA256: a980d3c215dc22f0a0e00eb1adae53f6aae985be055f6d36a5678d3be8367a1a
+Section: a1
+Description: Optimize Jetsam and kernel parameters to enhance background task performance.
+  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
+  - Reduce priority of non-essential processes to improve system fluidity.
+    降低非核心进程优先级，优化系统流畅度。
+  - Modify kernel memory management parameters for better background task handling.
+    优化内核内存管理参数，改善后台任务调度机制。
+  - 终端输入a1手动执行，输入a1ctl打开管理面板
+Author: LF
+Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
+Name: A1
+Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
+
+Package: a1
 Version: 2.0.1.37
 Architecture: iphoneos-arm64
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm64/a1/a1_2.0.1.37_iphoneos-arm64.deb
+Filename: ./debs/iphoneos-arm64e/a1/old/a1_2.0.1.37_iphoneos-arm64.deb
 Size: 614828
 MD5sum: 44f1e524d865150de304c1895b7c8b1e
 SHA1: c3e48e3f3d08a326ed062b71821c3c6b5ac85db2
@@ -3027,34 +3119,11 @@ Version: 2.0.1.37
 Architecture: iphoneos-arm64e
 Maintainer: LF, AD, XMZ
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm64e/a1/a1_2.0.1.37_iphoneos-arm64e.deb
+Filename: ./debs/iphoneos-arm64e/a1/old/a1_2.0.1.37_iphoneos-arm64e.deb
 Size: 614692
 MD5sum: b7066be47bbbdf956ff7477d44d3e241
 SHA1: c56b20791f1592b975b90d404c2f09f1b6357be6
 SHA256: ea69347f53a5bbd19c7b2874fc642c0961b8156069072b61c801817de3c9660a
-Section: a1
-Description: Optimize Jetsam and kernel parameters to enhance background task performance.
-  通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
-  - Reduce priority of non-essential processes to improve system fluidity.
-    降低非核心进程优先级，优化系统流畅度。
-  - Modify kernel memory management parameters for better background task handling.
-    优化内核内存管理参数，改善后台任务调度机制。
-  - 终端输入a1手动执行，输入a1ctl打开管理面板
-Author: LF
-Icon: https://img.icons8.com/?size=512&id=IXAPBCK6dFKv&format=png
-Name: A1
-Sileodepiction: https://xmz-team.github.io/repo/sileodepiction/a1/js.json
-
-Package: a1
-Version: 2.0.1.37
-Architecture: iphoneos-arm
-Maintainer: LF, AD, XMZ
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: ./debs/iphoneos-arm/a1/a1_2.0.1.37_iphoneos-arm.deb
-Size: 614812
-MD5sum: c4feb4e2a3de0e2a19f681f27f41181f
-SHA1: de2c3d6ad440c9084692e9a316d7be69ee919b58
-SHA256: a980d3c215dc22f0a0e00eb1adae53f6aae985be055f6d36a5678d3be8367a1a
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
@@ -3176,25 +3245,6 @@ Sponsor: LF
 
 Package: com.ryannair05.little12
 Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: LF
-Installed-Size: 864
-Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
-Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/iphoneos-arm64/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
-Size: 372942
-MD5sum: 25a41017bc1490029d054f83b5a55cae
-SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
-SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
-Section: Tweaks
-Description: iPhone 12 gestures and more for iOS 15 or 16
-Author: Ryan Nair
-Name: Little12
-
-Package: com.ryannair05.little12
-Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: LF
 Installed-Size: 864
@@ -3208,6 +3258,25 @@ Size: 394268
 MD5sum: 1018b59f894d695ef9e43dda6e0007ad
 SHA1: 8faf38ba795f630d1ccdcd245a6e4655cef33790
 SHA256: bbb46bdeeac73132831879f0d7c5403441183c443db0aaa7ec36d2877bb9e2e6
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 15 or 16
+Author: Ryan Nair
+Name: Little12
+
+Package: com.ryannair05.little12
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: LF
+Installed-Size: 864
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/iphoneos-arm64/com.ryannair05.little12/com.ryannair05.little12_1.0.1_iphoneos-arm64.deb
+Size: 372942
+MD5sum: 25a41017bc1490029d054f83b5a55cae
+SHA1: 37039ff2221b33a8dc03db1f21c48fa56dbd9a68
+SHA256: 12dcc0c424236c17dd34c431e204dfe9ba09a37d4b47d6c9a044b51670484dd0
 Section: Tweaks
 Description: iPhone 12 gestures and more for iOS 15 or 16
 Author: Ryan Nair
@@ -3283,6 +3352,39 @@ Description: 真的iOS26主题！名为iOS26e！这里的「e」指的是「expe
 Author: LF
 Icon: https://ad-ios.github.io/ad/CydiaIcon.png
 Name: iOS26e
+
+Package: io.github.xmz-team.open-ios
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: XNZ <xmz-team@outlook.com>
+Depends: libiosexec1
+Conflicts: com.conradkramer.open
+Filename: ./debs/iphoneos-arm64/io.github.xmz-team.open-ios/io.github.xmz-team.open-ios_1.0.0_iphoneos-arm64.deb
+Size: 8756
+MD5sum: 28c8823fd83d37ad908d738c51bfbfc5
+SHA1: 4cc327f7dd37ca27908aa850a9cad4fbbe47f531
+SHA256: 92fafe0f1223c858106cfefecce5198582df92876404b8a24dd53266cefa65fb
+Section: Tools
+Description: Simple substitutes of macOS open command
+Author: XMZ <xmz-team@outlook.com>
+Name: open-ios
+
+Package: io.github.xmz-team.zerocpu
+Version: 1.0.0-3+debug
+Architecture: iphoneos-arm64
+Maintainer: XMZ <xmz-team@outlook.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: fakecpuzero
+Filename: ./debs/iphoneos-arm64/io.github.xmz-team.zerocpu/io.github.xmz-team.zerocpu_1.0.0-3+debug_iphoneos-arm64.deb
+Size: 5230
+MD5sum: 569b9ed7af95cbbbe817c0df85e283a8
+SHA1: ac64f65f1865c6e7a3630e5bf2380a58a28e767b
+SHA256: f1b7816310c14a1ff808f11d25d660681dd3900120ef3beaf42ea9db3ff20bf9
+Section: Tweaks
+Description: A Tweak that can turn all the obtained CPU usage rates into 0%.
+Author: XMZ <xmz-team@outlook.com>
+Name: CPU Usage Zero
 
 Package: iperformancetweak
 Version: 1.0.0Beta

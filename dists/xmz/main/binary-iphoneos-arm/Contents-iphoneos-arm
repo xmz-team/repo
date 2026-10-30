@@ -1,6 +1,7 @@
 Library/LaunchDaemons/a1.launch.plist			    a1
 a1/a1.log						    a1
 a1/a1error.log						    a1
+a1/bin/.keep						    a1
 a1/bin/bundle						    a1
 a1/bin/bundle_pid					    a1
 a1/bin/cxxa1						    a1
@@ -16,9 +17,6 @@ a1/custom_priority.list					    a1
 a1/high_priority.list					    a1
 a1/lock							    a1
 a1/low_priority.list					    a1
-a1/modules/db/xmz/io.github.xmz-team.a1.tests.test1/control.ini a1
-a1/modules/db/xmz/io.github.xmz-team.a1.tests.test2/control.ini a1
-a1/modules/db/xmz/io.github.xmz-team.a1.tests.test2/main.lua a1
 a1/modules/lock						    a1
 a1/modules/module.db.ini				    a1
 a1/modules/repos.ini					    a1

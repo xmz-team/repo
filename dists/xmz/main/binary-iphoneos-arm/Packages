@@ -1,13 +1,13 @@
 Package: a1
-Version: 2.0.1.37
+Version: 2.0.1.124
 Architecture: iphoneos-arm
 Maintainer: LF, AD, XMZ
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils
-Filename: /var/jb/tmp/tmp.zuS1g5hUgf/a1/a1_2.0.1.37_iphoneos-arm.deb
-Size: 614812
-MD5sum: c4feb4e2a3de0e2a19f681f27f41181f
-SHA1: de2c3d6ad440c9084692e9a316d7be69ee919b58
-SHA256: a980d3c215dc22f0a0e00eb1adae53f6aae985be055f6d36a5678d3be8367a1a
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, libzip5, libssl3, libcurl4-openssl-dev, shell-cmds, coreutils, uikittools-extra, uikittools, plutil
+Filename: /var/jb/tmp/tmp.N0PpWN6Uwj/a1/a1_2.0.1.124_iphoneos-arm.deb
+Size: 658876
+MD5sum: 43d75ac64015994f88021dcf878feebb
+SHA1: a90788a61d47c7dab53fd95d3ef6ede2b301a3f2
+SHA256: 5511e6cc894a72659575d99797a84905bdd972060ccc0ce30059d0ce919f7882
 Section: a1
 Description: Optimize Jetsam and kernel parameters to enhance background task performance.
   通过调整 Jetsam 机制与内核参数，显著提升后台任务运行效率。
